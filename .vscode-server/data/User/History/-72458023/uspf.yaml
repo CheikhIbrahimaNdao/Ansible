@@ -1,0 +1,16 @@
+---
+- name: Send an email using Ansible
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Send email
+      mail:
+        host: webmail.orange-sonatel.com
+        port: 587
+        username: "stg_ndao75268"
+        password: "redbullX2014."
+        to: "assniang@orange-sonatel.com"
+        subject: "Test Email from Ansible"
+        body: "This is a test email sent by an Ansible playbook."
+        from: "cheikhibrahimandao@orange-sonatel.com"
