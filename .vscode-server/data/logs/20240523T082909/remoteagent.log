@@ -1,0 +1,14 @@
+2024-05-23 08:29:09.994 [info] 
+
+
+
+
+2024-05-23 08:29:10.012 [info] Extension host agent started.
+2024-05-23 08:29:10.419 [info] [127.0.0.1][9693a83c][ManagementConnection] New connection established.
+2024-05-23 08:29:10.736 [info] [127.0.0.1][ef335ad4][ExtensionHostConnection] New connection established.
+2024-05-23 08:29:11.208 [info] [127.0.0.1][ef335ad4][ExtensionHostConnection] <135> Launched Extension Host Process.
+2024-05-23 09:51:36.465 [info] [127.0.0.1][ef335ad4][ExtensionHostConnection] The client has reconnected.
+2024-05-23 09:51:36.669 [info] [127.0.0.1][9693a83c][ManagementConnection] The client has reconnected.
+2024-05-23 10:21:47.499 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-23 10:22:08.828 [info] [127.0.0.1][ef335ad4][ExtensionHostConnection] The client has reconnected.
+2024-05-23 10:22:08.934 [info] [127.0.0.1][9693a83c][ManagementConnection] The client has reconnected.

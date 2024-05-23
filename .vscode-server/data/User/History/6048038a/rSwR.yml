@@ -1,0 +1,10 @@
+---
+- name: Create a text file on the remote server
+  hosts: localhost
+  become: yes # This ensures the tasks are run with elevated privileges
+  tasks:
+    - name: Create a text file with some content 
+      copy:
+        dest: /home/ndao/file.txt
+        content: |
+          This is a sample text file created by an Ansible playbook.

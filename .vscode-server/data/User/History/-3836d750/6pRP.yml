@@ -1,0 +1,51 @@
+---
+- name: Generate a text file and push to GitHub
+  hosts: localhost
+  vars:
+    repo_dir: "/home/ndao/"
+    file_name: "generated_push_file.txt"
+    commit_message: "Add generated text file with Ansible"
+    github_repo_url: "git@github.com:CheikhIbrahimaNdao/Ansible.git" 
+  tasks:
+    - name: Pull the latest changes from the repository
+      command: git pull origin master
+      args:
+        chdir: "{{ repo_dir }}"
+      register: git_pull
+      ignore_errors: true
+    - name: Create a text file with some content
+      copy:
+        dest: "{{ repo_dir }}/{{ file_name }}"
+        content: "This is a generated file by Ansible."
+
+    - name: Initialize Git repository if not already initialized
+      command: git init
+      args:
+        chdir: "{{ repo_dir }}"
+      register: git_init
+      changed_when: "'Reinitialized' not in git_init.stdout"
+
+    - name: Add the text file to the repository
+      command: git add {{ file_name }}
+      args:
+        chdir: "{{ repo_dir }}"
+
+    - name: Commit the text file
+      command: git commit -m "{{ commit_message }}"
+      args:
+        chdir: "{{ repo_dir }}"
+      register: git_commit
+      changed_when: "'nothing to commit' not in git_commit.stdout"
+      ignore_errors: true
+
+    - name: Set remote repository URL
+      command: git remote add origin {{ github_repo_url }}
+      args:
+        chdir: "{{ repo_dir }}"
+      when: git_commit.changed
+
+    - name: Push the commit to GitHub
+      command: git push -u origin master
+      args:
+        chdir: "{{ repo_dir }}"
+      when: git_commit.changed

@@ -1,0 +1,49 @@
+2024-05-22 13:40:37.116 [info] 
+
+
+
+
+2024-05-22 13:40:37.134 [info] Extension host agent started.
+2024-05-22 13:40:37.221 [info] [127.0.0.1][d0238c80][ManagementConnection] New connection established.
+2024-05-22 13:40:37.483 [info] [127.0.0.1][bd916c3d][ExtensionHostConnection] New connection established.
+2024-05-22 13:40:37.511 [info] [127.0.0.1][bd916c3d][ExtensionHostConnection] <5466> Launched Extension Host Process.
+2024-05-22 13:43:52.722 [info] [127.0.0.1][da07e787][ManagementConnection] New connection established.
+2024-05-22 13:43:53.448 [info] [127.0.0.1][7a934042][ExtensionHostConnection] New connection established.
+2024-05-22 13:43:53.481 [info] [127.0.0.1][7a934042][ExtensionHostConnection] <5893> Launched Extension Host Process.
+2024-05-22 13:44:34.880 [info] [127.0.0.1][d0238c80][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-05-22 13:44:34.965 [info] [127.0.0.1][bd916c3d][ExtensionHostConnection] <5466> Extension Host Process exited with code: 0, signal: null.
+2024-05-22 13:50:32.906 [info] Getting Manifest... redhat.ansible
+2024-05-22 13:50:34.649 [info] Installing extension: redhat.ansible
+2024-05-22 13:50:36.445 [info] Getting Manifest... ms-python.python
+2024-05-22 13:50:38.580 [info] Getting Manifest... ms-python.vscode-pylance
+2024-05-22 13:50:39.122 [info] Getting Manifest... ms-python.debugpy
+2024-05-22 13:50:39.670 [info] Getting Manifest... redhat.vscode-yaml
+2024-05-22 13:50:40.112 [info] Installing extension: ms-python.python
+2024-05-22 13:50:40.113 [info] Installing extension: ms-python.vscode-pylance
+2024-05-22 13:50:40.113 [info] Installing extension: ms-python.debugpy
+2024-05-22 13:50:40.113 [info] Installing extension: redhat.vscode-yaml
+2024-05-22 13:50:48.848 [info] Extension signature verification result for redhat.ansible: Success. Duration: 2789ms.
+2024-05-22 13:50:49.006 [info] Extracted extension to file:///home/ndao/.vscode-server/extensions/redhat.ansible-24.5.2: redhat.ansible
+2024-05-22 13:50:49.013 [info] Renamed to /home/ndao/.vscode-server/extensions/redhat.ansible-24.5.2
+2024-05-22 13:50:49.017 [info] Extracting extension completed. redhat.ansible
+2024-05-22 13:50:54.768 [info] Extension signature verification result for redhat.vscode-yaml: Success. Duration: 938ms.
+2024-05-22 13:50:54.907 [info] Extracted extension to file:///home/ndao/.vscode-server/extensions/redhat.vscode-yaml-1.14.0: redhat.vscode-yaml
+2024-05-22 13:50:54.911 [info] Renamed to /home/ndao/.vscode-server/extensions/redhat.vscode-yaml-1.14.0
+2024-05-22 13:50:54.913 [info] Extracting extension completed. redhat.vscode-yaml
+2024-05-22 13:51:13.620 [info] Extension signature verification result for ms-python.python: Success. Duration: 1509ms.
+2024-05-22 13:51:14.891 [info] Extension signature verification result for ms-python.debugpy: Success. Duration: 1409ms.
+2024-05-22 13:51:15.842 [info] Extracted extension to file:///home/ndao/.vscode-server/extensions/ms-python.debugpy-2024.6.0-linux-x64: ms-python.debugpy
+2024-05-22 13:51:15.850 [info] Renamed to /home/ndao/.vscode-server/extensions/ms-python.debugpy-2024.6.0-linux-x64
+2024-05-22 13:51:15.854 [info] Extracting extension completed. ms-python.debugpy
+2024-05-22 13:51:17.259 [info] Extracted extension to file:///home/ndao/.vscode-server/extensions/ms-python.python-2024.6.0: ms-python.python
+2024-05-22 13:51:17.267 [info] Renamed to /home/ndao/.vscode-server/extensions/ms-python.python-2024.6.0
+2024-05-22 13:51:17.272 [info] Extracting extension completed. ms-python.python
+2024-05-22 13:51:58.885 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Duration: 1093ms.
+2024-05-22 13:52:05.553 [info] Extracted extension to file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1: ms-python.vscode-pylance
+2024-05-22 13:52:05.572 [info] Renamed to /home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1
+2024-05-22 13:52:05.582 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-05-22 13:52:05.592 [info] Extension installed successfully: redhat.ansible
+2024-05-22 13:52:05.592 [info] Extension installed successfully: redhat.vscode-yaml
+2024-05-22 13:52:05.592 [info] Extension installed successfully: ms-python.debugpy
+2024-05-22 13:52:05.592 [info] Extension installed successfully: ms-python.python
+2024-05-22 13:52:05.592 [info] Extension installed successfully: ms-python.vscode-pylance

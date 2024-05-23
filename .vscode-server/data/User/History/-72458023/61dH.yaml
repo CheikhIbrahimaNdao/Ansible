@@ -1,0 +1,22 @@
+---
+- name: Send an email using Ansible
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Send email
+      mail:
+        host: webmail.orange-sonatel.com
+        port: 587
+        username: "stg_ndao75268@orange-sonatel.com"
+        password: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          31643763363562316665326134323935613131663663663765663330336332643436623534643732
+          6162626461616133623933326661623337313832613865310a383165646465363765333034383739
+          34396537373737636336316531636366356430396635326531643835643465313366343035626431
+          6638396639396636630a386664333962636166346534303233383837303139626335323363303666
+          6161
+        to: "cheikh1530@yahoo.fr"
+        subject: "Test Email from Ansible"
+        body: "This is a test email sent by an Ansible playbook."
+        from: "cheikhibrahimandao@orange-sonatel.com"
