@@ -12,3 +12,4 @@
 2024-05-23 10:21:47.499 [warning] No ptyHost heartbeat after 6 seconds
 2024-05-23 10:22:08.828 [info] [127.0.0.1][ef335ad4][ExtensionHostConnection] The client has reconnected.
 2024-05-23 10:22:08.934 [info] [127.0.0.1][9693a83c][ManagementConnection] The client has reconnected.
+2024-05-23 11:25:33.194 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

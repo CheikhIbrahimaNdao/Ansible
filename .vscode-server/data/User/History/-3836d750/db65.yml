@@ -20,7 +20,7 @@
       changed_when: "'Reinitialized' not in git_init.stdout"
 
     - name: Add the text file to the repository
-      command: git add .
+      command: git add {{ file_name }}
       args:
         chdir: "{{ repo_dir }}"
 
