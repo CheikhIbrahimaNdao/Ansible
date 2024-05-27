@@ -1,0 +1,35 @@
+---
+- name: Créer une base de données MySQL et un utilisateur
+  hosts: localhost
+  become: yes
+  vars_prompt:
+    - name: mysql_root_password
+      prompt: "Entrez le mot de passe root MySQL"
+      private: yes
+    - name: db_name
+      prompt: "Nom de la base de données à créer"
+      private: no
+    - name: db_user
+      prompt: "Nom de l'utilisateur MySQL à créer"
+      private: no
+    - name: db_user_password
+      prompt: "Mot de passe de l'utilisateur MySQL"
+      private: yes
+  tasks:
+    - name: Créer une base de données
+      mysql_db:
+        name: "{{ db_name }}"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        login_password: "{{ mysql_root_password }}"
+        login_user: root
+      
+    - name: Créer un utilisateur MySQL avec tous les droits sur la base de données
+      mysql_user:
+        name: "{{ db_user }}"
+        password: "{{ db_user_password }}"
+        priv: "{{ db_name }}.*:ALL"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        login_password: "{{ mysql_root_password }}"
+        login_user: root

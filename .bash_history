@@ -77,3 +77,87 @@ clear
 ansible-playbook GenPush.yml
 clear
 ansible-playbook GenPush.yml
+ansible-playbook GenPush.yml 
+git status
+git push
+git status
+ansible-playbook GenPush.yml 
+git status
+clear
+ansible-playbook GenPush.yml 
+git add .
+ansible-playbook GenPush.yml 
+clear
+ansible-playbook GenPush.yml 
+clear
+ansible-playbook GenPush.yml 
+git push -u origin master
+git push 
+ansible-playbook GenPush.yml 
+ansible-galaxy collection install community.mysql
+ansible-playbook mysql_setup.yml --extra-vars "mysql_root_password=my_new_root_password mysql_database=my_new_database mysql_user=my_new_user mysql_user_password=my_new_user_password"
+mv mysql_setup.yaml mysql_setup.yml
+ls
+cd vars/
+ls
+pwd
+mv mysql_setup.yaml mysql_setup.yml
+ls
+mv /home/ndao/vars/mysql_setup.yaml /home/ndao/mysql_setup/mysql_setup.yml
+mv /home/ndao/vars/mysql_setup.yml /home/ndao/mysql_setup/mysql_setup.yml
+cd
+ls
+mv /home/ndao/vars/mysql_setup.yml /home/ndao/mysql_setup/mysql_setup.yml
+mv /home/ndao/vars/mysql_setup.yml /home/ndao/mysql_setup.yml
+ls
+ansible-playbook mysql_setup.yml --extra-vars "mysql_root_password=my_new_root_password mysql_database=my_new_database mysql_user=my_new_user mysql_user_password=my_new_user_password"
+cd mysql_setup
+clear
+ansible-playbook mysql_setup.yml --extra-vars "mysql_root_password=my_new_root_password mysql_database=my_new_database mysql_user=my_new_user mysql_user_password=my_new_user_password"
+ansible-playbook mysql_setup.yml --extra-vars "mysql_root_password=my_new_root_password mysql_database=my_new_database mysql_user=my_new_user mysql_user_password=my_new_user_password" --ask-become-pass
+sudo pip3 install PyMySQL
+ansible-playbook mysql_setup.yml --extra-vars "mysql_root_password=my_new_root_password mysql_database=my_new_database mysql_user=my_new_user mysql_user_password=my_new_user_password" --ask-become-pass
+exit
+ansible-playbook mysql_setup.yml -e "mysql_root_password=my_new_root_password mysql_database=my_new_database mysql_user=my_new_user mysql_user_password=my_new_user_password" --ask-become-pass
+cd mysql_setup
+ansible-playbook mysql_setup.yml -e "mysql_root_password=my_new_root_password mysql_database=my_new_database mysql_user=my_new_user mysql_user_password=my_new_user_password" --ask-become-pass
+mysql
+mysql -u root
+sudo mysql -u root
+ansible-playbook mysql_setup.yml -e "mysql_root_password= mysql_database=my_new_database mysql_user=my_new_user mysql_user_password=my_new_user_password" --ask-become-pass
+ansible-playbook mysql_setup.yml -e "mysql_root_password=my_new_root_password mysql_database=my_new_database mysql_user=my_new_user mysql_user_password=my_new_user_password" --ask-become-pass
+ansible-playbook mysql_setup.yml 
+ansible-playbook mysql_setup.yml --ask-become-pass
+mysql -u root
+sudo mysql -u root
+ansible-playbook mysql_setup.yml --ask-become-pass
+sudo -i
+ansible-playbook mysql_setup.yml --ask-become-pass
+ansible-playbook mysql_setup.yml -e "mysql_root_password= mysql_database=my_new_database mysql_user=my_new_user mysql_user_password=my_new_user_password" 
+ansible-playbook mysql_setup.yml -e "mysql_root_password= mysql_database=my_new_database mysql_user=my_new_user mysql_user_password=my_new_user_password" --ask-become-pass
+ansible-playbook mysql_setup.yml --ask-become-pass
+sudo -i
+ansible-playbook mysql_setup.yml --ask-become-pass
+---
+- name: Créer une base de données MySQL et un utilisateur
+clear
+ansible-playbook mysql_setup.yml --ask-become-pass
+sudo -i
+ansible-playbook mysql_setup.yml --ask-become-pass
+sudo ansible-playbook mysql_setup.yml --ask-become-pass
+cd
+ls
+ansible-playbook mysql_setup.yml --ask-become-pass
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+sudo mysql -u root
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+sudo mysql -u root
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+sudo mysql -u root
+ls
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+sudo systemctl status mysql
+sudo netstat -tulnp | grep mysql
+apt install netstat
+sudo apt install netstat
+mysql -u root -p

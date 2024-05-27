@@ -1,0 +1,72 @@
+---
+- name: Set up MySQL database and users
+  hosts: localhost
+  gather_facts: no
+  become: yes
+  vars_files:
+    - vars/mysql_vars.yml
+
+  tasks:
+    - name: Ensure MySQL is installed
+      apt:
+        name: mysql-server
+        state: present
+      become: yes
+
+    - name: Ensure MySQL service is running
+      service:
+        name: mysql
+        state: started
+        enabled: yes
+      become: yes
+
+    - name: Set MySQL root password
+      mysql_user:
+        name: root
+        host: localhost
+        password: "{{ mysql_root_password }}"
+      become: yes
+
+    - name: Remove anonymous MySQL users
+      mysql_user:
+        name: ''
+        host_all: yes
+        state: absent
+      become: yes
+
+    - name: Remove the test database
+      mysql_db:
+        name: test
+        state: absent
+        login_user: root
+        login_password: "{{ mysql_root_password }}"
+      become: yes
+
+    - name: Create a new MySQL database
+      mysql_db:
+        name: "{{ mysql_database }}"
+        state: present
+        login_user: root
+        login_password: "{{ mysql_root_password }}"
+      become: yes
+
+    - name: Create a new MySQL user
+      mysql_user:
+        name: "{{ mysql_user }}"
+        password: "{{ mysql_user_password }}"
+        priv: "{{ mysql_database }}.*:ALL"
+        state: present
+        login_user: root
+        login_password: "{{ mysql_root_password }}"
+      become: yes
+
+    - name: Ensure MySQL user has full privileges on the database
+      mysql_user:
+        name: "{{ mysql_user }}"
+        password: "{{ mysql_user_password }}"
+        priv: "{{ mysql_database }}.*:ALL"
+        host: localhost
+        state: present
+        login_user: root
+        login_password: "{{ mysql_root_password }}"
+      become: yes
