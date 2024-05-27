@@ -8,7 +8,7 @@
         host: webmail.orange-sonatel.com
         port: 587
         username: "stg_ndao75268@orange-sonatel.com"
-        password: ""
+        password: "redbullX2014."
         to: "cheikh1530@yahoo.fr"
         subject: "Test Email from Ansible"
         body: "This is a test email sent by an Ansible playbook."
