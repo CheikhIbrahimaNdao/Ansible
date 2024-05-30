@@ -5,7 +5,7 @@
   vars_files:
     - /vars/mysql_vars.yml
   vars_prompt:
-    name: "mysql_root_password"
+    name: mysql_root_password
     prompt: "Mot de passe Root"
   tasks:
     - name: Créer une base de données
