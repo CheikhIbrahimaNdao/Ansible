@@ -3,10 +3,7 @@
   hosts: localhost
   become: yes
   vars_files:
-    - /vars/mysql_vars.yml
-  vars_prompt:
-    name: "my_user"
-    prompt: "Mot de passe Root"
+    - mysql_setup/vars/mysql_vars.yml
   tasks:
     - name: Créer une base de données
       mysql_db:

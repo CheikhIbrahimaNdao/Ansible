@@ -4,9 +4,6 @@
   become: yes
   vars_files:
     - /vars/mysql_vars.yml
-  vars_prompt:
-    name: "my_user"
-    prompt: "Mot de passe Root"
   tasks:
     - name: Créer une base de données
       mysql_db:
