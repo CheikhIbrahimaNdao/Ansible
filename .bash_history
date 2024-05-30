@@ -161,3 +161,75 @@ sudo netstat -tulnp | grep mysql
 apt install netstat
 sudo apt install netstat
 mysql -u root -p
+sudo mysql -u root -p
+sudo systemctl status mysql
+sudo systemctl start mysql
+sudo service mysql start
+sudo systemctl start mysql
+sudo start mysql
+sudo /etc/init.d/mysql start
+sudo systemctl status mysql
+sudo mysql -u root -p
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+ls /root/
+sudo ls /root/
+sudo ls /root
+sudo -i
+sudo ls /root/
+sudo ls /
+sudo ls /root/
+sudo ls /init
+nano /root/.my.cnf
+sudo nano /root/.my.cnf
+chmod 600 /root/.my.cnf
+sudo chmod 600 /root/.my.cnf
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+mysql
+systemctl mysql status
+sytemctl status mysql
+systemctl status mysql
+sudo systemctl status mysql
+sudo mysql -u root -p
+ansible-playbook mysql_setup/mysql_setup.yml
+sudo nano /root/.my.cnf
+sudo rm /root/.my.cnf
+ansible-playbook mysql_setup/mysql_setup.yml
+sudo mysql -u root -p
+ansible-playbook mysql_setup/mysql_setup.yml
+sudo mysql -u root -p
+git add .
+git commit -m "commit"
+git push
+ansible-playbook email.yml
+ansible-playbook email.yaml
+ansible-playbook mysql_setup/mysql_setup.yml
+git add .
+git commit -m "commit"
+git push
+git add .
+git commit -m "commit"
+git push
+ansible-vault encrypt credentials.yaml
+ansible-vault encrypt credentials.yml
+ls
+cd .
+sudo -i
+ansible-vault encrypt credentials.yaml
+ansible-vault encrypt credentials.yml
+git add credentials.yml
+git commit -m "commit"
+git push
+git pull
+git push
+git add .
+git commit -m "commit"
+git push
+git push --help
+git push
+git push -f
+git add credentials.yml
+git commit -m "commit"
+git push -f
+git add remote origin https://github.com/CheikhIbrahimaNdao/Ansible.git
+git add origin remote https://github.com/CheikhIbrahimaNdao/Ansible.git
+git push -f

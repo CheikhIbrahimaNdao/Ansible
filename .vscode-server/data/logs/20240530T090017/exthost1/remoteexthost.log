@@ -1,0 +1,18 @@
+2024-05-30 09:00:19.517 [info] Extension host with pid 150 started
+2024-05-30 09:00:19.529 [error] Error: EEXIST: file already exists, open '/home/ndao/.vscode-server/data/User/workspaceStorage/38a21d1cb963b8ec61341b0b4eb2fb76/vscode.lock'
+2024-05-30 09:00:19.565 [info] Lock '/home/ndao/.vscode-server/data/User/workspaceStorage/38a21d1cb963b8ec61341b0b4eb2fb76/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-05-30 09:00:19.568 [info] Lock '/home/ndao/.vscode-server/data/User/workspaceStorage/38a21d1cb963b8ec61341b0b4eb2fb76/vscode.lock': The lock does not look stale, elapsed: 250665 ms, giving up.
+2024-05-30 09:00:19.625 [info] Lock '/home/ndao/.vscode-server/data/User/workspaceStorage/38a21d1cb963b8ec61341b0b4eb2fb76-1/vscode.lock': Lock acquired.
+2024-05-30 09:00:19.981 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-30 09:00:19.983 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:yaml', root cause: redhat.ansible
+2024-05-30 09:00:19.984 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml', root cause: redhat.ansible
+2024-05-30 09:00:22.488 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-30 09:00:23.421 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-30 09:00:23.422 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-30 09:00:24.905 [info] ExtensionService#_doActivateExtension redhat.ansible, startup: false, activationEvent: 'onLanguage:yaml'
+2024-05-30 09:00:25.733 [info] Eager extensions activated
+2024-05-30 09:00:25.746 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-30 09:00:25.747 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-30 09:00:26.648 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-05-30 09:00:26.664 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-05-30 09:00:27.938 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python

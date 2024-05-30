@@ -49,7 +49,7 @@
         command: git push
         responses:
           'Username .*': "{{ git_username }}"
-          'Password .*': "{{ password }}"
+          'Password .*': ""
       args:
         chdir: "{{ repo_dir }}"
       when: git_commit.changed
