@@ -7,6 +7,7 @@
   vars_prompt:
     name: mysql_root_password
     prompt: "Mot de passe Root"
+    private: yes
   tasks:
     - name: Créer une base de données
       mysql_db:
