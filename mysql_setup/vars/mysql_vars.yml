@@ -1,2 +1,2 @@
-mysql_root_password: "root_password"
+db_user: "user"
 db_name: "my_database"
