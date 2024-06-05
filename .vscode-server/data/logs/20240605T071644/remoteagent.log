@@ -92,3 +92,13 @@ log_only_on_console for worker
 
 2024-06-05 08:16:39.548 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:08:16:39 +0000] "POST /write-file-common?processSilently=true HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
 
+2024-06-05 08:30:28.380 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:08:30:28 +0000] "POST /get-session-list?processSilently=true HTTP/1.1" 200 385 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 08:30:30.816 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:08:30:30 +0000] "POST /send-ai-model-type?processSilently=true HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 08:30:32.083 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:08:30:32 +0000] "POST /set-user-appearance?processSilently=true HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 08:31:27.221 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:08:31:27 +0000] "POST /add-to-session?processSilently=true?processSilently=true HTTP/1.1" 200 1197 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 08:31:39.553 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:08:31:39 +0000] "POST /copy-clipboard?processSilently=true HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+

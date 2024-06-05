@@ -1,0 +1,31 @@
+---
+- name: Add all files and push to GitHub
+  hosts: localhost
+  tasks:
+    - name: Set Git user name
+      command: git config user.name "CheikhIbrahimaNdao"
+      
+
+    - name: Set Git user email
+      command: git config user.email "ibrahima.ndao.etu@esmt.sn"
+      
+    - name: Add all files
+      command: git add .
+      args:
+        chdir: https://github.com/CheikhIbrahimaNdao/Ansible.git
+
+    - name: Commit changes
+      command: git commit -m "Update"
+      args:
+        chdir: https://github.com/CheikhIbrahimaNdao/Ansible.git
+
+    - name: Include encrypted credentials
+      include_vars: credentials.yaml
+
+    - name: Push the commit to GitHub
+      expect:
+        command: git push
+        responses:
+          'Username .*': "CheikhIbrahimaNdao"
+          'Password .*': "{{ password }}"
+      

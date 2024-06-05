@@ -1,0 +1,44 @@
+---
+- name: Add all files and push to GitHub
+  hosts: localhost
+  vars:
+    repo_dir: "./"
+    commit_message: "Update commit"
+    github_repo_url: "https://github.com/CheikhIbrahimaNdao/Ansible.git"
+    git_username: "CheikhIbrahimaNdao"
+  tasks:
+    - name: Set Git user name
+      command: git config user.name "{{git_username}}"
+      args:
+        chdir: "{{ repo_dir }}"
+
+    - name: Set Git user email
+      command: git config user.email "ibrahima.ndao.etu@esmt.sn"
+      args:
+        chdir: "{{ repo_dir }}"
+
+    - name: Add the text file to the repository
+      command: git add .
+      args:
+        chdir: "{{ repo_dir }}"
+
+    - name: Commit the text file
+      command: git commit -m "{{ commit_message }}"
+      args:
+        chdir: "{{ repo_dir }}"
+      register: git_commit
+      changed_when: "'nothing to commit' not in git_commit.stdout"
+
+    - name: Include encrypted credentials
+      include_vars: credentials.yaml
+      
+    - name: Push the commit to GitHub
+      expect:
+        command: git push
+        responses:
+          'Username .*': "{{ git_username }}"
+          'Password .*': "{{ password }}"
+      args:
+        chdir: "{{ repo_dir }}"
+      when: git_commit.changed
+      
