@@ -34,7 +34,7 @@
       
     - name: Push the commit to GitHub
       expect:
-        command: git push --force --verbose 
+        command: git push -f
         responses:
           'Username .*': "{{ git_username }}"
           'Password .*': "{{ password }}"
