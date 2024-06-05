@@ -13,3 +13,6 @@
 2024-06-05 14:49:15.199 [warning] No ptyHost heartbeat after 6 seconds
 2024-06-05 15:18:12.473 [info] [127.0.0.1][09802240][ManagementConnection] The client has reconnected.
 2024-06-05 15:18:12.630 [info] [127.0.0.1][f0d469d2][ExtensionHostConnection] The client has reconnected.
+2024-06-05 16:03:38.107 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-05 18:14:45.061 [info] [127.0.0.1][09802240][ManagementConnection] The client has reconnected.
+2024-06-05 18:14:55.805 [info] [127.0.0.1][f0d469d2][ExtensionHostConnection] The client has reconnected.
