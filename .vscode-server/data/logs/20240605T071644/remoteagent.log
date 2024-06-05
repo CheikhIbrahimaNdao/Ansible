@@ -152,3 +152,653 @@ log_only_on_console for worker, already initialised
 
 2024-06-05 08:51:39.044 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:08:51:39 +0000] "POST /add-to-session?processSilently=true?processSilently=true HTTP/1.1" 200 2997 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
 
+2024-06-05 09:16:34.999 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:16:34 +0000] "POST /read-file-common?processSilently=true HTTP/1.1" 200 121 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:16:35.818 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:16:35 +0000] "POST /write-file-common?processSilently=true HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:46:44.881 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:46:44 +0000] "POST /read-file-common?processSilently=true HTTP/1.1" 200 121 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:46:46.292 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:46:46 +0000] "POST /write-file-common?processSilently=true HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:55:38.199 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:55:38 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:55:38.209 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 09:55:38.210 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:55:38 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:55:38.211 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+
+2024-06-05 09:55:38.211 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 09:55:38"}
+
+2024-06-05 09:55:38.513 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:55:38 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:55:38.518 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:55:38 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:55:38.522 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:55:38 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:55:38.527 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 09:55:38.528 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:55:38 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:55:38.528 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 09:55:38.528 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+
+2024-06-05 09:55:38.528 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 09:55:38"}
+
+2024-06-05 09:55:38.531 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 09:55:38.532 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 09:55:38.532 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+
+2024-06-05 09:55:38.532 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+
+2024-06-05 09:55:38.532 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 09:55:38"}
+
+2024-06-05 09:55:38.534 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:55:38 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:55:38.535 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 09:55:38.537 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:55:38 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:55:38.537 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 09:55:38.537 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+
+2024-06-05 09:55:38.537 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 09:55:38"}
+
+2024-06-05 09:56:42.222 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:56:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:56:42.231 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 09:56:42.232 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:56:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:56:42.232 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+
+2024-06-05 09:56:42.233 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+
+2024-06-05 09:56:42.233 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+
+2024-06-05 09:56:42.233 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 09:56:42"}
+
+2024-06-05 09:56:42.533 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:56:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:56:42.536 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:56:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:56:42.539 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:56:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:56:42.543 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:56:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:56:42.543 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 09:56:42.544 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:56:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:56:42.545 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 09:56:42"}
+
+2024-06-05 09:56:42.551 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 09:56:42.552 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:56:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:56:42.553 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 09:56:42.553 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 09:56:42"}
+
+2024-06-05 09:56:42.555 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 09:56:42.557 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:56:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:56:42.557 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+
+2024-06-05 09:56:42.557 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 09:56:42"}
+
+2024-06-05 09:56:42.717 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 09:56:42.722 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:09:56:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 09:56:42.723 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+
+2024-06-05 09:56:42.723 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker
+
+2024-06-05 09:56:42.723 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 09:56:42"}
+
+2024-06-05 10:02:42.709 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:42.719 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:02:42.720 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:42.720 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+
+2024-06-05 10:02:42.720 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:02:42"}
+
+2024-06-05 10:02:43.036 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:43.039 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:43.042 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:43.046 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:43.046 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:02:43.047 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:43.048 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:02:43.048 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:02:43"}
+
+2024-06-05 10:02:43.050 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:02:43.053 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:43.054 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:02:43.054 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+
+2024-06-05 10:02:43.054 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+
+2024-06-05 10:02:43.054 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+
+2024-06-05 10:02:43.055 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+
+2024-06-05 10:02:43.055 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:02:43"}
+
+2024-06-05 10:02:43.058 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:43.059 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:02:43.064 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:02:43.064 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:02:43"}
+
+2024-06-05 10:02:43.064 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:43.065 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:02:43.065 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:43.066 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:02:43.066 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+
+2024-06-05 10:02:43.066 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+
+2024-06-05 10:02:43.066 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:02:43"}
+
+2024-06-05 10:02:43.231 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:02:43.237 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:02:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:02:43.237 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+
+2024-06-05 10:02:43.237 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+log_only_on_console for worker
+
+2024-06-05 10:02:43.238 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:02:43"}
+
+2024-06-05 10:03:43.592 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.601 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:03:43.602 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.602 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+
+2024-06-05 10:03:43.603 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+
+2024-06-05 10:03:43.603 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:03:43"}
+
+2024-06-05 10:03:43.908 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.913 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.917 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.921 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.922 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:03:43.923 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.924 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:03:43.925 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:03:43"}
+
+2024-06-05 10:03:43.927 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.933 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.933 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:03:43.934 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.934 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:03:43.935 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:03:43.935 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+
+2024-06-05 10:03:43.935 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:03:43"}
+
+2024-06-05 10:03:43.935 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:03:43.935 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+
+2024-06-05 10:03:43.935 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+Global lcaConfig file exists
+
+2024-06-05 10:03:43.935 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:03:43"}
+
+2024-06-05 10:03:43.936 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.942 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:03:43.944 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.944 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+
+2024-06-05 10:03:43.944 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Bito ignore list: 0 : 
+
+2024-06-05 10:03:43.944 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+Global lcaConfig file exists
+
+2024-06-05 10:03:43.945 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+
+2024-06-05 10:03:43.945 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:03:43"}
+
+2024-06-05 10:03:43.946 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.947 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:03:43.947 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+
+2024-06-05 10:03:43.947 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+
+2024-06-05 10:03:43.947 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+
+2024-06-05 10:03:43.947 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+
+2024-06-05 10:03:43.948 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:03:43"}
+
+2024-06-05 10:03:43.950 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:03:43.951 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:03:43 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:03:43.951 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:03:43.951 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+
+2024-06-05 10:03:43.951 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+Global lcaConfig file exists
+
+2024-06-05 10:03:43.951 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:03:43"}
+
+2024-06-05 10:04:42.548 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.557 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:04:42.558 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.559 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:04:42.559 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:04:42"}
+
+2024-06-05 10:04:42.866 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.872 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.877 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.881 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.884 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:04:42.888 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.888 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:04:42.889 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+
+2024-06-05 10:04:42.889 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:04:42"}
+
+2024-06-05 10:04:42.890 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.890 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:04:42.891 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.891 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:04:42.891 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:04:42"}
+
+2024-06-05 10:04:42.893 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.896 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:04:42.897 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.897 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:04:42.900 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.900 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:04:42.900 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+
+2024-06-05 10:04:42.901 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:04:42"}
+
+2024-06-05 10:04:42.901 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:04:42.901 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+
+2024-06-05 10:04:42.901 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Bito ignore list: 0 : 
+
+2024-06-05 10:04:42.902 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+
+2024-06-05 10:04:42.902 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+
+2024-06-05 10:04:42.902 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+
+2024-06-05 10:04:42.902 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:04:42"}
+
+2024-06-05 10:04:42.904 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.906 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:04:42.908 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:04:42.909 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:04:42"}
+
+2024-06-05 10:04:42.909 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.910 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:04:42.910 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:04:42.910 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:04:42.911 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+
+2024-06-05 10:04:42.911 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+Global lcaConfig file exists
+
+2024-06-05 10:04:42.911 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:04:42"}
+
+2024-06-05 10:04:42.913 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:04:42.923 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:04:42.923 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+
+2024-06-05 10:04:42.923 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:04:42"}
+
+2024-06-05 10:04:42.925 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:04:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.216 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.225 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:05:42.226 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.226 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+
+2024-06-05 10:05:42.227 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+
+2024-06-05 10:05:42.227 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:05:42"}
+
+2024-06-05 10:05:42.528 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.530 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.533 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.536 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.537 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:05:42.537 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.538 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:05:42.538 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+
+2024-06-05 10:05:42.538 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:05:42"}
+
+2024-06-05 10:05:42.541 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:05:42.541 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:05:42.542 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+
+2024-06-05 10:05:42.542 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+Global lcaConfig file exists
+
+2024-06-05 10:05:42.542 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+
+2024-06-05 10:05:42.542 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:05:42"}
+
+2024-06-05 10:05:42.543 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.545 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.547 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:05:42.549 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.552 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:05:42.552 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+Global lcaConfig file exists
+
+2024-06-05 10:05:42.552 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:05:42"}
+
+2024-06-05 10:05:42.553 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.553 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:05:42.554 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.554 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:05:42.554 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+
+2024-06-05 10:05:42.554 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+
+2024-06-05 10:05:42.555 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:05:42"}
+
+2024-06-05 10:05:42.556 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.559 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:05:42.560 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.561 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.562 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:05:42.562 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+
+2024-06-05 10:05:42.562 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global Ignore List: 0 : 
+
+2024-06-05 10:05:42.563 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+
+2024-06-05 10:05:42.563 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+
+2024-06-05 10:05:42.563 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:05:42"}
+
+2024-06-05 10:05:42.565 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:05:42.566 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.566 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:05:42.567 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+
+2024-06-05 10:05:42.567 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+
+2024-06-05 10:05:42.567 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:05:42"}
+
+2024-06-05 10:05:42.568 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:05:42.569 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.570 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:05:42.570 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+
+2024-06-05 10:05:42.570 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:05:42"}
+
+2024-06-05 10:05:42.572 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-05 10:05:42.574 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:05:42 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:05:42.575 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-05 10:05:42.575 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+
+2024-06-05 10:05:42.575 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+
+2024-06-05 10:05:42.576 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> Global lcaConfig file exists
+
+2024-06-05 10:05:42.576 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> log_only_on_console for worker, already initialised
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"05-Jun-2024 10:05:42"}
+
+2024-06-05 10:16:35.015 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:16:35 +0000] "POST /read-file-common?processSilently=true HTTP/1.1" 200 121 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:16:36.350 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:16:36 +0000] "POST /write-file-common?processSilently=true HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+

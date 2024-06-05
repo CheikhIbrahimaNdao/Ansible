@@ -1,0 +1,26 @@
+---
+- name: Backup Databases
+  hosts: db_servers
+  become: true
+  vars_files:
+    - vars/backup_vars.yml  # Fichier contenant les variables
+  tasks:
+    - name: Ensure backup directory exists
+      file:
+        path: "{{ backup_dir }}"
+        state: directory
+
+    - name: Backup MySQL databases
+      mysql_db:
+        state: dump
+        name: "{{ item }}"
+        target: "{{ backup_dir }}/{{ item }}.sql"
+      loop: "{{ mysql_databases }}"
+      when: db_type == 'mysql'
+
+    - name: Backup PostgreSQL databases
+      postgresql_db:
+        name: "{{ item }}"
+        target: "{{ backup_dir }}/{{ item }}.sql"
+      loop: "{{ postgres_databases }}"
+      when: db_type == 'postgresql'

@@ -1,0 +1,26 @@
+---
+- name: Backup Databases
+  hosts: localhost
+  become: yes
+  vars_files:
+    - /home/ndao/mysql_setup/vars/mysql_vars.yml
+  vars_prompt:
+    name: mysql_root_password
+    prompt: "Mot de passe Root"
+    private: yes
+  tasks:
+    - name: Ensure backup directory exists
+      file:
+        path: "{{ backup_dir }}"
+        state: directory
+
+    - name: Backup MySQL databases
+      mysql_db:
+        state: dump
+        name: "{{ item.name }}"
+        target: "{{ backup_dir }}/{{ item }}.sql"
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        login_password: "{{ mysql_root_password }}"
+        login_user: root
+      loop: "{{ databases }}"
+      when: db_type == 'mysql'

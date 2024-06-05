@@ -12,4 +12,4 @@ databases:
 common_user: common_user
 common_password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
 
-backup_dir: "backup"
+backup_dir: "home/ndao/mysql_setup/backup"
