@@ -233,3 +233,40 @@ git push -f
 git add remote origin https://github.com/CheikhIbrahimaNdao/Ansible.git
 git add origin remote https://github.com/CheikhIbrahimaNdao/Ansible.git
 git push -f
+ansible-vault encrypt credentials.yaml
+ansible-vault encrypt_string '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' --name 'password' > credentials.yaml
+git add credentials.yml
+git commit -m "commit"
+git push -f
+ansible-vault encrypt_string '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' --name 'password' > credentials.yaml
+git push -f
+git add .
+git commit -m "commit"
+git push -f
+git commit -m "commit"
+ansible-galaxy collection install community.general
+git add .
+git commit -m "commit"
+git push -f
+ansible-playbook mysql_setup/mysql_setup.yml
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+clear
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+cd /var/run/mysqld/mysqld.sock
+ls
+sudo -s
+mysql -u root
+sudo mysql -u root 
+sudo service mysql restart
+sudo mysql -u root 
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+sudo mysql -u root 
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+ansible playbook GenPass.yml
+ansible-playbook GenPass.yml
+ls
+ansible-playbook GenPass.yml
+ansible-playbook mysql_setup/sql_setup.yml --ask-become-pass
+sudo service mysql restart
+ansible-playbook mysql_setup/sql_setup.yml --ask-become-pass

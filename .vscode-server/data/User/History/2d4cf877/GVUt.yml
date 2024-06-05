@@ -1,0 +1,46 @@
+---
+- name: Créer une base de données MySQL et un utilisateur
+  hosts: localhost
+  become: yes
+  vars_files:
+    - home/ndao/mysql_setup/vars/mysql_vars.yml
+  vars_prompt:
+    name: mysql_root_password
+    prompt: "Mot de passe Root"
+    private: yes
+  tasks:
+    - name: Créer une base de données
+      mysql_db:
+        name: "{{ db_name }}"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        login_password: "{{ mysql_root_password }}"
+        login_user: root
+      
+    - name: Générer le mot de passe de l'utilisateur  
+      ansible.builtin.set_fact:
+        db_user_password: "{{ lookup('random_string', length=8, min_lower=1, min_upper=1, min_special=1, min_numeric=1) }}"
+
+    - name: Créer un utilisateur MySQL avec tous les droits sur la base de données
+      mysql_user:
+        name: "{{ db_user }}"
+        password: "{{ db_user_password }}"
+        priv: "{{ db_name }}.*:ALL"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        login_password: "{{ mysql_root_password }}"
+        login_user: root
+
+    - name: Envoyer un email avec les détails de la base de données et de l'utilisateur créés
+      mail:
+        host: " webmail.orange-sonatel.com "
+        port: 587
+        username: "stg_ndao75268@orange-sonatel.com"
+        password: ""
+        to: "cheikh1530@yahoo.fr"
+        from: "cheikhibrahimandao@orange-sonatel.com"
+        subject: "Détails de la base de données et de l'utilisateur MySQL créés"
+        body: |
+          Database created:{{ db_name }}
+          user created: {{ db_user }}
+          user password: {{ db_user_password }}

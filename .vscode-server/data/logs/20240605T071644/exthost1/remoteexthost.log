@@ -1,0 +1,246 @@
+2024-06-05 07:16:50.290 [info] Extension host with pid 153 started
+2024-06-05 07:16:50.508 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-05 07:16:50.520 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:yaml', root cause: redhat.ansible
+2024-06-05 07:16:50.521 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml', root cause: redhat.ansible
+2024-06-05 07:16:53.312 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-05 07:16:53.376 [info] Lock '/home/ndao/.vscode-server/data/User/workspaceStorage/38a21d1cb963b8ec61341b0b4eb2fb76/vscode.lock': Lock acquired.
+2024-06-05 07:16:54.439 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-05 07:16:54.440 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-05 07:16:55.245 [info] Eager extensions activated
+2024-06-05 07:16:55.246 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-05 07:16:55.247 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-05 07:16:55.247 [info] ExtensionService#_doActivateExtension Bito.Bito, startup: false, activationEvent: 'onStartupFinished'
+2024-06-05 07:17:00.903 [info] ExtensionService#_doActivateExtension redhat.ansible, startup: false, activationEvent: 'onLanguage:yaml'
+2024-06-05 07:17:01.723 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:17:01.932 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:17:02.389 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2024-06-05 07:17:03.689 [warning] [Decorations] CAPPING events from decorations provider vscode.git 526
+2024-06-05 07:17:04.385 [warning] [Decorations] CAPPING events from decorations provider vscode.git 526
+2024-06-05 07:46:18.543 [warning] [Decorations] CAPPING events from decorations provider vscode.git 526
+2024-06-05 07:46:23.644 [warning] [Decorations] CAPPING events from decorations provider vscode.git 526
+2024-06-05 07:46:28.725 [warning] [Decorations] CAPPING events from decorations provider vscode.git 526
+2024-06-05 07:46:33.883 [warning] [Decorations] CAPPING events from decorations provider vscode.git 526
+2024-06-05 07:46:38.975 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:46:44.057 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:46:49.225 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:46:54.304 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:46:59.382 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:47:04.473 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:47:09.557 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:47:14.644 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:47:19.731 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:47:24.813 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:47:29.892 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:47:34.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:47:40.076 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:47:45.158 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:47:50.249 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:47:55.327 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:48:00.411 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:48:05.501 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:48:10.584 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:49:21.368 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:49:26.469 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:49:31.568 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:49:38.000 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:49:43.109 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:49:48.190 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:51:35.243 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-06-05 07:53:55.771 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:54:00.853 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:54:05.941 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:54:30.689 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:54:35.775 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:54:41.343 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:54:46.424 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:54:51.501 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:54:56.610 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:01.713 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:06.789 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:11.875 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:16.956 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:22.039 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:27.124 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:32.208 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:37.298 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:42.390 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:47.475 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:52.556 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:55:57.673 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:56:04.425 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:56:09.538 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:56:14.652 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:56:19.734 [warning] [Decorations] CAPPING events from decorations provider vscode.git 527
+2024-06-05 07:56:23.303 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-05 07:56:23.304 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-05 07:56:23.545 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:24.819 [warning] [Decorations] CAPPING events from decorations provider vscode.git 529
+2024-06-05 07:56:29.906 [warning] [Decorations] CAPPING events from decorations provider vscode.git 529
+2024-06-05 07:56:32.976 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:35.011 [warning] [Decorations] CAPPING events from decorations provider vscode.git 529
+2024-06-05 07:56:35.244 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-06-05 07:56:40.178 [warning] [Decorations] CAPPING events from decorations provider vscode.git 529
+2024-06-05 07:56:46.828 [warning] [Decorations] CAPPING events from decorations provider vscode.git 529
+2024-06-05 07:56:51.951 [warning] [Decorations] CAPPING events from decorations provider vscode.git 529
+2024-06-05 07:56:53.827 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:54.133 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:54.469 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:54.979 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:55.376 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:55.763 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:56.192 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:56.366 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:56.808 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:57.189 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:57.317 [warning] [Decorations] CAPPING events from decorations provider vscode.git 530
+2024-06-05 07:56:57.350 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:58.041 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:58.546 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:56:59.106 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:57:02.402 [warning] [Decorations] CAPPING events from decorations provider vscode.git 530
+2024-06-05 07:57:07.491 [warning] [Decorations] CAPPING events from decorations provider vscode.git 530
+2024-06-05 07:57:12.585 [warning] [Decorations] CAPPING events from decorations provider vscode.git 530
+2024-06-05 07:57:17.685 [warning] [Decorations] CAPPING events from decorations provider vscode.git 530
+2024-06-05 07:57:22.779 [warning] [Decorations] CAPPING events from decorations provider vscode.git 530
+2024-06-05 07:57:27.858 [warning] [Decorations] CAPPING events from decorations provider vscode.git 530
+2024-06-05 07:57:32.938 [warning] [Decorations] CAPPING events from decorations provider vscode.git 530
+2024-06-05 07:57:38.018 [warning] [Decorations] CAPPING events from decorations provider vscode.git 531
+2024-06-05 07:57:43.100 [warning] [Decorations] CAPPING events from decorations provider vscode.git 531
+2024-06-05 07:57:48.196 [warning] [Decorations] CAPPING events from decorations provider vscode.git 531
+2024-06-05 07:57:53.296 [warning] [Decorations] CAPPING events from decorations provider vscode.git 531
+2024-06-05 07:57:58.382 [warning] [Decorations] CAPPING events from decorations provider vscode.git 531
+2024-06-05 07:58:03.477 [warning] [Decorations] CAPPING events from decorations provider vscode.git 531
+2024-06-05 07:58:08.554 [warning] [Decorations] CAPPING events from decorations provider vscode.git 531
+2024-06-05 07:58:09.838 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:58:10.259 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 07:58:13.637 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 07:59:08.507 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 07:59:13.593 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 08:01:35.246 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-06-05 08:06:35.247 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processTimers (node:internal/timers:509:9)
+2024-06-05 08:10:07.512 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 08:10:12.605 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 08:10:17.694 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 08:10:22.779 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 08:10:27.868 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 08:10:32.957 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 08:10:38.076 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 08:10:43.154 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 08:10:48.233 [warning] [Decorations] CAPPING events from decorations provider vscode.git 533
+2024-06-05 08:10:50.526 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:10:52.097 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:10:53.316 [warning] [Decorations] CAPPING events from decorations provider vscode.git 534
+2024-06-05 08:10:58.398 [warning] [Decorations] CAPPING events from decorations provider vscode.git 534
+2024-06-05 08:11:03.481 [warning] [Decorations] CAPPING events from decorations provider vscode.git 534
+2024-06-05 08:11:08.584 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:11:13.664 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:11:18.750 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:11:35.252 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-06-05 08:12:08.300 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:12:13.384 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:12:18.469 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:12:52.052 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:12:57.135 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:02.239 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:07.318 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:12.399 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:17.489 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:23.823 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:28.920 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:34.012 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:39.125 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:44.210 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:49.296 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:54.383 [warning] [Decorations] CAPPING events from decorations provider vscode.git 535
+2024-06-05 08:13:59.475 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:14:04.558 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:14:09.654 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:14:14.738 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:14:19.820 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:14:24.912 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:14:30.008 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:16:35.249 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-06-05 08:16:37.221 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:16:42.307 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:16:47.394 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:16:52.509 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:16:57.600 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:17:02.684 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:17:07.775 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:17:12.855 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:17:17.947 [warning] [Decorations] CAPPING events from decorations provider vscode.git 536
+2024-06-05 08:17:21.408 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:21.909 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:22.411 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:23.052 [warning] [Decorations] CAPPING events from decorations provider vscode.git 537
+2024-06-05 08:17:23.969 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:24.435 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:28.133 [warning] [Decorations] CAPPING events from decorations provider vscode.git 537
+2024-06-05 08:17:28.752 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:29.160 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:31.121 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:31.559 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:31.741 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:32.039 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:32.432 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:32.807 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:33.270 [warning] [Decorations] CAPPING events from decorations provider vscode.git 537
+2024-06-05 08:17:34.997 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:35.447 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:35.662 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:35.995 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:36.602 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:37.050 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:37.494 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:38.038 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:38.666 [warning] [Decorations] CAPPING events from decorations provider vscode.git 537
+2024-06-05 08:17:38.695 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:39.219 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:39.351 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:40.161 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:42.826 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:43.743 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:43.849 [warning] [Decorations] CAPPING events from decorations provider vscode.git 537
+2024-06-05 08:17:45.483 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-05 08:17:48.946 [warning] [Decorations] CAPPING events from decorations provider vscode.git 537
+2024-06-05 08:17:54.033 [warning] [Decorations] CAPPING events from decorations provider vscode.git 537
+2024-06-05 08:17:59.148 [warning] [Decorations] CAPPING events from decorations provider vscode.git 537
+2024-06-05 08:18:04.249 [warning] [Decorations] CAPPING events from decorations provider vscode.git 537
+2024-06-05 08:18:09.364 [warning] [Decorations] CAPPING events from decorations provider vscode.git 537
+2024-06-05 08:18:24.729 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:18:29.813 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:18:34.911 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:18:40.006 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:18:45.090 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:18:50.196 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:18:55.302 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:19:00.495 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:19:05.607 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:19:10.709 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:19:15.793 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:19:20.885 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:19:25.986 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:19:31.077 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:19:36.180 [warning] [Decorations] CAPPING events from decorations provider vscode.git 538
+2024-06-05 08:19:41.306 [warning] [Decorations] CAPPING events from decorations provider vscode.git 539
+2024-06-05 08:19:46.542 [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
+2024-06-05 08:19:51.627 [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
+2024-06-05 08:20:29.758 [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
+2024-06-05 08:20:34.851 [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
+2024-06-05 08:20:39.947 [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
+2024-06-05 08:20:45.053 [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
+2024-06-05 08:20:50.148 [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
+2024-06-05 08:20:55.251 [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
+2024-06-05 08:21:00.332 [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
+2024-06-05 08:21:05.449 [warning] [Decorations] CAPPING events from decorations provider vscode.git 542
+2024-06-05 08:21:10.536 [warning] [Decorations] CAPPING events from decorations provider vscode.git 542
+2024-06-05 08:21:15.625 [warning] [Decorations] CAPPING events from decorations provider vscode.git 542
+2024-06-05 08:21:20.711 [warning] [Decorations] CAPPING events from decorations provider vscode.git 543

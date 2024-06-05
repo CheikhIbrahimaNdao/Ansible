@@ -1,0 +1,19 @@
+2024-06-04 15:13:08.146 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-06-04 15:13:08.983 [info] [Info  - 3:13:08 PM] (2929) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-06-04 15:13:08.985 [info] [Info  - 3:13:08 PM] (2929) Server root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-06-04 15:13:08.985 [info] [Info  - 3:13:08 PM] (2929) Starting service instance "ndao"
+2024-06-04 15:13:08.987 [info] [Info  - 3:13:08 PM] (2929) Auto-Indent enabled
+2024-06-04 15:13:09.203 [info] [Info  - 3:13:09 PM] (2929) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-04 15:13:09.203 [info] [Info  - 3:13:09 PM] (2929) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-04 15:13:09.245 [info] [Info  - 3:13:09 PM] (2929) Assuming Python version 3.8.10.final.0
+2024-06-04 15:13:09.529 [info] [Info  - 3:13:09 PM] (2929) No source files found.
+2024-06-04 15:13:09.702 [info] [Info  - 3:13:09 PM] (2929) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-06-04 15:13:09.706 [info] [Info  - 3:13:09 PM] (2929) Background analysis(1) started
+2024-06-04 15:25:57.284 [info] [Info  - 3:25:57 PM] (2929) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-04 15:25:57.284 [info] [Info  - 3:25:57 PM] (2929) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-04 15:25:57.306 [info] [Info  - 3:25:57 PM] (2929) Assuming Python version 3.8.10.final.0
+2024-06-04 15:25:57.568 [info] [Info  - 3:25:57 PM] (2929) No source files found.
+2024-06-04 15:26:04.703 [info] [Info  - 3:26:04 PM] (2929) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-04 15:26:04.703 [info] [Info  - 3:26:04 PM] (2929) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-04 15:26:04.739 [info] [Info  - 3:26:04 PM] (2929) Assuming Python version 3.8.10.final.0
+2024-06-04 15:26:04.946 [info] [Info  - 3:26:04 PM] (2929) No source files found.

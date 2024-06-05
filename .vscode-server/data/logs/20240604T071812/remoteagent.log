@@ -1,0 +1,140 @@
+2024-06-04 07:18:12.634 [info] 
+
+
+
+
+2024-06-04 07:18:12.651 [info] Extension host agent started.
+2024-06-04 07:18:12.730 [info] [127.0.0.1][3f084f80][ManagementConnection] New connection established.
+2024-06-04 07:18:12.928 [info] [127.0.0.1][231409d7][ExtensionHostConnection] New connection established.
+2024-06-04 07:18:13.058 [info] [127.0.0.1][231409d7][ExtensionHostConnection] <443> Launched Extension Host Process.
+2024-06-04 08:14:45.047 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-04 08:15:01.303 [info] [127.0.0.1][231409d7][ExtensionHostConnection] The client has reconnected.
+2024-06-04 08:15:01.409 [info] [127.0.0.1][3f084f80][ManagementConnection] The client has reconnected.
+2024-06-04 11:07:19.069 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-04 11:09:30.355 [info] [127.0.0.1][231409d7][ExtensionHostConnection] The client has reconnected.
+2024-06-04 11:09:30.475 [info] [127.0.0.1][3f084f80][ManagementConnection] The client has reconnected.
+2024-06-04 12:02:42.463 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-04 12:05:28.652 [info] [127.0.0.1][231409d7][ExtensionHostConnection] The client has reconnected.
+2024-06-04 12:05:28.809 [info] [127.0.0.1][3f084f80][ManagementConnection] The client has reconnected.
+2024-06-04 12:49:04.842 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-04 14:07:12.641 [info] [127.0.0.1][3f084f80][ManagementConnection] The client has reconnected.
+2024-06-04 14:07:12.746 [info] [127.0.0.1][231409d7][ExtensionHostConnection] The client has reconnected.
+2024-06-04 15:09:40.973 [info] Getting Manifest... bito.bito
+2024-06-04 15:09:41.479 [info] Installing extension: bito.bito
+2024-06-04 15:09:54.486 [info] Extension signature verification result for bito.bito: Success. Duration: 1051ms.
+2024-06-04 15:09:55.437 [info] Extracted extension to file:///home/ndao/.vscode-server/extensions/bito.bito-1.3.3: bito.bito
+2024-06-04 15:09:55.446 [info] Renamed to /home/ndao/.vscode-server/extensions/bito.bito-1.3.3
+2024-06-04 15:09:55.448 [info] Extracting extension completed. bito.bito
+2024-06-04 15:09:55.455 [info] Extension installed successfully: bito.bito
+2024-06-04 15:10:02.525 [info] [127.0.0.1][231409d7][ExtensionHostConnection] <443> 172.17.64.1 - - [04/Jun/2024:15:10:02 +0000] "POST /retrive-editor-info?processSilently=true HTTP/1.1" 200 347 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:10:03.174 [info] [127.0.0.1][231409d7][ExtensionHostConnection] <443> 172.17.64.1 - - [04/Jun/2024:15:10:03 +0000] "POST /read-file-common?processSilently=true HTTP/1.1" 200 6 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:10:10.807 [info] [127.0.0.1][231409d7][ExtensionHostConnection] <443> 172.17.64.1 - - [04/Jun/2024:15:10:10 +0000] "POST /open-link-in-external-browser?processSilently=true HTTP/1.1" 200 4 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:10:10.825 [info] [127.0.0.1][231409d7][ExtensionHostConnection] <443> 172.17.64.1 - - [04/Jun/2024:15:10:10 +0000] "POST /read-file-common?processSilently=true HTTP/1.1" 200 6 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:10:10.834 [info] [127.0.0.1][231409d7][ExtensionHostConnection] <443> 172.17.64.1 - - [04/Jun/2024:15:10:10 +0000] "POST /retrieve-user-profile-store?processSilently=true HTTP/1.1" 200 32 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:10:10.898 [info] [127.0.0.1][231409d7][ExtensionHostConnection] <443> 172.17.64.1 - - [04/Jun/2024:15:10:10 +0000] "GET /retrieve-previous-bito-workspace?processSilently=true HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:10:10.901 [info] [127.0.0.1][231409d7][ExtensionHostConnection] <443> 172.17.64.1 - - [04/Jun/2024:15:10:10 +0000] "POST /write-file-common?processSilently=true HTTP/1.1" 200 37 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:10:10.914 [info] [127.0.0.1][231409d7][ExtensionHostConnection] <443> 172.17.64.1 - - [04/Jun/2024:15:10:10 +0000] "POST /retrieve-user-profile-store?processSilently=true HTTP/1.1" 200 32 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:12:56.709 [info] [127.0.0.1][3f084f80][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-06-04 15:12:56.876 [info] [127.0.0.1][231409d7][ExtensionHostConnection] <443> Extension Host Process exited with code: 0, signal: null.
+2024-06-04 15:13:00.223 [info] [127.0.0.1][69a8c8fc][ManagementConnection] New connection established.
+2024-06-04 15:13:00.696 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] New connection established.
+2024-06-04 15:13:00.705 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> Launched Extension Host Process.
+2024-06-04 15:13:11.764 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:13:11 +0000] "POST /retrive-editor-info?processSilently=true HTTP/1.1" 200 347 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:13:12.793 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:13:12 +0000] "POST /read-file-common?processSilently=true HTTP/1.1" 200 69 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:13:12.809 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:13:12 +0000] "POST /retrieve-user-profile-store?processSilently=true HTTP/1.1" 200 32 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:13:12.820 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:13:12 +0000] "GET /retrieve-previous-bito-workspace?processSilently=true HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:13:12.836 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:13:12 +0000] "POST /retrieve-user-profile-store?processSilently=true HTTP/1.1" 200 32 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:13:35.661 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:13:35 +0000] "POST /save-user-login-status HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:05.749 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:05 +0000] "POST /save-user-login-status HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:06.243 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:06 +0000] "POST /save-current-bito-workspace?processSilently=true&wsId=741194 HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:06.249 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:06 +0000] "POST /read-file-common?processSilently=true HTTP/1.1" 200 6 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:06.265 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:06 +0000] "POST /save-user-profile-store?processSilently=true HTTP/1.1" 200 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:06.281 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:06 +0000] "POST /unregister-agent?processSilently=true HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:06.294 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:06 +0000] "POST /init-local-code-serach?processSilently=true HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:06.296 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:06 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 200 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:06.330 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:06 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:06.339 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> {"bito_module":"LCContext","bito_project":"Spectre","level":"error","message":"Error reading existing Agents Configuration: Error: ENOENT: no such file or directory, open '/home/ndao/.bito/localcodesearch/agent.json'","time_stamp":"04-Jun-2024 15:14:06"}
+
+2024-06-04 15:14:06.341 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"Registering a new agent: localCodeAnswers:1.0.0","time_stamp":"04-Jun-2024 15:14:06"}
+
+2024-06-04 15:14:06.344 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"Wrote to Agents Configuration file: {\"agents\":[{\"name\":\"localCodeAnswers\",\"version\":\"1.0.0\",\"description\":\"Local code search is useful when one wants to answer questions about the code, which is already developed and one may want to improve the code. It also helps in generating new code based on existing code. The local code can include everything from the initial project setup to the latest incremental changes. A local code typically includes application code, test code, build scripts, and more. By answering questions related to the local code, one can more easily understand the system function, classes, imports, exports, variables and functionality. Such question & answer session would help users to make enhancements, apply bug fixes and build new features.Some Example inputs are: LocalCodeAnswers List code changes for adding parameters x to function y, LocalCodeAnswers generate code in C for crud operations for struct abc, LocalCodeAnswers list all the REST APIs in the code.\",\"callback\":\"callbackAnswerSearch\"}]}","time_stamp":"04-Jun-2024 15:14:06"}
+
+2024-06-04 15:14:06.353 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> {"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"Updated Agents Configuration file.","time_stamp":"04-Jun-2024 15:14:06"}
+172.17.64.1 - - [04/Jun/2024:15:14:06 +0000] "POST /register-agent?processSilently=true HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:06.357 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:06 +0000] "POST /start-periodic-indexing-status-update?processSilently=true HTTP/1.1" 200 25 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:06.375 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:06 +0000] "POST /start-read-directories?processSilently=true HTTP/1.1" 200 66 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:06.686 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:06 +0000] "POST /send-ai-model-type?processSilently=true HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:07.549 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:07 +0000] "POST /set-user-appearance?processSilently=true HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:07.659 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:07 +0000] "POST /write-file-common?processSilently=true HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:07.774 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:07 +0000] "POST /send-ai-model-type?processSilently=true HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:08.177 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:08 +0000] "GET /get-directory?processSilently=true HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:08.427 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> Using Local Code Search Configuration: {"lcsBasePath":"/home/ndao/.bito","log_only_on_console":true}
+
+2024-06-04 15:14:08.441 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:08 +0000] "POST /get-index-metadata?processSilently=true HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:14:08.442 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> Using Local Code Search Path: /home/ndao/.bito/localcodesearch
+
+2024-06-04 15:14:08.442 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> Reading the bitoignore file: /home/ndao/.bito/localcodesearch/.bitoignore
+Bito ignore list: 0 : 
+Global Ignore List: 0 : 
+
+2024-06-04 15:14:08.443 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> Global lcaConfig file exists
+log_only_on_console for worker
+{"bito_module":"LCContext","bito_project":"Spectre","level":"info","message":"The metadata file does not exists and hence returning empty array.","time_stamp":"04-Jun-2024 15:14:08"}
+
+2024-06-04 15:14:09.824 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:14:09 +0000] "POST /update-subscription?processSilently=true HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:15:32.986 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:15:32 +0000] "POST /add-to-session?processSilently=true?processSilently=true HTTP/1.1" 200 2177 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:15:33.006 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:15:33 +0000] "POST /get-session-list?processSilently=true HTTP/1.1" 200 385 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:15:53.857 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:15:53 +0000] "POST /copy-clipboard?processSilently=true HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:20:01.452 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:20:01 +0000] "POST /copy-clipboard?processSilently=true HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:24:18.256 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:24:18 +0000] "POST /add-to-session?processSilently=true?processSilently=true HTTP/1.1" 200 2791 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:25:05.399 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:25:05 +0000] "POST /add-to-session?processSilently=true?processSilently=true HTTP/1.1" 200 2729 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:27:03.627 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:27:03 +0000] "POST /copy-clipboard?processSilently=true HTTP/1.1" 200 3 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:34:08.419 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:34:08 +0000] "POST /add-to-session?processSilently=true?processSilently=true HTTP/1.1" 200 2854 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:41:19.408 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:41:19 +0000] "POST /add-to-session?processSilently=true?processSilently=true HTTP/1.1" 200 3102 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:44:06.267 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:44:06 +0000] "POST /read-file-common?processSilently=true HTTP/1.1" 200 121 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:44:07.382 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> 172.17.64.1 - - [04/Jun/2024:15:44:07 +0000] "POST /write-file-common?processSilently=true HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-04 15:44:44.477 [info] [127.0.0.1][69a8c8fc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-06-04 15:44:44.614 [info] [127.0.0.1][486e9aed][ExtensionHostConnection] <2717> Extension Host Process exited with code: 0, signal: null.

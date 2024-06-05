@@ -1,0 +1,13 @@
+2024-06-04 15:13:06.252 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-04 15:13:06.252 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-04 15:13:06.252 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-04 15:13:06.252 [info] Experiment 'pythonTestAdapter' is active
+2024-06-04 15:13:06.252 [info] Default formatter is set to null for workspace /home/ndao
+2024-06-04 15:13:06.252 [info] Python interpreter path: /bin/python3
+2024-06-04 15:13:06.315 [info] > pyenv which python
+2024-06-04 15:13:06.315 [info] cwd: .
+2024-06-04 15:13:09.010 [info] Starting Pylance language server.
+2024-06-04 15:14:07.780 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-06-04 15:14:09.942 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-06-04 15:25:57.444 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-06-04 15:26:04.882 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json

@@ -1,0 +1,30 @@
+2024-06-04 07:18:19.193 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-06-04 07:18:19.757 [info] [Info  - 7:18:19 AM] (675) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-06-04 07:18:19.757 [info] [Info  - 7:18:19 AM] (675) Server root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-06-04 07:18:19.765 [info] [Info  - 7:18:19 AM] (675) Starting service instance "ndao"
+2024-06-04 07:18:19.774 [info] [Info  - 7:18:19 AM] (675) Auto-Indent enabled
+2024-06-04 07:18:19.825 [info] [Info  - 7:18:19 AM] (675) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-04 07:18:19.826 [info] [Info  - 7:18:19 AM] (675) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-04 07:18:19.858 [info] [Info  - 7:18:19 AM] (675) Assuming Python version 3.8.10.final.0
+2024-06-04 07:18:20.123 [info] [Info  - 7:18:20 AM] (675) No source files found.
+2024-06-04 07:18:20.342 [info] [Info  - 7:18:20 AM] (675) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-06-04 07:18:20.347 [info] [Info  - 7:18:20 AM] (675) Background analysis(1) started
+2024-06-04 10:07:27.074 [info] [Info  - 10:07:27 AM] (675) Indexer background runner(2) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-06-04 10:07:27.074 [info] [Info  - 10:07:27 AM] (675) Indexing(2) started
+2024-06-04 10:07:28.394 [info] [Info  - 10:07:28 AM] (675) scanned(2) 98 files over 1 exec env
+2024-06-04 10:07:31.797 [info] [Info  - 10:07:31 AM] (675) [IDX(2)] Long operation: index execution environment file:///home/ndao (2988ms)
+2024-06-04 10:07:31.839 [info] [Info  - 10:07:31 AM] (675) [IDX(2)] Long operation: index packages file:///home/ndao (3046ms)
+2024-06-04 10:07:31.839 [info] [Info  - 10:07:31 AM] (675) indexed(2) 47 files over 1 exec env
+2024-06-04 10:07:32.000 [info] [Info  - 10:07:32 AM] (675) Indexing finished(2).
+2024-06-04 15:09:55.731 [info] [Info  - 3:09:55 PM] Server process exited successfully
+2024-06-04 15:09:59.091 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-06-04 15:09:59.776 [info] [Info  - 3:09:59 PM] (2392) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-06-04 15:09:59.776 [info] [Info  - 3:09:59 PM] (2392) Server root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-06-04 15:09:59.785 [info] [Info  - 3:09:59 PM] (2392) Starting service instance "ndao"
+2024-06-04 15:09:59.792 [info] [Info  - 3:09:59 PM] (2392) Auto-Indent enabled
+2024-06-04 15:09:59.831 [info] [Info  - 3:09:59 PM] (2392) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-04 15:09:59.832 [info] [Info  - 3:09:59 PM] (2392) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-04 15:09:59.929 [info] [Info  - 3:09:59 PM] (2392) Assuming Python version 3.8.10.final.0
+2024-06-04 15:10:00.109 [info] [Info  - 3:10:00 PM] (2392) No source files found.
+2024-06-04 15:10:00.462 [info] [Info  - 3:10:00 PM] (2392) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-06-04 15:10:00.467 [info] [Info  - 3:10:00 PM] (2392) Background analysis(1) started

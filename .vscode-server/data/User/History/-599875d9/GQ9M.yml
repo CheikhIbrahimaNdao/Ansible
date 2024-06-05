@@ -1,0 +1,11 @@
+---
+- name: Générer le mot de passe
+  hosts: localhost
+  tasks:
+    - name: Générer le mot de passe
+      ansible.builtin.set_fact:
+        password: "{{ lookup('community.general.random_string', length=(8 + random(9)), min_lower=1, min_upper=1, min_special=1, min_numeric=1, special=false) }}"
+
+    - name: Afficher le mot de passe   
+      debug:
+        msg: "Mot de passe: {{ password }}"
