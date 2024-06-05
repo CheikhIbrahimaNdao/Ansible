@@ -420,3 +420,12 @@
 2024-06-05 10:34:16.117 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6521
 2024-06-05 10:34:21.353 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6521
 2024-06-05 10:34:32.644 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6521
+2024-06-05 10:35:07.528 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6527
+2024-06-05 10:36:35.265 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processTimers (node:internal/timers:509:9)
+2024-06-05 10:41:35.267 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-06-05 10:46:35.265 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)

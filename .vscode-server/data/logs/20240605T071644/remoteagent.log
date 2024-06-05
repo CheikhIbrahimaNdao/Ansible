@@ -802,3 +802,7 @@ Global Ignore List: 0 :
 
 2024-06-05 10:16:36.350 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:16:36 +0000] "POST /write-file-common?processSilently=true HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
 
+2024-06-05 10:46:34.995 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:46:34 +0000] "POST /read-file-common?processSilently=true HTTP/1.1" 200 6 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
+2024-06-05 10:46:36.336 [info] [127.0.0.1][64060849][ExtensionHostConnection] <153> 172.17.64.1 - - [05/Jun/2024:10:46:36 +0000] "POST /write-file-common?processSilently=true HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.89.1 Chrome/120.0.6099.291 Electron/28.2.8 Safari/537.36"
+
