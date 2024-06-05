@@ -305,3 +305,7 @@
 2024-06-05 10:13:15.275 [info] [Info  - 10:13:15 AM] (376) Setting environmentName for service "ndao": "3.8.10 (global)"
 2024-06-05 10:13:15.304 [info] [Info  - 10:13:15 AM] (376) Assuming Python version 3.8.10.final.0
 2024-06-05 10:13:15.510 [info] [Info  - 10:13:15 AM] (376) No source files found.
+2024-06-05 10:51:58.256 [info] [Info  - 10:51:58 AM] (376) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-05 10:51:58.257 [info] [Info  - 10:51:58 AM] (376) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-05 10:51:58.358 [info] [Info  - 10:51:58 AM] (376) Assuming Python version 3.8.10.final.0
+2024-06-05 10:51:58.530 [info] [Info  - 10:51:58 AM] (376) No source files found.

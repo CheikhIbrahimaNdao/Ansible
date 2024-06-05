@@ -1,0 +1,34 @@
+---
+- name: Cloner une base de données MySQL
+  hosts: localhost
+  vars_files:
+    - vars.yml
+  tasks:
+
+    - name: Assurez-vous que MySQL est installé
+      apt:
+        name: mysql-server
+        state: present
+      become: yes
+
+    - name: Dump de la base de données source
+      command: mysqldump -u {{ db_user }} -p{{ db_password }} {{ source_db }} > /tmp/{{ source_db }}.sql
+      args:
+        creates: /tmp/{{ source_db }}.sql
+
+    - name: Créer la base de données cible
+      mysql_db:
+        name: "{{ target_db }}"
+        state: present
+        login_user: "{{ db_user }}"
+        login_password: "{{ db_password }}"
+
+    - name: Importer le dump dans la base de données cible
+      command: mysql -u {{ db_user }} -p{{ db_password }} {{ target_db }} < /tmp/{{ source_db }}.sql
+      args:
+        creates: /tmp/{{ source_db }}.sql
+
+    - name: Supprimer le fichier dump temporaire
+      file:
+        path: /tmp/{{ source_db }}.sql
+        state: absent

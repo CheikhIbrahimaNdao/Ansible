@@ -1,5 +1,15 @@
 {
   "PROD": {
+    "0": {
+      "0": {
+        "didUserChangeLineCompletion": false,
+        "didUserChangeCommentCompletion": false,
+        "didUserChangeDelay": false,
+        "expiryTime": 0,
+        "messageDisplayCount": 0,
+        "errorMessage": ""
+      }
+    },
     "1263973": {
       "741194": {
         "expiryTime": 0,

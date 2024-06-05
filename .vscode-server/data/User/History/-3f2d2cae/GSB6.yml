@@ -1,0 +1,32 @@
+---
+- name: Cloner une base de données MySQL
+  hosts: localhost
+  become: yes
+  vars_files:
+    - /home/ndao/mysql_setup/vars/mysql_vars.yml
+  vars_prompt:
+    name: mysql_root_password
+    prompt: "Mot de passe Root"
+    private: yes
+  tasks:
+    - name: Dump de la base de données source
+      command: mysqldump -u root -p {{ mysql_root_password }} {{ source_db }} > /tmp/{{ source_db }}.sql
+      args:
+        creates: /tmp/{{ source_db }}.sql
+
+    - name: Créer la base de données cible
+      mysql_db:
+        name: "{{ target_db }}"
+        state: present
+        login_user: "root"
+        login_password: "{{ mysql_root_password }}"
+
+    - name: Importer le dump dans la base de données cible
+      command: mysql -u root -p {{ mysql_root_password }} {{ target_db }} < /tmp/{{ source_db }}.sql
+      args:
+        creates: /tmp/{{ source_db }}.sql
+
+    - name: Supprimer le fichier dump temporaire
+      file:
+        path: /tmp/{{ source_db }}.sql
+        state: absent
