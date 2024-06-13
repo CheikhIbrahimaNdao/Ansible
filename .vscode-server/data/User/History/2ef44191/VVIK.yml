@@ -40,6 +40,6 @@
           'Password .*': "{{ password }}"
       args:
         chdir: "{{ repo_dir }}"
-        timeout: 600 # Run the task for up to 600 seconds (10 minutes)
+        timeout: 300 # Run the task for up to 600 seconds (10 minutes)
       when: git_commit.changed
       

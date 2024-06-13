@@ -34,12 +34,11 @@
       
     - name: Push the commit to GitHub
       expect:
-        command: git push --force  
+        command: git push --force
         responses:
           'Username .*': "{{ git_username }}"
           'Password .*': "{{ password }}"
       args:
         chdir: "{{ repo_dir }}"
-        timeout: 600 # Run the task for up to 600 seconds (10 minutes)
       when: git_commit.changed
       
