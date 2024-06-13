@@ -44,8 +44,7 @@ db_password: "$db_password"
 EOF
 }
 
-# Check if the user already exists and display the generated passwords
-echo "Generated passwords for the users:"
+# Create databases and users
 for ((i=1; i<=10; i++)); do
   if [ -n "${databases[i]}" ]; then
     db_name="${databases[i]}"
@@ -54,31 +53,34 @@ for ((i=1; i<=10; i++)); do
     else
       db_user="${users[i]}"
     fi
-    
-    # Check if the user already exists
-    user_exists=$(mysql -uroot -p$root_password -e "SELECT User FROM mysql.user WHERE User='${db_user}'" | grep -c "${db_user}")
-    
-    if [ $user_exists -eq 0 ]; then
-      db_password=$(openssl rand -base64 12) # Generate a random password
+    db_password=$(openssl rand -base64 12) # Generate a random password
 
-      # Store the password in the passwords array
-      passwords[i]=$db_password
+    # Store the password in the passwords array
+    passwords[i]=$db_password
 
-      # Update vars file with current database and user
-      update_vars_file "$db_name" "$db_user" "$db_password"
+    # Update vars file with current database and user
+    update_vars_file "$db_name" "$db_user" "$db_password"
 
-      # Run the Ansible playbook
-      ansible-playbook $PLAYBOOK --extra-vars "mysql_root_password=$root_password"
+    # Run the Ansible playbook
+    ansible-playbook $PLAYBOOK --extra-vars "mysql_root_password=$root_password"
 
-      # Check the status of database creation
-      if [ $? -eq 0 ]; then
-        echo "User ${db_user}: ${passwords[i]}"
-      else
-        echo "Failed to create database. Skipping password generation."
-      fi
+    # Check if the user was created successfully
+    if [ $? -eq 0 ]; then
+      echo "User $db_user for database $db_name was created."
     else
-      # If user exists, skip displaying generated password
-      echo "User ${db_user} already exists. Skipping password generation."
+      echo "Failed to create user $db_user for database $db_name."
+    fi
+  fi
+done
+
+# Display the generated passwords only if the user was created
+echo "Generated passwords for the users:"
+for ((i=1; i<=10; i++)); do
+  if [ -n "${databases[i]}" ] && [ $? -eq 0 ]; then
+    if $single_user; then
+      echo "User ${users[1]}: ${passwords[i]}"
+    else
+      echo "User ${users[i]}: ${passwords[i]}"
     fi
   fi
 done

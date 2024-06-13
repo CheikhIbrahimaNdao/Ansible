@@ -29,3 +29,20 @@
 2024-06-13 10:42:09.880 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
 2024-06-13 10:42:10.467 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
 2024-06-13 10:42:14.098 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 11:57:42.905 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 11:57:43.368 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 11:58:02.671 [error] [Bito.Bito] provider FAILED
+2024-06-13 11:58:02.671 [error] Error: Illegal value for `line`
+	at d.t (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:154:961)
+	at Object.lineAt (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:154:90)
+	at isCodeCompletionAllowed (webpack://Bito/./src/codeCompletion/controller/codeCompletionProvider.ts?:126:25)
+	at async CodeCompletionProvider.provideInlineCompletionItems (webpack://Bito/./src/codeCompletion/controller/codeCompletionProvider.ts?:53:41)
+	at async Q.provideInlineCompletions (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:118315)
+2024-06-13 12:01:35.928 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:01:37.977 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:02:19.206 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:03:01.475 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:03:07.652 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:03:07.819 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:17:05.647 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:17:26.024 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.

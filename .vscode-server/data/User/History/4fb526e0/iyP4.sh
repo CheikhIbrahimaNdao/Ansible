@@ -40,7 +40,6 @@ update_vars_file() {
 db_name: "$db_name"
 db_user: "$db_user"
 db_password: "$db_password"
-
 EOF
 }
 
@@ -69,15 +68,9 @@ for ((i=1; i<=10; i++)); do
 
       # Run the Ansible playbook
       ansible-playbook $PLAYBOOK --extra-vars "mysql_root_password=$root_password"
-
-      # Check the status of database creation
-      if [ $? -eq 0 ]; then
-        echo "User ${db_user}: ${passwords[i]}"
-      else
-        echo "Failed to create database. Skipping password generation."
-      fi
+      
+      echo "User ${db_user}: ${passwords[i]}"
     else
-      # If user exists, skip displaying generated password
       echo "User ${db_user} already exists. Skipping password generation."
     fi
   fi

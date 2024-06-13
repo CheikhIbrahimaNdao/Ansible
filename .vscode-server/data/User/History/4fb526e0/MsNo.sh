@@ -44,8 +44,7 @@ db_password: "$db_password"
 EOF
 }
 
-# Check if the user already exists and display the generated passwords
-echo "Generated passwords for the users:"
+# Create databases and users
 for ((i=1; i<=10; i++)); do
   if [ -n "${databases[i]}" ]; then
     db_name="${databases[i]}"
@@ -69,16 +68,20 @@ for ((i=1; i<=10; i++)); do
 
       # Run the Ansible playbook
       ansible-playbook $PLAYBOOK --extra-vars "mysql_root_password=$root_password"
-
-      # Check the status of database creation
-      if [ $? -eq 0 ]; then
-        echo "User ${db_user}: ${passwords[i]}"
-      else
-        echo "Failed to create database. Skipping password generation."
-      fi
     else
-      # If user exists, skip displaying generated password
       echo "User ${db_user} already exists. Skipping password generation."
+    fi
+  fi
+done
+
+# Display the generated passwords
+echo "Generated passwords for the users:"
+for ((i=1; i<=10; i++)); do
+  if [ -n "${passwords[i]}" ]; then
+    if $single_user; then
+      echo "User ${users[1]}: ${passwords[i]}"
+    else
+      echo "User ${users[i]}: ${passwords[i]}"
     fi
   fi
 done

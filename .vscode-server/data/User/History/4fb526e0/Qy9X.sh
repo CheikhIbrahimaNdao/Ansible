@@ -4,10 +4,11 @@
 read -s -p "Mot de passe Root: " root_password
 echo
 
-# Initialize arrays for databases and users
+# Initialize arrays for databases, users, passwords, and user creation status
 declare -a databases
 declare -a users
 declare -a passwords
+declare -a user_created
 
 # Retrieve arguments from the command line
 for ((i=1; i<=10; i++)); do
@@ -40,12 +41,16 @@ update_vars_file() {
 db_name: "$db_name"
 db_user: "$db_user"
 db_password: "$db_password"
-
 EOF
 }
 
-# Check if the user already exists and display the generated passwords
-echo "Generated passwords for the users:"
+# Function to check if user exists
+check_user_exists() {
+  local db_user=$1
+  mysql -uroot -p"$root_password" -e "SELECT User FROM mysql.user WHERE User = '$db_user';" | grep "$db_user"
+}
+
+# Create databases and users
 for ((i=1; i<=10; i++)); do
   if [ -n "${databases[i]}" ]; then
     db_name="${databases[i]}"
@@ -54,11 +59,13 @@ for ((i=1; i<=10; i++)); do
     else
       db_user="${users[i]}"
     fi
-    
-    # Check if the user already exists
-    user_exists=$(mysql -uroot -p$root_password -e "SELECT User FROM mysql.user WHERE User='${db_user}'" | grep -c "${db_user}")
-    
-    if [ $user_exists -eq 0 ]; then
+
+    # Check if user already exists
+    if check_user_exists "$db_user"; then
+      user_created[i]=false
+      echo "User $db_user already exists. Skipping user creation."
+    else
+      user_created[i]=true
       db_password=$(openssl rand -base64 12) # Generate a random password
 
       # Store the password in the passwords array
@@ -69,16 +76,18 @@ for ((i=1; i<=10; i++)); do
 
       # Run the Ansible playbook
       ansible-playbook $PLAYBOOK --extra-vars "mysql_root_password=$root_password"
+    fi
+  fi
+done
 
-      # Check the status of database creation
-      if [ $? -eq 0 ]; then
-        echo "User ${db_user}: ${passwords[i]}"
-      else
-        echo "Failed to create database. Skipping password generation."
-      fi
+# Display the generated passwords
+echo "Generated passwords for the new users:"
+for ((i=1; i<=10; i++)); do
+  if [ -n "${databases[i]}" ] && [ "${user_created[i]}" = true ]; then
+    if $single_user; then
+      echo "User ${users[1]}: ${passwords[i]}"
     else
-      # If user exists, skip displaying generated password
-      echo "User ${db_user} already exists. Skipping password generation."
+      echo "User ${users[i]}: ${passwords[i]}"
     fi
   fi
 done

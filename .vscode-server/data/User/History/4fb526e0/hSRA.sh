@@ -40,7 +40,6 @@ update_vars_file() {
 db_name: "$db_name"
 db_user: "$db_user"
 db_password: "$db_password"
-
 EOF
 }
 
@@ -56,29 +55,21 @@ for ((i=1; i<=10; i++)); do
     fi
     
     # Check if the user already exists
-    user_exists=$(mysql -uroot -p$root_password -e "SELECT User FROM mysql.user WHERE User='${db_user}'" | grep -c "${db_user}")
+    user_exists=$(mysql -uroot -p"$root_password" -e "SELECT User FROM mysql.user WHERE User='${db_user}'" | grep -c "${db_user}")
+
+    if [ "$user_exists" -eq 0 ]; then
+    # Generate a random password
+    db_password=$(openssl rand -base64 12)
     
-    if [ $user_exists -eq 0 ]; then
-      db_password=$(openssl rand -base64 12) # Generate a random password
-
-      # Store the password in the passwords array
-      passwords[i]=$db_password
-
-      # Update vars file with current database and user
-      update_vars_file "$db_name" "$db_user" "$db_password"
-
-      # Run the Ansible playbook
-      ansible-playbook $PLAYBOOK --extra-vars "mysql_root_password=$root_password"
-
-      # Check the status of database creation
-      if [ $? -eq 0 ]; then
-        echo "User ${db_user}: ${passwords[i]}"
-      else
-        echo "Failed to create database. Skipping password generation."
-      fi
+    # Create the user with the generated password
+    mysql -uroot -p"$root_password" -e "CREATE USER '${db_user}'@'localhost' IDENTIFIED BY '${db_password}'"
+    
+    if [ $? -eq 0 ]; then
+        echo "User '${db_user}' created with password: ${db_password}"
     else
-      # If user exists, skip displaying generated password
-      echo "User ${db_user} already exists. Skipping password generation."
+        echo "Failed to create user '${db_user}'"
     fi
+  else
+    echo "User '${db_user}' already exists."
   fi
 done
