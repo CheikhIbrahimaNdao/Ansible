@@ -15,14 +15,6 @@ for ((i=1; i<=10; i++)); do
   eval "users[i]=\${USER$i}"
 done
 
-# Function to check if a database and user already exist in vars file
-is_duplicate() {
-  local db_name=$1
-  local db_user=$2
-
-  grep -q "db_name: \"$db_name\"" "$VARS_FILE" && grep -q "db_user: \"$db_user\"" "$VARS_FILE"
-}
-
 # Check if there is one user per database or a single user for all databases
 if [ ${#users[@]} -eq 1 ]; then
   single_user=true
@@ -38,19 +30,24 @@ fi
 PLAYBOOK="/home/ndao/mysql_setup/sql_setup.yml"
 VARS_FILE="/home/ndao/mysql_setup/vars/mysql_vars.yml"
 
-# Function to update vars file with new database and user if not exists
 update_vars_file() {
   local db_name=$1
   local db_user=$2
   local db_password=$3
 
-  if ! is_duplicate "$db_name" "$db_user"; then
+  # Vérifie si les variables existent déjà dans le fichier
+  if grep -q "^db_name:" "$VARS_FILE" && grep -q "^db_user:" "$VARS_FILE" && grep -q "^db_password:" "$VARS_FILE"; then
+    # Si elles existent, ne faites rien
+    echo "Variable exists already."
+  else
+    # Sinon, ajoutez-les au fichier
     cat <<EOF >> "$VARS_FILE"
 db_name: "$db_name"
 db_user: "$db_user"
 db_password: "$db_password"
 
 EOF
+    echo "Variables added to the file."
   fi
 }
 

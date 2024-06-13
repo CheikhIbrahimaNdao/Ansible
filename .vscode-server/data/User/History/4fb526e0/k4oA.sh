@@ -20,9 +20,6 @@ is_duplicate() {
   local db_name=$1
   local db_user=$2
 
-  grep -q "db_name: \"$db_name\"" "$VARS_FILE" && grep -q "db_user: \"$db_user\"" "$VARS_FILE"
-}
-
 # Check if there is one user per database or a single user for all databases
 if [ ${#users[@]} -eq 1 ]; then
   single_user=true
