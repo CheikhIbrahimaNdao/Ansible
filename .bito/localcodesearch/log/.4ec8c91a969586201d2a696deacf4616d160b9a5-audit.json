@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/home/ndao/.bito/localcodesearch/log/.4ec8c91a969586201d2a696deacf4616d160b9a5-audit.json",
+    "files": [
+        {
+            "date": 1717612060437,
+            "name": "/home/ndao/.bito/localcodesearch/log/log.json-2024-06-05-18.log",
+            "hash": "f600563d9fbcd90d4c458fca3f1c52d49363b618abe905db388a64985a96ee4e"
+        },
+        {
+            "date": 1717683523648,
+            "name": "/home/ndao/.bito/localcodesearch/log/log.json-2024-06-06-14.log",
+            "hash": "c09ac4f86ad8a532a733e671029255a2dbb278497a6e03c85dc54e5e48c6dbc6"
+        },
+        {
+            "date": 1717755338696,
+            "name": "/home/ndao/.bito/localcodesearch/log/log.json-2024-06-07-10.log",
+            "hash": "6ccd58bc5bd0390e4751357a58601c4876b5887262c2cdc9ab47cabae925a047"
+        },
+        {
+            "date": 1718104719059,
+            "name": "/home/ndao/.bito/localcodesearch/log/log.json-2024-06-11-11.log",
+            "hash": "0ba59afd5e6925b41b0edf404e557c53d480f84ce04fac8ab02c23d2c9d849a9"
+        },
+        {
+            "date": 1718115363430,
+            "name": "/home/ndao/.bito/localcodesearch/log/log.json-2024-06-11-14.log",
+            "hash": "3f1499de13bdd3196f036ca8480eef56c0c3d5eb11316ab4f025e1e68a28e158"
+        }
+    ],
+    "hashType": "sha256"
+}

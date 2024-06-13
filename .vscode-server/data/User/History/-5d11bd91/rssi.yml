@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  become: yes
+  vars_prompt:
+    name: mysql_root_password
+    prompt: "Mot de passe Root"
+    private: yes
+  tasks:
+  - name: Ensure no user named 'sally'@'localhost' exists, also passing in the auth credentials  
+      community.mysql.mysql_user:    
+    login_user: root    
+    login_password: 123456    
+    name: sally    
+    state: absent

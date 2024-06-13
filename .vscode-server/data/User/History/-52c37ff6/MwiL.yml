@@ -1,0 +1,39 @@
+---
+- hosts: localhost
+  become: yes
+  vars_files:
+    - /home/ndao/mysql_setup/vars/mysql_vars.yml
+  vars_prompt:
+    name: mysql_root_password
+    prompt: "Mot de passe Root"
+    private: yes
+  tasks:
+    - name: Create multiple databases with individual users
+      mysql_db:
+        name: "{{ item.name }}"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        login_password: "{{ mysql_root_password }}"
+        login_user: root
+      loop: "{{ databases }}"
+      loop_control:
+        loop_var: item
+   
+    - name: Create a single user for the designated database with auto-generated passwords
+      command: mysql -e "CREATE USER IF NOT EXISTS '{{ item.user }}'@'localhost' IDENTIFIED BY '{{ item.password }}';"
+      mysql_user:
+        priv: "{{ item.name }}:ALL"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        login_password: "{{ mysql_root_password }}"
+        login_user: root 
+      loop: "{{ databases }}"
+      loop_control:
+        loop_var: item   
+
+    - name: Show users password   
+      debug:
+        msg: "Mot de passe de {{ item.user }} : {{ item.password }}"
+      loop: "{{ databases }}"
+      loop_control:
+        loop_var: item

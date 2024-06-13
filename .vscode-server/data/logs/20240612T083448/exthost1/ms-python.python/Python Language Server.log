@@ -1,0 +1,97 @@
+2024-06-12 09:11:06.184 [info] (Client) Pylance async client (2024.6.1) started with python extension (2024.8.0)
+2024-06-12 09:11:06.796 [info] [Info  - 9:11:06 AM] (3616) Pylance language server 2024.6.1 (pyright version 1.1.364, commit 0618acc5) starting
+2024-06-12 09:11:06.796 [info] [Info  - 9:11:06 AM] (3616) Server root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-12 09:11:06.812 [info] [Info  - 9:11:06 AM] (3616) Starting service instance "ndao"
+2024-06-12 09:11:06.854 [info] Auto-Indent enabled
+2024-06-12 09:11:06.879 [info] Auto-Indent enabled
+2024-06-12 09:11:06.884 [info] [Info  - 9:11:06 AM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 09:11:06.884 [info] [Info  - 9:11:06 AM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 09:11:06.933 [info] [Info  - 9:11:06 AM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 09:11:07.273 [info] [Info  - 9:11:07 AM] (3616) No source files found.
+2024-06-12 09:11:07.279 [info] Auto-Indent enabled
+2024-06-12 09:11:07.591 [info] [Info  - 9:11:07 AM] (3616) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-12 09:11:07.595 [info] [Info  - 9:11:07 AM] (3616) Background analysis(1) started
+2024-06-12 10:18:45.028 [info] Auto-Indent enabled
+2024-06-12 10:18:45.030 [info] [Info  - 10:18:45 AM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 10:18:45.033 [info] [Info  - 10:18:45 AM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 10:18:45.070 [info] [Info  - 10:18:45 AM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 10:18:45.694 [info] [Info  - 10:18:45 AM] (3616) No source files found.
+2024-06-12 10:18:45.702 [info] Auto-Indent enabled
+2024-06-12 10:18:45.742 [info] Auto-Indent enabled
+2024-06-12 10:18:45.744 [info] [Info  - 10:18:45 AM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 10:18:45.744 [info] [Info  - 10:18:45 AM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 10:18:45.881 [info] [Info  - 10:18:45 AM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 10:18:46.230 [info] [Info  - 10:18:46 AM] (3616) No source files found.
+2024-06-12 10:18:46.232 [info] Auto-Indent enabled
+2024-06-12 10:18:46.240 [info] Auto-Indent enabled
+2024-06-12 10:18:46.241 [info] [Info  - 10:18:46 AM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 10:18:46.241 [info] [Info  - 10:18:46 AM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 10:18:46.281 [info] [Info  - 10:18:46 AM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 10:18:46.649 [info] [Info  - 10:18:46 AM] (3616) No source files found.
+2024-06-12 10:18:46.652 [info] Auto-Indent enabled
+2024-06-12 10:18:46.872 [info] Auto-Indent enabled
+2024-06-12 10:18:46.873 [info] [Info  - 10:18:46 AM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 10:18:46.873 [info] [Info  - 10:18:46 AM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 10:18:46.928 [info] [Info  - 10:18:46 AM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 10:18:47.342 [info] [Info  - 10:18:47 AM] (3616) No source files found.
+2024-06-12 10:18:47.344 [info] Auto-Indent enabled
+2024-06-12 10:18:47.369 [info] Auto-Indent enabled
+2024-06-12 10:18:47.369 [info] [Info  - 10:18:47 AM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 10:18:47.370 [info] [Info  - 10:18:47 AM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 10:18:47.409 [info] [Info  - 10:18:47 AM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 10:18:47.791 [info] [Info  - 10:18:47 AM] (3616) No source files found.
+2024-06-12 10:18:47.793 [info] Auto-Indent enabled
+2024-06-12 10:18:48.432 [info] Auto-Indent enabled
+2024-06-12 10:18:48.437 [info] [Info  - 10:18:48 AM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 10:18:48.437 [info] [Info  - 10:18:48 AM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 10:18:48.474 [info] [Info  - 10:18:48 AM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 10:18:48.796 [info] [Info  - 10:18:48 AM] (3616) No source files found.
+2024-06-12 10:18:48.798 [info] Auto-Indent enabled
+2024-06-12 10:18:49.048 [info] Auto-Indent enabled
+2024-06-12 10:18:49.050 [info] [Info  - 10:18:49 AM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 10:18:49.053 [info] [Info  - 10:18:49 AM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 10:18:49.059 [info] [Info  - 10:18:49 AM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 10:18:49.389 [info] [Info  - 10:18:49 AM] (3616) No source files found.
+2024-06-12 10:18:49.392 [info] Auto-Indent enabled
+2024-06-12 10:18:50.250 [info] Auto-Indent enabled
+2024-06-12 10:18:50.251 [info] [Info  - 10:18:50 AM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 10:18:50.256 [info] [Info  - 10:18:50 AM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 10:18:50.306 [info] [Info  - 10:18:50 AM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 10:18:50.770 [info] [Info  - 10:18:50 AM] (3616) No source files found.
+2024-06-12 10:18:50.772 [info] Auto-Indent enabled
+2024-06-12 11:57:15.359 [info] Auto-Indent enabled
+2024-06-12 11:57:15.363 [info] [Info  - 11:57:15 AM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 11:57:15.363 [info] [Info  - 11:57:15 AM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 11:57:15.396 [info] [Info  - 11:57:15 AM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 11:57:15.735 [info] [Info  - 11:57:15 AM] (3616) No source files found.
+2024-06-12 11:57:15.737 [info] Auto-Indent enabled
+2024-06-12 12:31:17.149 [info] Auto-Indent enabled
+2024-06-12 12:31:17.150 [info] [Info  - 12:31:17 PM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 12:31:17.150 [info] [Info  - 12:31:17 PM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 12:31:17.180 [info] [Info  - 12:31:17 PM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 12:31:17.493 [info] [Info  - 12:31:17 PM] (3616) No source files found.
+2024-06-12 12:31:17.495 [info] Auto-Indent enabled
+2024-06-12 12:31:39.637 [info] Auto-Indent enabled
+2024-06-12 12:31:39.639 [info] [Info  - 12:31:39 PM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 12:31:39.639 [info] [Info  - 12:31:39 PM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 12:31:39.670 [info] [Info  - 12:31:39 PM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 12:31:39.916 [info] [Info  - 12:31:39 PM] (3616) No source files found.
+2024-06-12 12:31:39.917 [info] Auto-Indent enabled
+2024-06-12 12:31:40.535 [info] Auto-Indent enabled
+2024-06-12 12:31:40.535 [info] [Info  - 12:31:40 PM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 12:31:40.535 [info] [Info  - 12:31:40 PM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 12:31:40.609 [info] [Info  - 12:31:40 PM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 12:31:40.906 [info] [Info  - 12:31:40 PM] (3616) No source files found.
+2024-06-12 12:31:40.908 [info] Auto-Indent enabled
+2024-06-12 12:31:44.007 [info] Auto-Indent enabled
+2024-06-12 12:31:44.009 [info] [Info  - 12:31:44 PM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 12:31:44.009 [info] [Info  - 12:31:44 PM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 12:31:44.054 [info] [Info  - 12:31:44 PM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 12:31:44.374 [info] [Info  - 12:31:44 PM] (3616) No source files found.
+2024-06-12 12:31:44.375 [info] Auto-Indent enabled
+2024-06-12 12:31:44.394 [info] Auto-Indent enabled
+2024-06-12 12:31:44.395 [info] [Info  - 12:31:44 PM] (3616) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-12 12:31:44.395 [info] [Info  - 12:31:44 PM] (3616) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-12 12:31:44.434 [info] [Info  - 12:31:44 PM] (3616) Assuming Python version 3.8.10.final.0
+2024-06-12 12:31:44.811 [info] [Info  - 12:31:44 PM] (3616) No source files found.
+2024-06-12 12:31:44.816 [info] Auto-Indent enabled

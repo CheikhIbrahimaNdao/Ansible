@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  become: yes
+  vars_prompt:
+    name: mysql_root_password
+    prompt: "Mot de passe Root"
+    private: yes
+  tasks:
+  - name: Ensure no user named '--'@localhost exists, also passing in the auth credentials  
+    mysql_user:    
+      login_unix_socket: /var/run/mysqld/mysqld.sock
+      login_password: "{{ mysql_root_password }}"
+      login_user: root    
+      name: common_user    
+      state: absent

@@ -1,0 +1,15 @@
+db_user: "Utest"
+db_name: "DBtest"
+
+databases:
+    name: db
+    user: user
+    password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+
+common_user: common_user
+common_password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+
+backup_dir: "backup"
+
+source_db: DBtest
+target_db: target
