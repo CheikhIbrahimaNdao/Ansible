@@ -70,7 +70,7 @@ for ((i=1; i<=10; i++)); do
     user_exists=$(mysql -uroot -p$root_password -e "SELECT User FROM mysql.user WHERE User='${db_user}'" | grep -c "${db_user}")
     
     if [ $user_exists -eq 0 ]; then
-      db_password=$(openssl rand -base64 12 | tr -dc 'A-Za-z0-9') # Generate a random password
+      db_password=$(openssl rand -base64 12) # Generate a random password
 
       # Store the password in the passwords array
       passwords[i]=$db_password
