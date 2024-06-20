@@ -1,0 +1,30 @@
+common_user: common_user
+common_password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+
+backup_dir: "backup"
+
+source_db: DBtest
+target_db: target
+
+databases:
+    name: db
+    user: user
+    password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+
+db_name: "db1"
+db_user: "user1"
+db_password: "YEbcOx4y7/TypnNQ"
+
+db_name: "db2"
+db_user: "user2"
+db_password: "CR9KSLuWkENp84E3"
+
+db_name: "db3"
+db_user: "user3"
+db_password: "QgzlBYFkp71wgCzD"
+
+db_name: "CIN"
+db_user: "Cheikh"
+db_password: "b+IDZA0gPXkl6JrI"
+
+

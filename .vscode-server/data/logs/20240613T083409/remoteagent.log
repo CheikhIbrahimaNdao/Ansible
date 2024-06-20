@@ -16,3 +16,9 @@
 2024-06-13 08:34:29.032 [info] Renamed to /home/ndao/.vscode-server/extensions/redhat.ansible-24.6.0
 2024-06-13 08:34:29.173 [info] Marked extension as uninstalled redhat.ansible-24.5.2
 2024-06-13 08:34:29.221 [info] Extension installed successfully: redhat.ansible file:///home/ndao/.vscode-server/extensions/extensions.json
+2024-06-13 12:58:09.000 [info] [127.0.0.1][11fde80f][ExtensionHostConnection] The client has reconnected.
+2024-06-13 12:58:09.095 [info] [127.0.0.1][1fd15740][ManagementConnection] The client has reconnected.
+2024-06-13 15:07:09.365 [info] [127.0.0.1][11fde80f][ExtensionHostConnection] The client has reconnected.
+2024-06-13 15:07:09.730 [info] [127.0.0.1][1fd15740][ManagementConnection] The client has reconnected.
+2024-06-13 15:55:00.832 [info] [127.0.0.1][1fd15740][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-06-13 15:55:01.098 [info] [127.0.0.1][11fde80f][ExtensionHostConnection] <156> Extension Host Process exited with code: 0, signal: null.

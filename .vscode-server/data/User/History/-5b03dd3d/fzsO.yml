@@ -1,5 +1,0 @@
-# 
-mysql_root_password: "root_password"
-mysql_database: "my_database"
-mysql_user: "my_user"
-mysql_user_password: "user_password"

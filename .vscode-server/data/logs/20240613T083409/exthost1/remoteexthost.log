@@ -58,3 +58,124 @@
 2024-06-13 12:24:27.139 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
 2024-06-13 12:29:24.857 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
 2024-06-13 12:29:25.227 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:45:18.185 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:45:19.144 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:45:31.354 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:45:32.192 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:45:33.068 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:45:33.892 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:45:34.743 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:45:35.516 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:45:36.205 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 12:45:37.202 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-06-13 15:55:00.811 [info] Extension host terminating: received terminate message from renderer
+2024-06-13 15:55:00.813 [info] Lock '/home/ndao/.vscode-server/data/User/workspaceStorage/38a21d1cb963b8ec61341b0b4eb2fb76/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-06-13 15:55:01.053 [error] Canceled: Canceled
+	at new A (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at n.O [as value] (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/git/dist/main.js:2:945191)
+	at l.y (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/git/dist/main.js:2:964275)
+	at /home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:153:4032)
+	at a.dispose (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:153:4129)
+	at a.<anonymous> (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:153:4129)
+	at f (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:161:9991)
+	at /home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:161:7867
+	at Array.map (<anonymous>)
+	at u.$ (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:161:7854)
+	at u.terminate (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:161:8127)
+	at f.terminate (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:178:10459)
+	at n.value (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:178:8427)
+	at l.y (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:107:14502)
+	at h.z (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:107:17638)
+	at n.value (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:107:17012)
+	at l.y (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at u.acceptChunk (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:107:12248)
+	at n.value (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:107:11518)
+	at l.y (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at n.z (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:175:20497)
+	at n.acceptFrame (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:175:20303)
+	at g.n (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:175:18748)
+	at /home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:175:15675
+	at Socket.w (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:175:13305)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-06-13 15:55:01.054 [error] Canceled: Canceled
+	at new A (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/github/dist/extension.js:2:322969)
+	at /home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/github/dist/extension.js:2:323928
+	at n.value (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/git/dist/main.js:2:1050764)
+	at l.y (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/git/dist/main.js:2:964275)
+	at /home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:153:4032)
+	at a.dispose (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:153:4129)
+	at a.<anonymous> (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:153:4129)
+	at f (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:161:9991)
+	at /home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:161:7867
+	at Array.map (<anonymous>)
+	at u.$ (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:161:7854)
+	at u.terminate (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:161:8127)
+	at f.terminate (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:178:10459)
+	at n.value (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:178:8427)
+	at l.y (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:107:14502)
+	at h.z (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:107:17638)
+	at n.value (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:107:17012)
+	at l.y (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at u.acceptChunk (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:107:12248)
+	at n.value (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:107:11518)
+	at l.y (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at n.z (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:175:20497)
+	at n.acceptFrame (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:175:20303)
+	at g.n (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:175:18748)
+	at /home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:175:15675
+	at Socket.w (/home/ndao/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/api/node/extensionHostProcess.js:175:13305)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-06-13 15:55:01.069 [info] Extension host with pid 156 exiting with code 0
