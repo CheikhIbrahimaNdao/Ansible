@@ -19,3 +19,5 @@
 2024-06-24 15:58:33.539 [warning] No ptyHost heartbeat after 6 seconds
 2024-06-24 18:03:56.744 [info] [127.0.0.1][e6426f25][ManagementConnection] The client has reconnected.
 2024-06-24 18:04:07.382 [info] [127.0.0.1][342beed4][ExtensionHostConnection] The client has reconnected.
+2024-06-24 18:38:10.001 [info] [127.0.0.1][e6426f25][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-06-24 18:38:10.365 [info] [127.0.0.1][342beed4][ExtensionHostConnection] <156> Extension Host Process exited with code: 0, signal: null.
