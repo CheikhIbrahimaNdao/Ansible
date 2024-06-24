@@ -216,3 +216,13 @@ sudo mysql -u root
 ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
 sudo mysql -u root 
 exit
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+sudo mysql -u root 
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+sudo mysql -u root 
+ansible-playbook Github.yml --ask-vault-pass
+sudo apt update
+sudo apt upgrade
+ansible-playbook --version
+sudo apt update ansible
+sudo apt update
