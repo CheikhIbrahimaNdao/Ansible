@@ -1,0 +1,78 @@
+---
+- hosts: localhost
+  become: yes
+  gather_facts: no
+  vars_files:
+    - /home/ndao/mysql_setup/vars/mysql_vars.yml
+  vars_prompt:
+    - name: mysql_root_password
+      prompt: "Enter MySQL root password"
+      private: yes
+  tasks:
+    - name: Check if databases and users exist
+      block:
+        - name: Check if database exists
+          shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ item.db_name }}\";'"
+          register: db_check
+          ignore_errors: yes
+          with_items: "{{ databases }}"
+          loop_control:
+            loop_var: item
+
+        - name: Display message if database already exists
+          debug:
+            msg: "Database {{ item.db_name }} already exists."
+          when: db_check.results[item.index].stdout != ""    
+
+        - name: Create a database
+          mysql_db:
+            name: "{{ item.db_name }}"
+            state: present
+            login_unix_socket: /var/run/mysqld/mysqld.sock
+            login_password: "{{ mysql_root_password }}"
+            login_user: root
+          when: db_check.results[item.index].stdout == ""
+          with_items: "{{ databases }}"
+          loop_control:
+            loop_var: item
+
+        - name: Check if user already exists
+          shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT User FROM mysql.user WHERE User = \"{{ item.db_user }}\";'"
+          register: user_check
+          ignore_errors: yes
+          with_items: "{{ users }}"
+          loop_control:
+            loop_var: item
+
+        - name: Display message if user already exists
+          debug:
+            msg: "User {{ item.db_user }} already exists."
+          when: user_check.results[item.index].stdout != ""
+          with_items: "{{ users }}"
+          loop_control:
+            loop_var: item
+
+        - name: Create a user for the database with auto-generated password
+          mysql_user:
+            name: "{{ item.db_user }}"
+            password: "{{ db_user_password }}"
+            priv: "{{ item.db_name }}.*:ALL"
+            state: present
+            update_password: on_create
+            login_unix_socket: /var/run/mysqld/mysqld.sock
+            login_password: "{{ mysql_root_password }}"
+            login_user: root
+          when: user_check.results[item.index].stdout == ""
+          with_items: "{{ users }}"
+          loop_control:
+            loop_var: item
+          register: user_creation_results
+
+        - name: Display username and password
+          debug:
+            msg: "User '{{ item.db_user }}' created with password '{{ db_user_password }}'."
+          when: user_creation_results.results[item.index].changed
+          with_items: "{{ users }}"
+          loop_control:
+            loop_var: item
+

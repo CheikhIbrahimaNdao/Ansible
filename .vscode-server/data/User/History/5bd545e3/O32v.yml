@@ -1,0 +1,56 @@
+---
+- hosts: localhost
+  become: yes
+  gather_facts: no
+  vars:
+    db_name: "{{ db_name }}"
+    db_user: "{{ db_user }}"
+  vars_files:
+    - /home/ndao/mysql_setup/vars/mysql_vars.yml
+  vars_prompt:
+    name: mysql_root_password
+    prompt: "Mot de passe Root"
+    private: yes
+  tasks:
+    - name: Create a database
+      mysql_db:
+        name: "{{ db_name }}"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        login_password: "{{ mysql_root_password }}"
+        login_user: root
+
+    - name: Check if user already exists
+      shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT User FROM mysql.user WHERE User = \"{{ db_user }}\";'"
+      register: user_check
+      ignore_errors: yes
+
+    - name: Display message if user already exists
+      debug:
+        msg: "User {{ db_user }} already exists."
+      when: user_check.stdout != ""
+
+    - name: Générer le mot de passe de l'utilisateur  
+      ansible.builtin.set_fact:
+        db_password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+        
+    - name: Afficher le mot de passe   
+      debug:
+        msg: "Mot de passe: {{ db_password }}"
+
+    - name: Create a user for the database with auto-generated password
+      mysql_user:
+        name: "{{ db_user }}"
+        password: "{{ db_password }}"
+        priv: "{{ db_name }}.*:ALL"
+        state: present
+        update_password: on_create
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        login_password: "{{ mysql_root_password }}"
+        login_user: root
+      when: user_check.stdout == ""
+      register: user_creation_result
+
+    - name: User creation result
+      set_fact:
+        user_creation_output: "{{ user_creation_result }}"

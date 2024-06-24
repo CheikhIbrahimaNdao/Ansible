@@ -1,0 +1,18 @@
+backup_dir: "backup"
+
+source_db: DBtest
+target_db: target
+
+databases:
+- db_name: Db1
+  db_user: User1
+  
+- db_name: Db2
+  db_user: User2
+  
+- db_name: Db3
+  db_user: User3
+
+db_user_password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+
+

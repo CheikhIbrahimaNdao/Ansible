@@ -1,9 +1,0 @@
-{
-    "workbench.colorTheme": "Default High Contrast",
-    "security.workspace.trust.untrustedFiles": "open",
-    "redhat.telemetry.enabled": true,
-    "bitoAI.appearance.fontSize (Match with IDE Font)": false,
-    "bitoAI.codeCompletion.enableAutoCompletion": true,
-    "bitoAI.codeCompletion.enableCommentToCode": true,
-    "editor.inlineSuggest.showToolbar": "always"
-}

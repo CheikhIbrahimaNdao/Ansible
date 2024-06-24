@@ -1,0 +1,18 @@
+2024-06-24 09:34:32.776 [info] 
+
+
+
+
+2024-06-24 09:34:32.850 [info] Extension host agent started.
+2024-06-24 09:34:33.149 [info] [127.0.0.1][e6426f25][ManagementConnection] New connection established.
+2024-06-24 09:34:33.600 [info] [127.0.0.1][342beed4][ExtensionHostConnection] New connection established.
+2024-06-24 09:34:34.555 [info] [127.0.0.1][342beed4][ExtensionHostConnection] <156> Launched Extension Host Process.
+2024-06-24 09:34:41.245 [info] Getting Manifest... redhat.ansible
+2024-06-24 09:34:45.290 [info] Installing extension: redhat.ansible file:///home/ndao/.vscode-server/extensions/extensions.json
+2024-06-24 09:34:46.421 [info] Getting Manifest... ms-python.python
+2024-06-24 09:34:47.228 [info] Getting Manifest... redhat.vscode-yaml
+2024-06-24 09:34:54.644 [info] Extension signature verification result for redhat.ansible: Success. Executed: true. Duration: 2131ms.
+2024-06-24 09:34:55.219 [info] Extracted extension to file:///home/ndao/.vscode-server/extensions/redhat.ansible-24.8.0: redhat.ansible
+2024-06-24 09:34:55.238 [info] Renamed to /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.0
+2024-06-24 09:34:55.427 [info] Marked extension as uninstalled redhat.ansible-24.6.0
+2024-06-24 09:34:55.497 [info] Extension installed successfully: redhat.ansible file:///home/ndao/.vscode-server/extensions/extensions.json

@@ -152,3 +152,14 @@ sudo mysql -u root
 exit
 sudo apt update
 history
+sudo DB1="CIN"  USER1="Cheikh" DB2="Orange" ./shell_script.sh
+cd /home/ndao/mysql_setup/templates/
+sudo DB1="CIN"  USER1="Cheikh" DB2="Orange" ./shell_script.sh
+sudo service mysql restart
+sudo DB1="CIN"  USER1="Cheikh" DB2="Orange" ./shell_script.sh
+sudo DB1="CIN"  USER1="Name" DB2="Orange" ./shell_script.sh
+sudo mysql -u root 
+clear
+ansible-playbook Github.yml --ask-vault-pass
+cd ~
+ansible-playbook Github.yml --ask-vault-pass
