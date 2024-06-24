@@ -1,0 +1,19 @@
+---
+- name: Retrieve MySQL user password
+  hosts: localhost
+  gather_facts: no
+  vars_prompt:
+    - name: mysql_admin_user
+      prompt: "Enter MySQL admin username"
+      private: no
+    - name: mysql_admin_password
+      prompt: "Enter MySQL admin password"
+      private: yes
+  tasks:
+    - name: Get MySQL user password
+      command: mysql -uroot -p{{ mysql_admin_password }} -e "SELECT password FROM mysql.user WHERE User='User1';"
+      register: mysql_user_info
+      changed_when: false
+
+    - debug:
+        msg: "Password for MySQL user 'User1': {{ mysql_user_info.stdout }}"

@@ -16,3 +16,6 @@
 2024-06-24 09:34:55.238 [info] Renamed to /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.0
 2024-06-24 09:34:55.427 [info] Marked extension as uninstalled redhat.ansible-24.6.0
 2024-06-24 09:34:55.497 [info] Extension installed successfully: redhat.ansible file:///home/ndao/.vscode-server/extensions/extensions.json
+2024-06-24 15:58:33.539 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-24 18:03:56.744 [info] [127.0.0.1][e6426f25][ManagementConnection] The client has reconnected.
+2024-06-24 18:04:07.382 [info] [127.0.0.1][342beed4][ExtensionHostConnection] The client has reconnected.

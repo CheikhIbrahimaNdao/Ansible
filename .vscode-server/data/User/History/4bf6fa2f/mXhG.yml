@@ -1,0 +1,22 @@
+---
+- name: Retrieve MySQL user password
+  hosts: localhost
+  gather_facts: no
+  vars_prompt:
+    - name: mysql_admin_user
+      prompt: "Enter MySQL admin username"
+      private: no
+    - name: mysql_admin_password
+      prompt: "Enter MySQL admin password"
+      private: yes
+  tasks:
+    - name: Get MySQL user password
+      mysql_user:
+        name: "User1"  # Remplacez par le nom de l'utilisateur MySQL dont vous voulez récupérer le mot de passe
+        state: dump
+        login_user: "{{ mysql_admin_user }}"
+        login_password: "{{ mysql_admin_password }}"
+      register: mysql_user_info
+
+    - debug:
+        msg: "MySQL user 'User1' password: {{ mysql_user_info.password }}"

@@ -1,0 +1,27 @@
+---
+- name: Retrieve MySQL user password
+  hosts: localhost
+  become: yes
+  gather_facts: no
+  vars_prompt:
+    - name: mysql_root_password
+      prompt: "Enter MySQL root password"
+      private: yes
+  tasks:
+    - name: Create a user for the database with auto-generated password
+      mysql_user:
+        name: "{{ db_item.user }}"
+        password: "{{ db_user_password }}"
+        priv: "{{ db_item.name }}.*:ALL"
+        state: present
+        update_password: on_create
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        login_password: "{{ mysql_root_password }}"
+        login_user: root
+      when: user_check.stdout == ""
+      register: mysql_user
+
+    - name: Display username and password
+      debug:
+        msg: "User '{{ db_item.user }}' created with password '{{ mysql_user}}'."
+      when: user_check.stdout == ""

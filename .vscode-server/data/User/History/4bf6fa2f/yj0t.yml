@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  become: yes
+  gather_facts: no
+  tasks:
+    - name: Fetch MySQL user password
+      shell: |
+        mysql -u root -p'your_root_password' -e "SELECT password FROM mysql.user WHERE user='user1';" --skip-column-names
+      register: mysql_password_output
+      ignore_errors: yes
+      changed_when: false
+
+    - debug:
+        msg: "MySQL user1 password is {{ mysql_password_output.stdout_lines }}"
+      when: mysql_password_output.rc == 0

@@ -163,3 +163,56 @@ clear
 ansible-playbook Github.yml --ask-vault-pass
 cd ~
 ansible-playbook Github.yml --ask-vault-pass
+sudo service mysql restart
+sudo mysql -u root 
+ansible-playbook mysql_setup/sql_setup.yml --ask-become-pass
+ansible-playbook mysql_setup/sql_setup.yml --ask-become-pass -e "db_name:'DBtest' db_user:'usertest'"
+ansible-playbook mysql_setup/tests.yml --ask-become-pass
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+sudo mysql -u root 
+ansible-playbook mysql_setup/tests.yml --ask-become-pass
+sudo mysql -u root 
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+ansible-playbook mysql_setup/tests.yml --ask-become-pass
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+ansible-playbook Github.yml --ask-vault-pass
+sudo mysql -u root 
+sudo mysql -u User1 
+sudo mysql -u User1 -p
+sudo mysql -u User1 -p Uc933QOw
+sudo mysql -u root 
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+ansible-playbook mysql_setup/test.yml --ask-become-pass
+sudo mysql -u root 
+ansible-playbook mysql_setup/test.yml --ask-become-pass
+sudo service restart mysql
+sudo service mysql restart
+ansible-playbook mysql_setup/test.yml --ask-become-pass
+sudo mysql -u root -p
+ansible-playbook mysql_setup/test.yml --ask-become-pass
+sudo mysql -u User1 -p
+ansible-playbook mysql_setup/test.yml --ask-become-pass
+sudo mysql -u root -p
+ansible-playbook mysql_setup/test.yml --ask-become-pass
+sudo mysql -u Test -p
+g": "Generated password: DQrzK0rf"
+sudo mysql -u Test -p
+g": "Generated password: DQrzK0rf"
+sudo mysql -u root -p
+sudo mysql -u Test -p
+ansible-playbook mysql_setup/test.yml --ask-become-pass
+sudo mysql -u Test -p
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+sudo mysql -u root -p
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+sudo mysql -u root -p
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+sudo mysql -u root -p
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+sudo mysql -u root -p
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+ansible-playbook --version
+sudo mysql -u root 
+ansible-playbook mysql_setup/sql_loop.yml --ask-become-pass
+sudo mysql -u root 
+exit

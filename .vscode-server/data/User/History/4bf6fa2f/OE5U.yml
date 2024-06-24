@@ -1,0 +1,17 @@
+---
+- name: Retrieve MySQL user password
+  hosts: localhost
+  gather_facts: no
+  vars_prompt:
+    - name: mysql_root_password
+      prompt: "Enter MySQL root password"
+      private: yes
+  tasks:
+    - name: Check if user already exists
+  shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT User FROM mysql.user WHERE User = \"{{ db_item.user }}\";'"
+  register: user_check
+  ignore_errors: yes
+
+- name: Display message if user already exists
+  debug:
+    msg: "{{ user_check }}"

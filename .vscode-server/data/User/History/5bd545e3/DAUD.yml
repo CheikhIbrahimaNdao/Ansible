@@ -1,0 +1,68 @@
+# create database and user
+
+- name: Check if database exists
+  shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ db_item.name }}\";'"
+  register: db_check
+  ignore_errors: yes
+
+- name: Display message if database already exists
+  debug:
+    msg: "Database '{{ db_item.name }}' already exists."
+  when: db_check.stdout != ""
+
+- name: Create a database
+  mysql_db:
+    name: "{{ db_item.name }}"
+    state: present
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    login_password: "{{ mysql_root_password }}"
+    login_user: root
+  when: db_check.stdout == ""
+
+- name: Check if user already exists
+  shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT User FROM mysql.user WHERE User = \"{{ db_item.user }}\";'"
+  register: user_check
+  ignore_errors: yes
+
+- name: Display message if user already exists
+  debug:
+    msg: "User '{{ db_item.user }}' already exists."
+  when: user_check.stdout != ""
+
+- name: Generate a random password
+  set_fact:
+    db_user_password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+    
+- name: Display the generated password
+  debug:
+    msg: "Generated password: {{ db_user_password }}"
+  register: password
+
+- name: Create a user for the database with auto-generated password
+  mysql_user:
+    name: "{{ db_item.user }}"
+    password: "{{ db_user_password }}"
+    priv: "{{ db_item.name }}.*:ALL"
+    state: present
+    update_password: on_create
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    login_password: "{{ mysql_root_password }}"
+    login_user: root
+  when: user_check.stdout == ""
+
+- name: Create a user for the database 
+  mysql_user:
+    name: "{{ db_item.user }}"
+    password: "{{ db_user_password }}"
+    priv: "{{ db_item.name }}.*:ALL"
+    update_password: on_new_username
+    state: present
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    login_password: "{{ mysql_root_password }}"
+    login_user: root
+  when: user_check.stdout != ""
+
+- name: Display username and password
+  debug:
+    msg: "User '{{ db_item.user }}' created with password '{{ db_user_password }}'."
+  when: user_check.stdout == ""
