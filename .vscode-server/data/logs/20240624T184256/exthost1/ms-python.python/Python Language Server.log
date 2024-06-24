@@ -1,0 +1,25 @@
+2024-06-24 18:43:06.762 [info] (Client) Pylance async client (2024.6.1) started with python extension (2024.8.1)
+2024-06-24 18:43:07.516 [info] [Info  - 6:43:07 PM] (15909) Pylance language server 2024.6.1 (pyright version 1.1.364, commit 0618acc5) starting
+2024-06-24 18:43:07.516 [info] [Info  - 6:43:07 PM] (15909) Server root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-24 18:43:07.534 [info] [Info  - 6:43:07 PM] (15909) Starting service instance "ndao"
+2024-06-24 18:43:07.616 [info] Auto-Indent enabled
+2024-06-24 18:43:07.642 [info] Auto-Indent enabled
+2024-06-24 18:43:07.645 [info] [Info  - 6:43:07 PM] (15909) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-24 18:43:07.645 [info] [Info  - 6:43:07 PM] (15909) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-24 18:43:07.684 [info] [Info  - 6:43:07 PM] (15909) Assuming Python version 3.8.10.final.0
+2024-06-24 18:43:07.990 [info] [Info  - 6:43:07 PM] (15909) No source files found.
+2024-06-24 18:43:07.997 [info] Auto-Indent enabled
+2024-06-24 18:43:08.348 [info] [Info  - 6:43:08 PM] (15909) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-24 18:43:08.352 [info] [Info  - 6:43:08 PM] (15909) Background analysis(1) started
+2024-06-24 18:45:28.580 [info] Auto-Indent enabled
+2024-06-24 18:45:28.588 [info] [Info  - 6:45:28 PM] (15909) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-24 18:45:28.592 [info] [Info  - 6:45:28 PM] (15909) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-24 18:45:28.599 [info] [Info  - 6:45:28 PM] (15909) Assuming Python version 3.8.10.final.0
+2024-06-24 18:45:28.876 [info] [Info  - 6:45:28 PM] (15909) No source files found.
+2024-06-24 18:45:28.878 [info] Auto-Indent enabled
+2024-06-24 18:45:30.933 [info] Auto-Indent enabled
+2024-06-24 18:45:30.942 [info] [Info  - 6:45:30 PM] (15909) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-24 18:45:30.946 [info] [Info  - 6:45:30 PM] (15909) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-24 18:45:31.011 [info] [Info  - 6:45:31 PM] (15909) Assuming Python version 3.8.10.final.0
+2024-06-24 18:45:31.385 [info] [Info  - 6:45:31 PM] (15909) No source files found.
+2024-06-24 18:45:31.387 [info] Auto-Indent enabled

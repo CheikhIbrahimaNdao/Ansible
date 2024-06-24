@@ -1,4 +1,4 @@
-# Create databases and users
+# create database and user
 
 - name: Check if database exists
   shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ db_item.name }}\";'"
