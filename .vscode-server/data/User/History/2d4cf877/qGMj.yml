@@ -3,7 +3,7 @@
   hosts: localhost
   become: yes
   vars_files:
-    - /home/ndao/credentials.yaml
+    - credentials.yaml
   tasks:
     - name: Vérification de l'existence de la base de données
       shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ db_item.name }}\";'"
