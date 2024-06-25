@@ -7,3 +7,5 @@
 2024-06-25 08:11:12.207 [info] [127.0.0.1][1541eb89][ManagementConnection] New connection established.
 2024-06-25 08:11:12.646 [info] [127.0.0.1][b6979cf6][ExtensionHostConnection] New connection established.
 2024-06-25 08:11:12.668 [info] [127.0.0.1][b6979cf6][ExtensionHostConnection] <148> Launched Extension Host Process.
+2024-06-25 14:00:39.848 [info] [127.0.0.1][1541eb89][ManagementConnection] The client has reconnected.
+2024-06-25 14:00:40.176 [info] [127.0.0.1][b6979cf6][ExtensionHostConnection] The client has reconnected.
