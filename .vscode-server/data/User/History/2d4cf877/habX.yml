@@ -2,6 +2,8 @@
 - name: Créer une base de données MySQL et un utilisateur
   hosts: localhost
   become: yes
+  vars_files:
+    - /home/ndao/mysql_setup/vars/mysql_vars.yml
   vars_prompt:
     name: mysql_root_password
     prompt: "Mot de passe Root"
@@ -34,12 +36,12 @@
       mail:
         host: webmail.orange-sonatel.com
         port: 25
-        to: "mamadou.diouf6@orange-sonatel.com"
+        to: "cheikh1530@yahoo.fr"
         from: "cheikhibrahimandao@orange-sonatel.com"
         subject: "Détails de la base de données et de l'utilisateur MySQL créés"
         body: |
           Database created:{{ db_name }}
-          User created: {{ db_user }}
-          User password: {{ db_user_password }}
+          user created: {{ db_user }}
+          user password: {{ db_user_password }}
 
     

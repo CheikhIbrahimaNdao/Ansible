@@ -226,3 +226,10 @@ sudo apt upgrade
 ansible-playbook --version
 sudo apt update ansible
 sudo apt update
+ansible-playbook Github.yml --ask-vault-pass
+git push origin main
+git push origin 
+git push origin master
+git pull
+ansible-playbook Github.yml --ask-vault-pass
+exit

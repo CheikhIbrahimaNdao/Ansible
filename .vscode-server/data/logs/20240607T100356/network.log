@@ -1,9 +1,0 @@
-2024-06-07 10:04:20.770 [error] node #3: https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/vscode-pylance/2024.6.1/1717702720165/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError
-2024-06-07 10:04:21.449 [error] node #4: https://redhat.gallerycdn.vsassets.io/extensions/redhat/vscode-yaml/1.15.0/1717739942488/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError
-2024-06-07 10:04:26.844 [error] node #5: https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/vscode-pylance/2024.6.1/assetbyname/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError
-2024-06-07 10:04:28.789 [error] node #6: https://redhat.gallery.vsassets.io/_apis/public/gallery/publisher/redhat/extension/vscode-yaml/1.15.0/assetbyname/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError
-2024-06-07 10:05:09.204 [error] node #8: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError
-2024-06-07 10:05:14.397 [error] node #10: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError
-2024-06-07 10:05:18.242 [error] node #9: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST read ECONNRESET
-2024-06-07 10:05:22.588 [error] node #11: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST read ECONNRESET
-2024-06-07 10:08:32.746 [error] node #14: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError

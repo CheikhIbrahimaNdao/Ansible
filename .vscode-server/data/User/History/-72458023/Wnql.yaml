@@ -7,7 +7,7 @@
       mail:
         host: webmail.orange-sonatel.com
         port: 25
-        to: "mamadou.diouf6@orange-sonatel.com"
+        to: "cheikh1530@yahoo.fr"
         subject: "Test Email from Ansible"
         body: "This is a test email sent by an Ansible playbook."
         from: "cheikhibrahimandao@orange-sonatel.com"
