@@ -51,11 +51,6 @@
         login_user: root
       when: user_check.stdout == ""
 
-    - name: Display username and password
-      debug:
-        msg: "User '{{ db_user }}' created with password '{{ db_user_password }}'."
-      when: user_check.stdout == ""
-
     - name: Envoyer un email avec les détails de la base de données et de l'utilisateur créés
       mail:
         host: webmail.orange-sonatel.com

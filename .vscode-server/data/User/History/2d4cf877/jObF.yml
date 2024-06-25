@@ -51,11 +51,6 @@
         login_user: root
       when: user_check.stdout == ""
 
-    - name: Display username and password
-      debug:
-        msg: "User '{{ db_user }}' created with password '{{ db_user_password }}'."
-      when: user_check.stdout == ""
-
     - name: Envoyer un email avec les détails de la base de données et de l'utilisateur créés
       mail:
         host: webmail.orange-sonatel.com
@@ -63,6 +58,7 @@
         to: "{{ email_demandeur }}"
         cc:
         - "CheikhIbrahima.NDAO@orange-sonatel.com"
+        - "Admin_dba@orange-sonatel.com"
         from: "CheikhIbrahima.NDAO@orange-sonatel.com"
         subject: "Détails de la base de données et de l'utilisateur MySQL créés"
         body: |
