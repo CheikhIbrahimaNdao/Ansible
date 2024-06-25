@@ -7,7 +7,7 @@
       include_vars: mysql_setup/vars/credentials.yaml
   
     - name: Vérification de l'existence de la base de données
-      shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ db_name }}\";'"
+      shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ db_item.name }}\";'"
       register: db_check
       ignore_errors: yes
 
