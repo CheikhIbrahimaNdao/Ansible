@@ -2,9 +2,9 @@
 - name: Créer une base de données MySQL et un utilisateur
   hosts: localhost
   become: yes
+  vars_files:
+    - credentials.yaml
   tasks:
-    - name: Include encrypted credentials
-      include_vars: credentials.yaml
     - name: Vérification de l'existence de la base de données
       shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ db_item.name }}\";'"
       register: db_check
