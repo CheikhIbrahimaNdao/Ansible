@@ -5,7 +5,7 @@
   tasks:
     - name: Include encrypted credentials
       include_vars: 
-        file: "home/ndao/credentials.yaml"
+        file: "/path/to/remote/credentials.yaml"
         name: credentials
         remote_src: yes
 
