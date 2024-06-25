@@ -4,8 +4,8 @@
   become: yes
   tasks:
     - name: Include encrypted credentials
-      include_vars: credentials.yaml
-  
+      include_vars: home/ndao/credentials.yaml
+        
     - name: Vérification de l'existence de la base de données
       shell: "mysql -uroot -p{{ mysql_root_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ db_item.name }}\";'"
       register: db_check
