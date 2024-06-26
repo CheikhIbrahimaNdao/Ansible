@@ -233,3 +233,82 @@ git push origin master
 git pull
 ansible-playbook Github.yml --ask-vault-pass
 exit
+sudo mysql -u root 
+sudo service mysql restart
+sudo mysql -u root 
+ansible-playbook email.yml
+ansible-playbook email.yaml
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass -e "db_name=Cheikh db_user=UTE" 
+sudo mysql -u root 
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass -e "db_name=Cheikh db_user=UTE" 
+ansible-playbook Github.yml --ask-vault-pass
+sudo mysql -u root 
+ansible-vault encrypt_string 'gtsr2035' --name 'Become_password' >> credentials.yaml
+ansible-vault encrypt_string 'passer' --name 'mysql_root_password' >> credentials.yaml
+ansible-playbook Github.yml --ask-vault-pass
+ls
+ansible-playbook Github.yml --ask-vault-pass
+chmod 644 /path/to/credentials.yaml
+chmod 644 credentials.yaml
+ls -d credentials.yaml
+ls -l credentials.yaml
+ls -l 
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass 
+ansible-playbook mysql_setup/mysql_setup.yml --ask-vault-pass 
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass --ask-vault-pass 
+ansible-playbook Github.yml --ask-vault-pass
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass --ask-vault-pass 
+ansible-playbook Github.yml --ask-vault-pass
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass --ask-vault-pass 
+ansible-playbook Github.yml --ask-vault-pass
+ansible localhost -m setup -a 'filter=ansible_python_version'
+ansible-playbook Github.yml --ask-vault-pass
+ansible-inventory --list
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass --ask-vault-pass -e "email_demandeur=mamadou.diouf6@orange-sonatel.com db_name=DBA db_user=Udba" 
+ansible-playbook Github.yml --ask-vault-pass
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass --ask-vault-pass -e "email_demandeur=mamadou.diouf6@orange-sonatel.com db_name=DBA db_user=Udba" 
+sudo mysql -u root
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass --ask-vault-pass -e "email_demandeur=mamadou.diouf6@orange-sonatel.com db_name=DBA db_user=Udba" 
+sudo mysql -u root
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass --ask-vault-pass -e "email_demandeur=mamadou.diouf6@orange-sonatel.com db_name=DBA db_user=Udba" 
+ansible-vault encrypt_string 'STgNda0snt@224' --name 'wdb_password' >> credentials.yaml
+ls
+pwd
+mkdir DB_Provisionning
+cp * DB_Provisionning/
+cp -r * DB_Provisionning/
+cp G* DB_Provisionning/
+cp c* DB_Provisionning/
+cp e* DB_Provisionning/
+cp f* DB_Provisionning/
+cp mysql_setup DB_Provisionning/
+cp -r mysql_setup DB_Provisionning/
+ll DB_Provisionning/
+cd DB_Provisionning/
+git init
+git add --all
+git commit -m "Initial Commit"
+git remote add origin http://git.tools.orange-sonatel.com/scm/ad/db_provisioning.git
+git init
+git add --all
+git commit -m "Initial Commit"
+ansible-playbook Github.yml --ask-vault-pass
+git push --set-upstream origin main
+git push --set-upstream origin master
+cd ~
+ansible-playbook Github.yml --ask-vault-pass
+cp * DB_Provisionning/
+cp -r * DB_Provisionning/
+ls
+cd DB_Provisionning/
+ls
+cd DB_Provisionning/
+ls
+cd DB_Provisionning/
+ls
+cd .
+cd 
+cd DB_Provisionning/
+rm -r DB_Provisionning
+ls

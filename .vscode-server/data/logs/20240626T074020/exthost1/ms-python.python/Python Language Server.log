@@ -1,0 +1,25 @@
+2024-06-26 07:40:27.437 [info] (Client) Pylance async client (2024.6.1) started with python extension (2024.8.1)
+2024-06-26 07:40:27.990 [info] [Info  - 7:40:27 AM] (388) Pylance language server 2024.6.1 (pyright version 1.1.364, commit 0618acc5) starting
+2024-06-26 07:40:27.990 [info] [Info  - 7:40:27 AM] (388) Server root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-26 07:40:28.006 [info] [Info  - 7:40:28 AM] (388) Starting service instance "ndao"
+2024-06-26 07:40:28.040 [info] Auto-Indent enabled
+2024-06-26 07:40:28.059 [info] Auto-Indent enabled
+2024-06-26 07:40:28.061 [info] [Info  - 7:40:28 AM] (388) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-26 07:40:28.061 [info] [Info  - 7:40:28 AM] (388) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-26 07:40:28.098 [info] [Info  - 7:40:28 AM] (388) Assuming Python version 3.8.10.final.0
+2024-06-26 07:40:28.483 [info] [Info  - 7:40:28 AM] (388) No source files found.
+2024-06-26 07:40:28.499 [info] Auto-Indent enabled
+2024-06-26 07:40:28.824 [info] [Info  - 7:40:28 AM] (388) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-26 07:40:28.824 [info] [Info  - 7:40:28 AM] (388) Background analysis(1) started
+2024-06-26 08:35:21.254 [info] Auto-Indent enabled
+2024-06-26 08:35:21.255 [info] [Info  - 8:35:21 AM] (388) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-26 08:35:21.255 [info] [Info  - 8:35:21 AM] (388) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-26 08:35:21.523 [info] [Info  - 8:35:21 AM] (388) Assuming Python version 3.8.10.final.0
+2024-06-26 08:35:21.840 [info] [Info  - 8:35:21 AM] (388) No source files found.
+2024-06-26 08:35:21.854 [info] Auto-Indent enabled
+2024-06-26 08:35:22.613 [info] Auto-Indent enabled
+2024-06-26 08:35:22.614 [info] [Info  - 8:35:22 AM] (388) Setting pythonPath for service "ndao": "/bin/python3"
+2024-06-26 08:35:22.614 [info] [Info  - 8:35:22 AM] (388) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-06-26 08:35:22.736 [info] [Info  - 8:35:22 AM] (388) Assuming Python version 3.8.10.final.0
+2024-06-26 08:35:23.254 [info] [Info  - 8:35:23 AM] (388) No source files found.
+2024-06-26 08:35:23.255 [info] Auto-Indent enabled

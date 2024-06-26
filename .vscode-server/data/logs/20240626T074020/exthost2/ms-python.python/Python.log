@@ -1,0 +1,51 @@
+2024-06-26 07:41:05.337 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-26 07:41:05.337 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-26 07:41:05.337 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-26 07:41:05.337 [info] Experiment 'pythonTestAdapter' is active
+2024-06-26 07:41:05.337 [info] Default formatter is set to null for workspace /home/ndao/DB_Provisionning
+2024-06-26 07:41:05.337 [info] Starting Environment refresh
+2024-06-26 07:41:05.337 [info] > hatch env show --json
+2024-06-26 07:41:05.337 [info] cwd: .
+2024-06-26 07:41:05.424 [info] Starting Environment refresh
+2024-06-26 07:41:05.707 [info] > C:\Users\Admin\AppData\Local\Programs\Python\Python312\python.exe -I ~/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-06-26 07:41:05.708 [info] Environments refresh paths discovered: 906 milliseconds
+2024-06-26 07:41:05.733 [info] Environments refresh paths discovered: 309 milliseconds
+2024-06-26 07:41:05.879 [error] [Error: Command failed: C:\Users\Admin\AppData\Local\Programs\Python\Python312\python.exe -I /home/ndao/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /home/ndao/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+/bin/sh: 1: C:UsersAdminAppDataLocalProgramsPythonPython312python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:337:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -I /home/ndao/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /home/ndao/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py'
+}
+2024-06-26 07:41:07.885 [info] > C:\Users\Admin\AppData\Local\Programs\Python\Python312\python.exe -I ~/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-06-26 07:41:07.942 [error] [Error: Command failed: C:\Users\Admin\AppData\Local\Programs\Python\Python312\python.exe -I /home/ndao/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /home/ndao/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+/bin/sh: 1: C:UsersAdminAppDataLocalProgramsPythonPython312python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:305:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -I /home/ndao/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /home/ndao/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py'
+}
+2024-06-26 07:41:07.943 [info] Environments refresh finished (event): 3141 milliseconds
+2024-06-26 07:41:07.944 [info] Environments refresh finished (event): 2519 milliseconds
+2024-06-26 07:41:07.949 [info] Environment refresh took 3149 milliseconds
+2024-06-26 07:41:07.951 [info] Environment refresh took 2526 milliseconds
+2024-06-26 07:41:07.959 [info] > pyenv which python
+2024-06-26 07:41:07.959 [info] cwd: .
+2024-06-26 07:41:08.011 [info] Python interpreter path: /bin/python3
+2024-06-26 07:41:10.334 [info] Starting Pylance language server.
+2024-06-26 08:35:21.001 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-06-26 08:35:22.398 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-06-26 08:36:00.833 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-06-26 08:36:01.167 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
