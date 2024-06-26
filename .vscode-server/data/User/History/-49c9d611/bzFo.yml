@@ -1,0 +1,31 @@
+---
+- name: Backup Databases
+  hosts: localhost
+  become: yes
+  vars_files:
+    - /home/ndao/mysql_setup/vars/mysql_vars.yml
+  vars:
+    root: "stg_ndao75268"
+    ip: "10.137.21.115"
+    port: "6446"
+  tasks:
+    - name: Include encrypted credentials
+      include_vars: vars/credentials.yaml
+
+    - name: Ensure backup directory exists
+      file:
+        path: "{{ backup_dir }}"
+        state: directory
+
+    - name: Backup MySQL databases
+      mysql_db:
+        state: dump
+        name: "{{ item.name }}"
+        target: "{{ backup_dir }}/{{ item.name }}.sql"
+        login_password: "{{ gdb_password }}"
+        login_user: "{{ root }}"
+        login_host: "{{ ip }}"
+        login_port: "{{ port }}"
+      loop: "{{ databases }}"
+      loop_control:
+        loop_var: item

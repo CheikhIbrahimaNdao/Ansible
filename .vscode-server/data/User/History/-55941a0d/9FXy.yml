@@ -1,0 +1,36 @@
+---
+- name: Cloner une base de données MySQL
+  hosts: localhost
+  become: yes
+  vars_files:
+    - /home/ndao/mysql_setup/vars/mysql_vars.yml
+  vars:
+    root: "stg_ndao75268"
+    ip: "10.137.21.115"
+    port: "6446"
+  tasks:
+    - name: Include encrypted credentials
+      include_vars: vars/credentials.yaml
+      
+    - name: Dump de la base de données source
+      shell: mysql -u{{root}} -h{{ ip }} -P{{ port }} -p{{ gdb_password }} {{ source_db }} > /tmp/{{ source_db }}.sql
+      args:
+        executable: /bin/bash
+
+    - name: Créer la base de données cible
+      mysql_db:
+        name: "{{ target_db }}"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        login_password: "{{ mysql_root_password }}"
+        login_user: root
+
+    - name: Importer le dump dans la base de données cible
+      shell: mysql -u{{root}} -h{{ ip }} -P{{ port }} -p{{ gdb_password }} {{ target_db }} < /tmp/{{ source_db }}.sql
+      args:
+        executable: /bin/bash
+
+    - name: Supprimer le fichier dump temporaire
+      file:
+        path: /tmp/{{ source_db }}.sql
+        state: absent
