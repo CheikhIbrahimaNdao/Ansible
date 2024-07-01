@@ -1,0 +1,24 @@
+2024-07-01 08:52:22.590 [info] Log level: Info
+2024-07-01 08:52:22.590 [info] Validating found git in: "git"
+2024-07-01 08:52:22.591 [info] Using git "2.25.1" from "git"
+2024-07-01 08:52:22.591 [info] > git rev-parse --show-toplevel [403ms]
+2024-07-01 08:52:22.591 [info] > git rev-parse --git-dir --git-common-dir [105ms]
+2024-07-01 08:52:22.591 [info] Open repository: /home/ndao/DB_Provisionning
+2024-07-01 08:52:22.665 [info] > git config --get commit.template [977ms]
+2024-07-01 08:52:22.666 [info] > git rev-parse --show-toplevel [974ms]
+2024-07-01 08:52:22.739 [info] > git rev-parse --show-toplevel [25ms]
+2024-07-01 08:52:22.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [33ms]
+2024-07-01 08:52:22.882 [info] > git status -z -uall [55ms]
+2024-07-01 08:52:22.931 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [23ms]
+2024-07-01 08:52:22.946 [info] > git check-ignore -v -z --stdin [4ms]
+2024-07-01 08:52:22.947 [info] > git rev-list --count --left-right refs/heads/dev...refs/remotes/origin/dev [11ms]
+2024-07-01 08:52:22.952 [info] > git config --get commit.template [26ms]
+2024-07-01 08:52:22.961 [info] > git diff --name-status -z --diff-filter=ADMR 7e729e64e1b1353dc8fe2784834f94e6285aa2c2...refs/remotes/origin/dev [10ms]
+2024-07-01 08:52:22.979 [info] > git show --textconv :mysql_setup/sql_setup.yml [7ms]
+2024-07-01 08:52:22.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [14ms]
+2024-07-01 08:52:22.994 [info] > git ls-files --stage -- /home/ndao/DB_Provisionning/mysql_setup/sql_setup.yml [18ms]
+2024-07-01 08:52:23.008 [info] > git cat-file -s fbd988b993fdbb08454a65832f1033efbd239959 [11ms]
+2024-07-01 08:52:23.144 [info] > git status -z -uall [131ms]
+2024-07-01 09:01:20.364 [info] > git config --get commit.template [15ms]
+2024-07-01 09:01:20.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [6ms]
+2024-07-01 09:01:20.387 [info] > git status -z -uall [6ms]

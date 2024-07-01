@@ -1,0 +1,71 @@
+# Create databases and users
+
+- name: Check if database exists
+  shell: "mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ db_item.dba_name_db }}\";'"
+  register: db_check
+  ignore_errors: yes
+
+- name: Display message if database already exists
+  debug:
+    msg: "Database '{{ db_item.dba_name_db }}' already exists."
+  when: db_check.stdout != ""
+
+- name: Create a database
+  mysql_db:
+    name: "{{ db_item.dba_name_db }}"
+    state: present
+    login_password: "{{ gdb_password }}"
+    login_user: "{{ db_user }}"
+    login_host: "{{ db_ip }}"
+    login_port: "{{ db_port }}"
+  when: db_check.stdout == ""
+
+- name: Check if user already exists
+  shell: "mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e 'SELECT User FROM mysql.user WHERE User = \"{{ db_item.dba_user_db }}\";'"
+  register: user_check
+  ignore_errors: yes
+
+- name: Display message if user already exists
+  debug:
+    msg: "User '{{ db_item.dba_user_db }}' already exists."
+  when: user_check.stdout != ""
+
+- name: Generate a random password
+  set_fact:
+    db_user_password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+    
+- name: Create a user for the database with auto-generated password
+  mysql_user:
+    name: "{{ db_item.dba_user_db }}"
+    password: "{{ db_user_password }}"
+    priv: "{{ db_item.dba_name_db }}.*:ALL"
+    state: present
+    update_password: on_create
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    login_password: "{{ mysql_root_password }}"
+    login_user: root
+  when: user_check.stdout == ""
+
+- name: Grant privileges to MySQL user if user exists
+  shell: |
+    mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e \
+    'GRANT USAGE ON {{ db_item.dba_name_db }}.* TO "{{ db_item.dba_user_db }}"@"localhost"; \
+    GRANT ALL PRIVILEGES ON {{ db_item.dba_name_db }}.* TO "{{ db_item.dba_user_db }}"@"localhost";'
+  when: user_check.stdout != ""  
+
+- name: Display username and password
+  debug:
+    msg: "User '{{ db_item.dba_user_db }}' created with password '{{ db_user_password }}'."
+  when: user_check.stdout == ""
+
+- name: Envoyer un email avec les détails de la base de données et de l'utilisateur créés
+  mail:
+    host: " webmail.orange-sonatel.com "
+    port: 25
+    to: "cheikh1530@yahoo.fr"
+    from: "cheikhibrahimandao@orange-sonatel.com"
+    subject: "Détails de la base de données et de l'utilisateur MySQL créés"
+    body: |
+      Database created:{{ db_item.dba_name_db }}
+      user created: {{ db_item.dba_user_db }}
+      user password: {{ db_user_password }}

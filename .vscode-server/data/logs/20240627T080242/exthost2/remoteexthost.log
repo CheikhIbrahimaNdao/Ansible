@@ -1,0 +1,10 @@
+2024-06-27 08:03:18.139 [info] Extension host with pid 448 started
+2024-06-27 08:03:18.216 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-27 08:03:18.301 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-27 08:03:18.302 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-27 08:03:19.236 [info] Eager extensions activated
+2024-06-27 08:03:19.237 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-27 08:03:19.237 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-27 08:03:19.238 [info] ExtensionService#_doActivateExtension Bito.Bito, startup: false, activationEvent: 'onStartupFinished'
+2024-06-27 08:03:24.397 [info] Extension host terminating: received terminate message from renderer
+2024-06-27 08:03:24.442 [info] Extension host with pid 448 exiting with code 0

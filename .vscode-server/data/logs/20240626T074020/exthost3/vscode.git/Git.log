@@ -50,3 +50,6 @@
 2024-06-26 17:53:26.677 [info] > git show --textconv :mysql_setup/mysql_setup.yml [21ms]
 2024-06-26 17:53:26.687 [info] > git ls-files --stage -- /home/ndao/mysql_setup/mysql_setup.yml [23ms]
 2024-06-26 17:53:26.702 [info] > git cat-file -s 23a894eae0299e250a8752ebd994ab7d1186b491 [5ms]
+2024-06-26 17:54:05.985 [info] > git ls-files --stage -- /home/ndao/mysql_setup/mysql_setup.yml [9ms]
+2024-06-26 17:54:05.994 [info] > git cat-file -s 23a894eae0299e250a8752ebd994ab7d1186b491 [2ms]
+2024-06-26 17:54:06.015 [info] > git show --textconv :mysql_setup/mysql_setup.yml [9ms]

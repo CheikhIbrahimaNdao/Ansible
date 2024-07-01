@@ -312,3 +312,167 @@ cd
 cd DB_Provisionning/
 rm -r DB_Provisionning
 ls
+cd DB_Provisionning/
+code .
+git init
+git add --all
+git commit -m "Initial Commit"
+git remote add origin http://git.tools.orange-sonatel.com/scm/~stg_ndao75268/ansible.git
+git push -u origin master
+git config --global user.name "Ibrahima NDAO [stg_ndao75268 DSI/DAC/IF/DBA]"
+git config --global user.email "CheikhIbrahima.NDAO@orange-sonatel.com"
+git push -u origin master
+ansible-playbook Github.yml --ask-vault-pass
+git status
+ls
+ansible-playbook Github.yml --ask-vault-pass
+ansible-vault encrypt_string 'STgNda0snt@224' --name 'wdb_password' > credentials.yaml
+ansible-playbook Github.yml --ask-vault-pass
+ansible-vault encrypt_string 'STgNda0snt@224' --name 'wdb_password' > mysql_setup/vars/credentials.yaml
+ansible-playbook Github.yml --ask-vault-pass
+git push --set-upstream origin main
+git pull
+cd 
+ansible-playbook Github.yml --ask-vault-pass
+cd DB_Provisionning/
+ansible-playbook Github.yml --ask-vault-pass
+git remote set-url origin http://git.tools.orange-sonatel.com/scm/~stg_ndao75268/ansible.git
+ansible-playbook Github.yml --ask-vault-pass
+git push --set-upstream origin master --force
+git push --set-upstream origin main --force
+git push --set-upstream origin maaster --force
+git status
+git branch
+ansible-playbook Github.yml --ask-vault-pass
+git push --set-upstream origin master --force
+ansible-playbook Github.yml --ask-vault-pass
+ansible-vault encrypt_string 'redbullX2014.' --name 'wdb_password' > mysql_setup/vars/credentials.yaml
+ansible-playbook Github.yml --ask-vault-pass
+git status
+ansible-playbook Github.yml --ask-vault-pass
+ansible-vault encrypt_string 'STgNda0snt@224' --name 'gdb_password' >> mysql_setup/vars/credentials.yaml
+ansible-playbook mysql_setup/mysql_setup.yml --ask-become-pass --ask-vault-pass
+ansible dbservers -i inventory -m ping
+ls
+cd mysql_setup/
+ansible dbservers -i inventory -m ping
+ansible dbservers -i inventory -m pingansible -i hosts myhost -m ping
+ansible -i hosts myhost -m ping
+ansible -i hosts Test -m ping
+ansible -i hosts dbservers -m ping
+ansible -i hosts Test -m ping
+ansible -i hosts mysql -m ping
+ansible dbservers -i inventory -m ping
+ls
+cd vars/
+ls
+ls -d
+ls -l
+cd ..
+cd vars/
+ansible -i /home/ndao/DB_Provisionning/mysql_setup/inventory dbservers -m ping
+ansible -i /home/ndao/DB_Provisionning/mysql_setup/inventory dbservers -m ping -vvv
+ansible -i /home/ndao/DB_Provisionning/mysql_setup/vars/inventory dbservers -m ping -vvv
+ls -l /home/ndao/DB_Provisionning/mysql_setup/vars/inventory
+ls
+ls -l /home/ndao/DB_Provisionning/mysql_setup/vars/inventory.ini
+ansible -i /home/ndao/DB_Provisionning/mysql_setup/vars/inventory.ini dbservers -m ping -vvv
+cd ..
+ansible -i vars/inventory.ini dbservers -m ping -vvv
+ansible -i mysql_setup/vars/inventory.ini dbservers -m ping -vvv
+sudo ufw disable
+ansible -i mysql_setup/vars/inventory.ini dbservers -m ping -vvv
+sudo systemctl stop ufw
+sudo systemctl start ufw
+sudo ufw enable
+systemctl -h
+sudo systemctl -f start ufw
+ansible -i mysql_setup/vars/inventory.ini dbservers -m ping -vvv
+ping  10.137.21.115
+ifconfig
+ip a
+iptables -L
+sudo -i
+ansible -i mysql_setup/vars/inventory.ini dbservers -m ping -vvv
+ansible -i mysql_setup/vars/inventory.ini dbservers -m ping -vvv --ask-become-pass
+iptables -L
+sudo iptables -L
+sudo ufw disable
+ansible -i mysql_setup/vars/inventory.ini dbservers -m ping -vvv
+ping 10.137.21.115
+ansible -i mysql_setup/vars/inventory.ini dbservers -m ping -vvv
+ansible-playbook Github.yml --ask-vault-pass
+telnet
+telnet 10.137.21.115 22
+telnet 10.137.21.115 6446
+ansible-playbook Github.yml --ask-vault-pass
+git init
+git add --all
+git commit -m "Initial Commit"
+git remote add origin http://git.tools.orange-sonatel.com/scm/ad/db_provisioning.git
+git push -u origin master
+git remote add origin http://git.tools.orange-sonatel.com/scm/ad/db_provisioning.git
+git remote set-url origin http://git.tools.orange-sonatel.com/scm/ad/db_provisioning.git
+git push -u origin master
+ansible-playbook Github.yml --ask-vault-pass
+pip install PyMySQL
+git pull --all
+git status
+ansible-playbook Github.yml --ask-vault-pass
+git branch
+git checkout -b dev
+git branch
+git push -u origin nom-de-votre-branche
+git push -u origin dev
+cd
+code .
+ansible-playbook Github.yml --ask-vault-pass
+ls
+cd DB_Provisionning/
+sudo mysql service mysql restart
+code .
+sudo service mysql restart
+git branch 
+git pull --all
+git checkout -b master
+git status
+git branch 
+git checkout master
+git status
+git pull --all
+git checkout dev
+git status
+ansible-playbook Github.yml --ask-vault-pass
+git checkout master
+git pull --all
+git branch 
+git checkout dev
+git checkout master
+git pull --all
+git status
+git branch 
+git status
+git pull --all
+git branch 
+git pull --all
+git status
+git pull --all
+git branch 
+git checkout dev
+git checkout master
+git checkout dev
+git checkout master
+git push origin dev
+git pull --all
+git push origin master:dev
+git checkout dev
+git pull --all
+git checkout master
+git checkout dev
+git status
+ansible-playbook Github.yml --ask-vault-pass
+git checkout master
+git checkout dev
+git status
+ansible-playbook Github.yml --ask-vault-pass
+exit

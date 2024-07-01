@@ -1,0 +1,21 @@
+2024-06-27 08:02:50.579 [info] Log level: Info
+2024-06-27 08:02:50.579 [info] Validating found git in: "git"
+2024-06-27 08:02:50.579 [info] Using git "2.25.1" from "git"
+2024-06-27 08:02:50.579 [info] > git rev-parse --show-toplevel [94ms]
+2024-06-27 08:02:50.579 [info] > git rev-parse --git-dir --git-common-dir [47ms]
+2024-06-27 08:02:50.579 [info] Open repository: /home/ndao/DB_Provisionning
+2024-06-27 08:02:50.579 [info] > git rev-parse --show-toplevel [55ms]
+2024-06-27 08:02:50.579 [info] > git config --get commit.template [58ms]
+2024-06-27 08:02:50.609 [info] > git rev-parse --show-toplevel [26ms]
+2024-06-27 08:02:51.238 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [632ms]
+2024-06-27 08:02:51.375 [info] > git check-ignore -v -z --stdin [120ms]
+2024-06-27 08:02:51.702 [info] > git status -z -uall [302ms]
+2024-06-27 08:02:51.702 [info] > git show --textconv :mysql_setup/sql_backup.yml [270ms]
+2024-06-27 08:02:51.771 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [60ms]
+2024-06-27 08:02:51.777 [info] > git ls-files --stage -- /home/ndao/DB_Provisionning/mysql_setup/sql_backup.yml [342ms]
+2024-06-27 08:02:51.883 [info] > git cat-file -s e9598f1d1e38cef992cea26c5c8c6438a8cfffad [102ms]
+2024-06-27 08:02:51.884 [info] > git rev-list --count --left-right refs/heads/dev...refs/remotes/origin/dev [108ms]
+2024-06-27 08:02:51.887 [info] > git config --get commit.template [163ms]
+2024-06-27 08:02:51.909 [info] > git diff --name-status -z --diff-filter=ADMR 5a59ea289ea77e3e42725d3792b7f9b4f0181cd3...refs/remotes/origin/dev [22ms]
+2024-06-27 08:02:51.925 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [7ms]
+2024-06-27 08:02:52.061 [info] > git status -z -uall [6ms]
