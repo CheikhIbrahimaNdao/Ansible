@@ -11,3 +11,27 @@
 2024-07-03 07:25:59.823 [info] Auto-Indent enabled
 2024-07-03 07:26:00.058 [info] [Info  - 7:26:00 AM] (345) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
 2024-07-03 07:26:00.058 [info] [Info  - 7:26:00 AM] (345) Background analysis(1) started
+2024-07-03 08:22:22.874 [info] Auto-Indent enabled
+2024-07-03 08:22:22.875 [info] [Info  - 8:22:22 AM] (345) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-03 08:22:22.875 [info] [Info  - 8:22:22 AM] (345) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-03 08:22:22.897 [info] [Info  - 8:22:22 AM] (345) Assuming Python version 3.8.10.final.0
+2024-07-03 08:22:23.126 [info] [Info  - 8:22:23 AM] (345) No source files found.
+2024-07-03 08:22:23.128 [info] Auto-Indent enabled
+2024-07-03 08:22:25.364 [info] Auto-Indent enabled
+2024-07-03 08:22:25.366 [info] [Info  - 8:22:25 AM] (345) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-03 08:22:25.370 [info] [Info  - 8:22:25 AM] (345) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-03 08:22:25.389 [info] [Info  - 8:22:25 AM] (345) Assuming Python version 3.8.10.final.0
+2024-07-03 08:22:25.559 [info] [Info  - 8:22:25 AM] (345) No source files found.
+2024-07-03 08:22:25.560 [info] Auto-Indent enabled
+2024-07-03 08:22:26.651 [info] Auto-Indent enabled
+2024-07-03 08:22:26.652 [info] [Info  - 8:22:26 AM] (345) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-03 08:22:26.652 [info] [Info  - 8:22:26 AM] (345) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-03 08:22:26.695 [info] [Info  - 8:22:26 AM] (345) Assuming Python version 3.8.10.final.0
+2024-07-03 08:22:26.918 [info] [Info  - 8:22:26 AM] (345) No source files found.
+2024-07-03 08:22:26.919 [info] Auto-Indent enabled
+2024-07-03 08:22:27.130 [info] Auto-Indent enabled
+2024-07-03 08:22:27.132 [info] [Info  - 8:22:27 AM] (345) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-03 08:22:27.132 [info] [Info  - 8:22:27 AM] (345) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-03 08:22:27.160 [info] [Info  - 8:22:27 AM] (345) Assuming Python version 3.8.10.final.0
+2024-07-03 08:22:27.368 [info] [Info  - 8:22:27 AM] (345) No source files found.
+2024-07-03 08:22:27.370 [info] Auto-Indent enabled
