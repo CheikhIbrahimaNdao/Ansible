@@ -16,3 +16,4 @@
 2024-07-03 08:13:32.568 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
 2024-07-03 08:13:33.150 [warning] [Decorations] CAPPING events from decorations provider vscode.git 872
 2024-07-03 08:13:33.417 [warning] [Decorations] CAPPING events from decorations provider vscode.git 872
+2024-07-03 08:14:10.918 [warning] [Decorations] CAPPING events from decorations provider vscode.git 878
