@@ -476,3 +476,98 @@ git checkout dev
 git status
 ansible-playbook Github.yml --ask-vault-pass
 exit
+ansible-playbook Github.yml --ask-vault-pass
+git status
+git branch 
+cd DB_Provisionning/
+git branch 
+ansible-playbook Github.yml --ask-vault-pass
+cd
+code .
+cd DB_Provisionning/
+git branch 
+ansible-playbook Github.yml --ask-vault-pass
+git push -f
+git status
+ansible-playbook Github.yml --ask-vault-pass
+ls
+cd mysql_setup/
+ansible-playbook playbook.yml --extra-vars '{"databases":[{"name":"Cheikh","user":"User1"},{"name":"Ibrahima","user":"User2"},{"name":"Ndao","user":"User3"},{"name":"Tidiane","user":"User1"}]}'
+ls
+ansible-playbook sql_loop.yml --extra-vars '{"databases":[{"name":"Cheikh","user":"User1"},{"name":"Ibrahima","user":"User2"},{"name":"Ndao","user":"User3"},{"name":"Tidiane","user":"User1"}]}'
+ansible-playbook Github.yml --ask-vault-pass
+cd
+cd DB_Provisionning/
+ansible-playbook Github.yml --ask-vault-pass
+cd mysql_setup/
+ansible-playbook sql_loop.yml --extra-vars '{"databases":[{"name":"Cheikh","user":"User1"},{"name":"Ibrahima","user":"User2"},{"name":"Ndao","user":"User3"},{"name":"Tidiane","user":"User1"}]}'
+cd ..
+ansible-playbook Github.yml --ask-vault-pass
+cd mysql_setup/
+ansible-playbook sql_loop.yml --extra-vars '{"databases":[{"name":"Cheikh","user":"User1"},{"name":"Ibrahima","user":"User2"},{"name":"Ndao","user":"User3"},{"name":"Tidiane","user":"User1"}]}'
+ansible-playbook sql_loop.yml --extra-vars '{"databases":[{"name":"Cheikh","user":"User1"},{"name":"Ibrahima","user":"User2"},{"name":"Ndao","user":"User3"},{"name":"Tidiane","user":"User1"}]}' --ask-vault-pass
+ansible-playbook sql_loop.yml --extra-vars {
+ansible-playbook playbook.yml --extra-vars '{"databases":[{"dba_name_db":"Cheikh","dba_user_db":"User1"},{"dba_name_db":"Ibrahima","dba_user_db":"User2"},{"dba_name_db":"Ndao","dba_user_db":"User3"},{"dba_name_db":"Tidiane","user":"User1"}]} "demandeur": "CheikhIbrahima.NDAO@orange-sonatel.com" "approbateur": "CheikhIbrahima.NDAO@orange-sonatel.com" "db_host": "10.137.21.%"' --ask-vault-pass
+ansible-playbook sql_loop.yml --extra-vars '{"databases":[{"dba_name_db":"Cheikh","dba_user_db":"User1"},{"dba_name_db":"Ibrahima","dba_user_db":"User2"},{"dba_name_db":"Ndao","dba_user_db":"User3"},{"dba_name_db":"Tidiane","user":"User1"}]} "demandeur": "CheikhIbrahima.NDAO@orange-sonatel.com" "approbateur": "CheikhIbrahima.NDAO@orange-sonatel.com" "db_host": "10.137.21.%"' --ask-vault-pass
+ansible-playbook sql_loop.yml --extra-vars '{"databases":[{"dba_name_db":"Cheikh","dba_user_db":"User1"},{"name":"Ibrahima","user":"User2"},{"name":"Ndao","user":"User3"},{"name":"Tidiane","user":"User1"}]}' --ask-vault-pass
+exit
+sudo apt update
+ansible-playbook playbook.yml --extra-vars '{"databases":[{"dba_name_db":"Cheikh","dba_user_db":"User1"},
+{"dba_name_db":"Ibrahima","dba_user_db":"User2"},
+{"dba_name_db":"Ndao","dba_user_db":"User3"},
+{"dba_name_db":"Tidiane","user":"User1"}]} 
+"demandeur": "CheikhIbrahima.NDAO@orange-sonatel.com" 
+"approbateur": "CheikhIbrahima.NDAO@orange-sonatel.com" "db_host": "10.137.21.%"'
+ansible-playbook sql_loop.yml --extra-vars '{"databases":[{"dba_name_db":"Cheikh","dba_user_db":"User1"},
+{"dba_name_db":"Ibrahima","dba_user_db":"User2"},
+{"dba_name_db":"Ndao","dba_user_db":"User3"},
+{"dba_name_db":"Tidiane","user":"User1"}]} 
+"demandeur": "CheikhIbrahima.NDAO@orange-sonatel.com" 
+"approbateur": "CheikhIbrahima.NDAO@orange-sonatel.com" "db_host": "10.137.21.%"'
+cd DB_Provisionning/
+ansible-playbook sql_loop.yml --extra-vars '{"databases":[{"dba_name_db":"Cheikh","dba_user_db":"User1"},
+{"dba_name_db":"Ibrahima","dba_user_db":"User2"},
+{"dba_name_db":"Ndao","dba_user_db":"User3"},
+{"dba_name_db":"Tidiane","user":"User1"}]} 
+"demandeur": "CheikhIbrahima.NDAO@orange-sonatel.com" 
+"approbateur": "CheikhIbrahima.NDAO@orange-sonatel.com" "db_host": "10.137.21.%"'
+cd mysql_setup/
+ansible-playbook sql_loop.yml --extra-vars '{"databases":[{"dba_name_db":"Cheikh","dba_user_db":"User1"},
+{"dba_name_db":"Ibrahima","dba_user_db":"User2"},
+{"dba_name_db":"Ndao","dba_user_db":"User3"},
+{"dba_name_db":"Tidiane","user":"User1"}]} 
+"demandeur": "CheikhIbrahima.NDAO@orange-sonatel.com" 
+"approbateur": "CheikhIbrahima.NDAO@orange-sonatel.com" "db_host": "10.137.21.%"'
+cd .
+cd ..
+ansible-playbook mysql_setup/sql_loop.yml --extra-vars '{"databases":[{"dba_name_db":"Cheikh","dba_user_db":"User1"},
+{"dba_name_db":"Ibrahima","dba_user_db":"User2"},
+{"dba_name_db":"Ndao","dba_user_db":"User3"},
+{"dba_name_db":"Tidiane","user":"User1"}]} 
+"demandeur": "CheikhIbrahima.NDAO@orange-sonatel.com" 
+"approbateur": "CheikhIbrahima.NDAO@orange-sonatel.com" "db_host": "10.137.21.%"'
+ansible-playbook mysql_setup/sql_loop.yml --extra-vars '{"databases":[{"dba_name_db":"Cheikh","dba_user_db":"User1"},
+{"dba_name_db":"Ibrahima","dba_user_db":"User2"},
+{"dba_name_db":"Ndao","dba_user_db":"User3"},
+{"dba_name_db":"Tidiane","dba_user_db":"User1"}],
+"demandeur": "CheikhIbrahima.NDAO@orange-sonatel.com",
+"approbateur": "CheikhIbrahima.NDAO@orange-sonatel.com",
+"db_host": "10.137.21.%"}'
+ansible-playbook mysql_setup/sql_loop.yml --extra-vars '{"databases":[{"dba_name_db":"Cheikh","dba_user_db":"User1"},
+{"dba_name_db":"Ibrahima","dba_user_db":"User2"},
+{"dba_name_db":"Ndao","dba_user_db":"User3"},
+{"dba_name_db":"Tidiane","dba_user_db":"User1"}],
+"demandeur": "CheikhIbrahima.NDAO@orange-sonatel.com",
+"approbateur": "CheikhIbrahima.NDAO@orange-sonatel.com",
+"db_host": "10.137.21.%"}' --ask-vault-pass
+cd
+code .
+cd DB_Provisionning/
+git branch 
+git checkout master
+git status
+ansible-playbook Github.yml --ask-vault-pass
+git push origin master
+git branch 
+ansible-playbook Github.yml --ask-vault-pass
+exit

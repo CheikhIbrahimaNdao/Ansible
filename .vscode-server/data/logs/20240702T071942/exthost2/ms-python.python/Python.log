@@ -1,0 +1,9 @@
+2024-07-02 07:52:49.766 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-07-02 07:52:49.766 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-07-02 07:52:49.766 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-07-02 07:52:49.766 [info] Experiment 'pythonTestAdapter' is active
+2024-07-02 07:52:49.766 [info] Default formatter is set to null for workspace /home/ndao
+2024-07-02 07:52:49.767 [info] Python interpreter path: /bin/python3
+2024-07-02 07:52:49.810 [info] > pyenv which python
+2024-07-02 07:52:49.810 [info] cwd: .
+2024-07-02 07:52:51.753 [info] Starting Pylance language server.

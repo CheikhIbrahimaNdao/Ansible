@@ -1,0 +1,26 @@
+---
+- hosts: localhost
+  become: yes
+  gather_facts: no
+  vars_files: vars/credentials.yaml
+  vars:
+    db_user: "stg_ndao75268"
+    db_ip: "10.137.21.115"
+    db_port: "6446"
+    ansible_ssh_user: 'diop028863'
+    ansible_ssh_pass: "{{ ctd_password_tacacs }}"
+    ansible_become_password: "{{ ctd_password_tacacs }}"
+    # ansible_python_interpreter: /bin/python3
+  tasks:
+    - name: Add a host alias that we reach through a tunnel (Ansible 2.0 and newer)
+      add_host:
+        hostname: '10.137.21.115'
+
+    - name: block
+      block:
+        - name: Loop through databases and users
+        include_tasks: sql_setup.yml
+        loop: "{{ databases }}"
+        loop_control:
+          loop_var: db_item
+        delegate_to: '10.137.21.115'
