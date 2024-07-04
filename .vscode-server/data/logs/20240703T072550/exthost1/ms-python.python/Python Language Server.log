@@ -35,3 +35,19 @@
 2024-07-03 08:22:27.160 [info] [Info  - 8:22:27 AM] (345) Assuming Python version 3.8.10.final.0
 2024-07-03 08:22:27.368 [info] [Info  - 8:22:27 AM] (345) No source files found.
 2024-07-03 08:22:27.370 [info] Auto-Indent enabled
+2024-07-03 10:10:45.449 [info] Auto-Indent enabled
+2024-07-03 10:10:45.450 [info] [Info  - 10:10:45 AM] (345) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-03 10:10:45.450 [info] [Info  - 10:10:45 AM] (345) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-03 10:10:45.470 [info] [Info  - 10:10:45 AM] (345) Assuming Python version 3.8.10.final.0
+2024-07-03 10:10:45.666 [info] [Info  - 10:10:45 AM] (345) No source files found.
+2024-07-03 10:10:45.667 [info] Auto-Indent enabled
+2024-07-03 10:10:56.292 [info] [Info  - 10:10:56 AM] (345) Indexer background runner(2) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist (index)
+2024-07-03 10:10:56.292 [info] [Info  - 10:10:56 AM] (345) Indexing(2) started
+2024-07-03 10:10:56.864 [info] [Info  - 10:10:56 AM] (345) scanned(2) 98 files over 1 exec env
+2024-07-03 10:10:56.901 [info] Auto-Indent enabled
+2024-07-03 10:10:56.901 [info] [Info  - 10:10:56 AM] (345) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-03 10:10:56.901 [info] [Info  - 10:10:56 AM] (345) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-03 10:10:56.960 [info] [Info  - 10:10:56 AM] (345) Assuming Python version 3.8.10.final.0
+2024-07-03 10:10:57.176 [info] [Info  - 10:10:57 AM] (345) No source files found.
+2024-07-03 10:10:57.178 [info] Auto-Indent enabled
+2024-07-03 10:10:57.353 [info] [Info  - 10:10:57 AM] (345) Indexing finished(2).

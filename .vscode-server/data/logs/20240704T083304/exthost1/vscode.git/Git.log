@@ -1,0 +1,28 @@
+2024-07-04 08:33:10.096 [info] Log level: Info
+2024-07-04 08:33:10.096 [info] Validating found git in: "git"
+2024-07-04 08:33:10.096 [info] Using git "2.25.1" from "git"
+2024-07-04 08:33:10.096 [info] > git rev-parse --show-toplevel [57ms]
+2024-07-04 08:33:10.096 [info] > git rev-parse --git-dir --git-common-dir [28ms]
+2024-07-04 08:33:10.096 [info] Open repository: /home/ndao/DB_Provisionning
+2024-07-04 08:33:10.096 [info] > git rev-parse --show-toplevel [25ms]
+2024-07-04 08:33:10.096 [info] > git config --get commit.template [30ms]
+2024-07-04 08:33:10.108 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-04 08:33:10.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [565ms]
+2024-07-04 08:33:10.679 [info] > git rev-parse --show-toplevel [72ms]
+2024-07-04 08:33:10.763 [info] > git check-ignore -v -z --stdin [86ms]
+2024-07-04 08:33:10.763 [info] > git show --textconv :mysql_setup/mysql_setup.yml [74ms]
+2024-07-04 08:33:10.781 [info] > git ls-files --stage -- /home/ndao/DB_Provisionning/mysql_setup/mysql_setup.yml [88ms]
+2024-07-04 08:33:10.855 [info] > git cat-file -s 6d6e18b49cf10614f31184a6b700842f771b2796 [70ms]
+2024-07-04 08:33:10.920 [info] > git status -z -uall [68ms]
+2024-07-04 08:33:11.024 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [37ms]
+2024-07-04 08:33:11.032 [info] > git config --get commit.template [11ms]
+2024-07-04 08:33:11.034 [info] > git rev-list --count --left-right refs/heads/dev...refs/remotes/origin/dev [7ms]
+2024-07-04 08:33:11.082 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [7ms]
+2024-07-04 08:33:11.083 [info] > git diff --name-status -z --diff-filter=ADMR 5944ab6d1cb4d08217ad124287217d84f807d287...refs/remotes/origin/dev [45ms]
+2024-07-04 08:33:11.105 [info] > git status -z -uall [3ms]
+2024-07-04 08:33:16.678 [info] > git show --textconv :mysql_setup/sql_setup.yml [4ms]
+2024-07-04 08:33:16.680 [info] > git ls-files --stage -- /home/ndao/DB_Provisionning/mysql_setup/sql_setup.yml [2ms]
+2024-07-04 08:33:16.683 [info] > git cat-file -s ff0e02586c4075b8431f33952f7459c37bd73532 [1ms]
+2024-07-04 08:35:01.814 [info] > git config --get commit.template [2ms]
+2024-07-04 08:35:01.817 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [1ms]
+2024-07-04 08:35:01.822 [info] > git status -z -uall [1ms]

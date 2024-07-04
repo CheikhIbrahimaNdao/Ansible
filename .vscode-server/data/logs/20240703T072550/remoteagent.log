@@ -12,3 +12,12 @@
 2024-07-03 08:13:26.587 [info] [127.0.0.1][a6e96c9c][ExtensionHostConnection] <4675> Launched Extension Host Process.
 2024-07-03 08:17:26.480 [info] [127.0.0.1][44733e00][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
 2024-07-03 08:17:26.575 [info] [127.0.0.1][a6e96c9c][ExtensionHostConnection] <4675> Extension Host Process exited with code: 0, signal: null.
+2024-07-03 13:35:22.910 [info] [127.0.0.1][65e2dae4][ExtensionHostConnection] The client has reconnected.
+2024-07-03 13:35:23.023 [info] [127.0.0.1][e07de384][ManagementConnection] The client has reconnected.
+2024-07-03 14:12:06.960 [info] [127.0.0.1][65e2dae4][ExtensionHostConnection] The client has reconnected.
+2024-07-03 14:12:07.048 [info] [127.0.0.1][e07de384][ManagementConnection] The client has reconnected.
+2024-07-03 14:26:48.810 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-03 14:48:49.903 [info] [127.0.0.1][65e2dae4][ExtensionHostConnection] The client has reconnected.
+2024-07-03 14:48:50.028 [info] [127.0.0.1][e07de384][ManagementConnection] The client has reconnected.
+2024-07-03 15:48:15.061 [info] [127.0.0.1][e07de384][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-03 15:48:15.168 [info] [127.0.0.1][65e2dae4][ExtensionHostConnection] <158> Extension Host Process exited with code: 0, signal: null.

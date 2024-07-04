@@ -1,0 +1,16 @@
+2024-07-04 08:33:06.108 [info] Extension host with pid 151 started
+2024-07-04 08:33:06.122 [info] Lock '/home/ndao/.vscode-server/data/User/workspaceStorage/a14c3a812da8755da87379a0235c592b/vscode.lock': Lock acquired.
+2024-07-04 08:33:06.238 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:yaml', root cause: redhat.ansible
+2024-07-04 08:33:06.240 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml', root cause: redhat.ansible
+2024-07-04 08:33:06.241 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-04 08:33:07.295 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-04 08:33:07.308 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-04 08:33:07.308 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-04 08:33:07.804 [info] Eager extensions activated
+2024-07-04 08:33:07.805 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 08:33:07.807 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 08:33:07.807 [info] ExtensionService#_doActivateExtension Bito.Bito, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 08:33:09.755 [info] ExtensionService#_doActivateExtension redhat.ansible, startup: false, activationEvent: 'onLanguage:yaml'
+2024-07-04 08:33:10.126 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2024-07-04 08:33:10.779 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 08:33:10.853 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.

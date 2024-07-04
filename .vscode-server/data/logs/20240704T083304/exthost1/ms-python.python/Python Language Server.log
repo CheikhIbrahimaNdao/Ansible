@@ -1,0 +1,13 @@
+2024-07-04 08:33:11.605 [info] (Client) Pylance async client (2024.6.1) started with python extension (2024.8.1)
+2024-07-04 08:33:12.100 [info] [Info  - 8:33:12 AM] (338) Pylance language server 2024.6.1 (pyright version 1.1.364, commit 0618acc5) starting
+2024-07-04 08:33:12.101 [info] [Info  - 8:33:12 AM] (338) Server root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-07-04 08:33:12.113 [info] [Info  - 8:33:12 AM] (338) Starting service instance "DB_Provisionning"
+2024-07-04 08:33:12.153 [info] Auto-Indent enabled
+2024-07-04 08:33:12.179 [info] Auto-Indent enabled
+2024-07-04 08:33:12.180 [info] [Info  - 8:33:12 AM] (338) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-04 08:33:12.180 [info] [Info  - 8:33:12 AM] (338) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-04 08:33:12.223 [info] [Info  - 8:33:12 AM] (338) Assuming Python version 3.8.10.final.0
+2024-07-04 08:33:12.610 [info] [Info  - 8:33:12 AM] (338) No source files found.
+2024-07-04 08:33:12.617 [info] Auto-Indent enabled
+2024-07-04 08:33:12.960 [info] [Info  - 8:33:12 AM] (338) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-07-04 08:33:12.962 [info] [Info  - 8:33:12 AM] (338) Background analysis(1) started

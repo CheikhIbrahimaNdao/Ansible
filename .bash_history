@@ -567,3 +567,12 @@ git push origin master
 git branch 
 ansible-playbook Github.yml --ask-vault-pass
 exit
+code .
+git pull
+ansible-playbook Github.yml --ask-vault-pass
+git status
+ansible-playbook Github.yml --ask-vault-pass
+cd DB_Provisionning/
+git status
+ansible-playbook Github.yml --ask-vault-pass
+exit
