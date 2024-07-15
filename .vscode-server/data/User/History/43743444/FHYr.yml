@@ -1,0 +1,83 @@
+- name: Check if database exists
+  shell: "mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ db_item.dba_name_db }}\";'"
+  register: db_check
+  ignore_errors: yes
+
+- name: Check if user already exists
+  shell: "mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e 'SELECT User FROM mysql.user WHERE User = \"{{ db_item.dba_user_db }}\";'"
+  register: user_check
+  ignore_errors: yes
+
+- name: Generate a random password
+  set_fact:
+    db_user_password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+  when: user_check.stdout == ""
+
+- name: Create a database if it doesn't exist
+  mysql_db:
+    name: "{{ db_item.dba_name_db }}"
+    state: present
+    login_password: "{{ gdb_password }}"
+    login_user: "{{ db_user }}"
+    login_host: "{{ db_ip }}"
+    login_port: "{{ db_port }}"
+  when: db_check.stdout == ""
+
+- name: Create a user if it doesn't exist
+  mysql_user:
+    name: "{{ db_item.dba_user_db }}"
+    host:  "{{ db_host }}"
+    password: "{{ db_user_password }}"
+    priv: "{{ db_item.dba_name_db }}.*:ALL"
+    state: present
+    update_password: on_create
+    login_password: "{{ gdb_password }}"
+    login_user: "{{ db_user }}"
+    login_host: "{{ db_ip }}"
+    login_port: "{{ db_port }}"
+  when: user_check.stdout == ""
+
+- name: Grant privileges to existing user
+  shell: |
+    mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e \
+    'GRANT USAGE ON {{ db_item.dba_name_db }}.* TO "{{ db_item.dba_user_db }}"@"{{ db_host }}"; \
+    GRANT ALL PRIVILEGES ON {{ db_item.dba_name_db }}.* TO "{{ db_item.dba_user_db }}"@"{{ db_host }}";'
+  when: user_check.stdout != "" 
+  ignore_errors: yes 
+
+- name: Accumulate result
+  set_fact:
+    db_results: "{{ db_results + [{'database': db_item.dba_name_db, 'user': db_item.dba_user_db, 'password': db_user_password, 'db_exists': db_check.stdout != '', 'user_exists': user_check.stdout != ''}] }}"
+
+# Send mail with accumulated results
+
+- name: Envoyer un email avec les détails de la base de données et de l'utilisateur créés
+  mail:
+    host: "webmail.orange-sonatel.com"
+    port: 25
+    to: "{{ demandeur }}"
+    cc:
+      - "CheikhIbrahima.NDAO@orange-sonatel.com"
+      - "Admin_dba@orange-sonatel.com"
+    from: "{{ approbateur }}"
+    subject: "Détails des bases de données et des utilisateurs MySQL créés"
+    body: |
+      {% for result in db_results %}
+      {% if not result.db_exists and not result.user_exists %}
+      Database created: {{ result.database }}
+      User created: {{ result.user }}
+      User password: {{ result.password }}
+      {% elif result.db_exists and not result.user_exists %}
+      L'utilisateur {{ result.user }} a été créé et recevra les privilèges pour la base de données {{ result.database }} déjà existante.
+      User password: {{ result.password }}
+      {% elif not result.db_exists and result.user_exists %}
+      L'utilisateur {{ result.user }} existe déjà et recevra les privilèges pour la base de données {{ result.database }} créée.
+      User password: {{ result.password }}
+      {% else %}
+      La base de données {{ result.database }} et l'utilisateur MySQL {{ result.user }} existent déjà.
+      Veuillez contacter le service DSI/A2I/DBA.
+      {% endif %}
+      IP address: {{ db_ip }}
+      Port: {{ db_port }}
+      {% endfor %}
+  when: db_results|length > 0

@@ -1,0 +1,31 @@
+2024-07-09 07:36:28.607 [info] 
+
+
+
+
+2024-07-09 07:36:28.628 [info] Extension host agent started.
+2024-07-09 07:36:28.765 [info] [127.0.0.1][3d82201e][ManagementConnection] New connection established.
+2024-07-09 07:36:29.177 [info] [127.0.0.1][b0282464][ExtensionHostConnection] New connection established.
+2024-07-09 07:36:29.224 [info] [127.0.0.1][b0282464][ExtensionHostConnection] <151> Launched Extension Host Process.
+2024-07-09 07:36:36.142 [info] Getting Manifest... ms-python.python
+2024-07-09 07:36:36.143 [info] Getting Manifest... ms-python.vscode-pylance
+2024-07-09 07:36:36.850 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.91.0","date":"2024-07-01T18:52:22.949Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ndao/.vscode-server/extensions/extensions.json","external":"file:///home/ndao/.vscode-server/extensions/extensions.json","path":"/home/ndao/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-07-09 07:36:36.903 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.91.0","date":"2024-07-01T18:52:22.949Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ndao/.vscode-server/extensions/extensions.json","external":"file:///home/ndao/.vscode-server/extensions/extensions.json","path":"/home/ndao/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-07-09 07:36:38.099 [info] Getting Manifest... ms-python.python
+2024-07-09 07:36:38.281 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance file:///home/ndao/.vscode-server/extensions/extensions.json
+2024-07-09 07:36:49.101 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 5071ms.
+2024-07-09 07:36:54.164 [info] Extracted extension to file:///home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64: ms-python.python
+2024-07-09 07:36:54.182 [info] Renamed to /home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64
+2024-07-09 07:36:54.225 [info] Marked extension as uninstalled ms-python.python-2024.8.1
+2024-07-09 07:36:54.241 [info] Extension installed successfully: ms-python.python file:///home/ndao/.vscode-server/extensions/extensions.json
+2024-07-09 07:36:54.246 [info] Finished waiting for already requested installing extension ms-python.python ms-python.vscode-pylance file:///home/ndao/.vscode-server/extensions/extensions.json
+2024-07-09 07:36:56.575 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 3146ms.
+2024-07-09 07:37:07.784 [info] Extracted extension to file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1: ms-python.vscode-pylance
+2024-07-09 07:37:07.799 [info] Renamed to /home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1
+2024-07-09 07:37:07.867 [info] Marked extension as uninstalled ms-python.vscode-pylance-2024.6.1
+2024-07-09 07:37:07.876 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/ndao/.vscode-server/extensions/extensions.json
+2024-07-09 11:58:54.048 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-09 13:51:30.303 [info] [127.0.0.1][3d82201e][ManagementConnection] The client has reconnected.
+2024-07-09 13:51:38.988 [info] [127.0.0.1][b0282464][ExtensionHostConnection] The client has reconnected.
+2024-07-09 15:44:09.104 [info] [127.0.0.1][3d82201e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-09 15:44:09.249 [info] [127.0.0.1][b0282464][ExtensionHostConnection] <151> Extension Host Process exited with code: 0, signal: null.

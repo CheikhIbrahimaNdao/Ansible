@@ -1,0 +1,13 @@
+2024-07-04 09:07:15.205 [info] (Client) Pylance async client (2024.6.1) started with python extension (2024.8.1)
+2024-07-04 09:07:16.145 [info] [Info  - 9:07:16 AM] (4870) Pylance language server 2024.6.1 (pyright version 1.1.364, commit 0618acc5) starting
+2024-07-04 09:07:16.146 [info] [Info  - 9:07:16 AM] (4870) Server root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-07-04 09:07:16.147 [info] [Info  - 9:07:16 AM] (4870) Starting service instance "ndao"
+2024-07-04 09:07:16.203 [info] Auto-Indent enabled
+2024-07-04 09:07:16.367 [info] Auto-Indent enabled
+2024-07-04 09:07:16.375 [info] [Info  - 9:07:16 AM] (4870) Setting pythonPath for service "ndao": "/bin/python3"
+2024-07-04 09:07:16.375 [info] [Info  - 9:07:16 AM] (4870) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-07-04 09:07:16.473 [info] [Info  - 9:07:16 AM] (4870) Assuming Python version 3.8.10.final.0
+2024-07-04 09:07:16.718 [info] [Info  - 9:07:16 AM] (4870) No source files found.
+2024-07-04 09:07:16.725 [info] Auto-Indent enabled
+2024-07-04 09:07:16.997 [info] [Info  - 9:07:16 AM] (4870) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-07-04 09:07:17.001 [info] [Info  - 9:07:17 AM] (4870) Background analysis(1) started

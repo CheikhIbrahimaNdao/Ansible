@@ -14,3 +14,87 @@
 2024-07-04 08:33:10.126 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
 2024-07-04 08:33:10.779 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
 2024-07-04 08:33:10.853 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:26:56.767 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-04 11:26:56.767 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-04 11:26:57.117 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:26:57.444 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:26:57.844 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:26:59.642 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:28:16.083 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:28:16.499 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:38:51.399 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:38:51.975 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:38:52.521 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:38:54.768 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:38:55.169 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:38:59.346 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:38:59.918 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:39:00.222 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:39:00.572 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:39:02.062 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:39:02.897 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:41:16.466 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:41:26.954 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:41:33.459 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:41:36.875 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:41:37.686 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:41:38.030 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 11:41:41.510 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-07-04 12:09:10.327 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 12:14:10.325 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 12:19:10.323 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 12:24:10.324 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 12:29:10.325 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 12:34:10.325 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 12:39:10.329 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 13:34:35.484 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 13:39:35.485 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 13:44:35.486 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 13:49:35.486 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 13:54:35.486 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 13:59:35.489 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 14:04:35.490 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 14:09:35.491 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processTimers (node:internal/timers:511:9)
+2024-07-04 14:14:35.491 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 14:19:35.491 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 14:24:35.493 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processTimers (node:internal/timers:511:9)
+2024-07-04 14:29:35.493 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 14:34:35.495 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 14:39:35.493 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processTimers (node:internal/timers:511:9)
+2024-07-04 14:44:35.495 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 14:49:35.495 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 14:54:35.496 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 14:59:35.497 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)
+2024-07-04 15:04:35.497 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+	at Timeout.eval [as _onTimeout] (webpack://Bito/./node_modules/@bitoai/localcodesearchdev/indexManagement.js?:670:40)

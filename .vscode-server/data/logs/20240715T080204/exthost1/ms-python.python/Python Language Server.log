@@ -1,0 +1,206 @@
+2024-07-15 08:02:15.803 [info] (Client) Pylance async client (2024.7.1) started with python extension (2024.10.0)
+2024-07-15 08:02:17.028 [info] [Info  - 8:02:17 AM] (482) Pylance language server 2024.7.1 (pyright version 1.1.369, commit 1168be71) starting
+2024-07-15 08:02:17.030 [info] [Info  - 8:02:17 AM] (482) Server root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-15 08:02:17.031 [info] [Info  - 8:02:17 AM] (482) Starting service instance "DB_Provisionning"
+2024-07-15 08:02:17.353 [info] [Info  - 8:02:17 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 08:02:17.353 [info] [Info  - 8:02:17 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 08:02:17.353 [info] [Info  - 8:02:17 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 08:02:17.357 [info] [Info  - 8:02:17 AM] (482) Auto-excluding **/node_modules
+2024-07-15 08:02:17.363 [info] [Info  - 8:02:17 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 08:02:17.364 [info] [Info  - 8:02:17 AM] (482) Auto-excluding **/.*
+2024-07-15 08:02:17.411 [info] [Info  - 8:02:17 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 08:02:17.626 [info] [Info  - 8:02:17 AM] (482) No source files found.
+2024-07-15 08:02:17.868 [info] [Info  - 8:02:17 AM] (482) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-15 08:02:17.871 [info] [Info  - 8:02:17 AM] (482) Background analysis(1) started
+2024-07-15 09:51:41.004 [info] [Info  - 9:51:41 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 09:51:41.010 [info] [Info  - 9:51:41 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 09:51:41.012 [info] [Info  - 9:51:41 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 09:51:41.014 [info] [Info  - 9:51:41 AM] (482) Auto-excluding **/node_modules
+2024-07-15 09:51:41.016 [info] [Info  - 9:51:41 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 09:51:41.017 [info] [Info  - 9:51:41 AM] (482) Auto-excluding **/.*
+2024-07-15 09:51:41.017 [info] [Info  - 9:51:41 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 09:51:41.017 [info] [Info  - 9:51:41 AM] (482) No source files found.
+2024-07-15 09:51:41.077 [info] [Info  - 9:51:41 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 09:51:41.078 [info] [Info  - 9:51:41 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 09:51:41.078 [info] [Info  - 9:51:41 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 09:51:41.078 [info] [Info  - 9:51:41 AM] (482) Auto-excluding **/node_modules
+2024-07-15 09:51:41.078 [info] [Info  - 9:51:41 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 09:51:41.078 [info] [Info  - 9:51:41 AM] (482) Auto-excluding **/.*
+2024-07-15 09:51:41.122 [info] [Info  - 9:51:41 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 09:51:41.357 [info] [Info  - 9:51:41 AM] (482) No source files found.
+2024-07-15 09:51:43.167 [info] [Info  - 9:51:43 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 09:51:43.167 [info] [Info  - 9:51:43 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 09:51:43.167 [info] [Info  - 9:51:43 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 09:51:43.168 [info] [Info  - 9:51:43 AM] (482) Auto-excluding **/node_modules
+2024-07-15 09:51:43.168 [info] [Info  - 9:51:43 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 09:51:43.168 [info] [Info  - 9:51:43 AM] (482) Auto-excluding **/.*
+2024-07-15 09:51:43.217 [info] [Info  - 9:51:43 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 09:51:43.356 [info] [Info  - 9:51:43 AM] (482) No source files found.
+2024-07-15 09:51:44.424 [info] [Info  - 9:51:44 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 09:51:44.424 [info] [Info  - 9:51:44 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 09:51:44.424 [info] [Info  - 9:51:44 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 09:51:44.425 [info] [Info  - 9:51:44 AM] (482) Auto-excluding **/node_modules
+2024-07-15 09:51:44.425 [info] [Info  - 9:51:44 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 09:51:44.425 [info] [Info  - 9:51:44 AM] (482) Auto-excluding **/.*
+2024-07-15 09:51:44.486 [info] [Info  - 9:51:44 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 09:51:44.576 [info] [Info  - 9:51:44 AM] (482) No source files found.
+2024-07-15 10:06:46.734 [info] [Info  - 10:06:46 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:06:46.736 [info] [Info  - 10:06:46 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:06:46.738 [info] [Info  - 10:06:46 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:06:46.740 [info] [Info  - 10:06:46 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:06:46.750 [info] [Info  - 10:06:46 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:06:46.750 [info] [Info  - 10:06:46 AM] (482) Auto-excluding **/.*
+2024-07-15 10:06:46.855 [info] [Info  - 10:06:46 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:06:47.021 [info] [Info  - 10:06:47 AM] (482) No source files found.
+2024-07-15 10:06:56.493 [info] [Info  - 10:06:56 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:06:56.493 [info] [Info  - 10:06:56 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:06:56.493 [info] [Info  - 10:06:56 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:06:56.494 [info] [Info  - 10:06:56 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:06:56.494 [info] [Info  - 10:06:56 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:06:56.494 [info] [Info  - 10:06:56 AM] (482) Auto-excluding **/.*
+2024-07-15 10:06:56.575 [info] [Info  - 10:06:56 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:06:57.176 [info] [Info  - 10:06:57 AM] (482) No source files found.
+2024-07-15 10:06:57.278 [info] [Info  - 10:06:57 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:06:57.278 [info] [Info  - 10:06:57 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:06:57.279 [info] [Info  - 10:06:57 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:06:57.279 [info] [Info  - 10:06:57 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:06:57.279 [info] [Info  - 10:06:57 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:06:57.279 [info] [Info  - 10:06:57 AM] (482) Auto-excluding **/.*
+2024-07-15 10:06:57.336 [info] [Info  - 10:06:57 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:06:57.429 [info] [Info  - 10:06:57 AM] (482) No source files found.
+2024-07-15 10:07:03.067 [info] [Info  - 10:07:03 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:07:03.068 [info] [Info  - 10:07:03 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:07:03.068 [info] [Info  - 10:07:03 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:07:03.068 [info] [Info  - 10:07:03 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:07:03.069 [info] [Info  - 10:07:03 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:07:03.069 [info] [Info  - 10:07:03 AM] (482) Auto-excluding **/.*
+2024-07-15 10:07:03.130 [info] [Info  - 10:07:03 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:07:03.246 [info] [Info  - 10:07:03 AM] (482) No source files found.
+2024-07-15 10:07:42.110 [info] [Info  - 10:07:42 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:07:42.110 [info] [Info  - 10:07:42 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:07:42.110 [info] [Info  - 10:07:42 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:07:42.110 [info] [Info  - 10:07:42 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:07:42.110 [info] [Info  - 10:07:42 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:07:42.111 [info] [Info  - 10:07:42 AM] (482) Auto-excluding **/.*
+2024-07-15 10:07:42.155 [info] [Info  - 10:07:42 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:07:42.221 [info] [Info  - 10:07:42 AM] (482) No source files found.
+2024-07-15 10:07:42.974 [info] [Info  - 10:07:42 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:07:42.975 [info] [Info  - 10:07:42 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:07:42.975 [info] [Info  - 10:07:42 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:07:42.986 [info] [Info  - 10:07:42 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:07:42.987 [info] [Info  - 10:07:42 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:07:42.987 [info] [Info  - 10:07:42 AM] (482) Auto-excluding **/.*
+2024-07-15 10:07:42.987 [info] [Info  - 10:07:42 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:07:43.332 [info] [Info  - 10:07:43 AM] (482) No source files found.
+2024-07-15 10:07:43.460 [info] [Info  - 10:07:43 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:07:43.460 [info] [Info  - 10:07:43 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:07:43.460 [info] [Info  - 10:07:43 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:07:43.460 [info] [Info  - 10:07:43 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:07:43.460 [info] [Info  - 10:07:43 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:07:43.461 [info] [Info  - 10:07:43 AM] (482) Auto-excluding **/.*
+2024-07-15 10:07:43.498 [info] [Info  - 10:07:43 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:07:43.576 [info] [Info  - 10:07:43 AM] (482) No source files found.
+2024-07-15 10:07:45.412 [info] [Info  - 10:07:45 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:07:45.412 [info] [Info  - 10:07:45 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:07:45.412 [info] [Info  - 10:07:45 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:07:45.412 [info] [Info  - 10:07:45 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:07:45.413 [info] [Info  - 10:07:45 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:07:45.413 [info] [Info  - 10:07:45 AM] (482) Auto-excluding **/.*
+2024-07-15 10:07:45.464 [info] [Info  - 10:07:45 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:07:45.534 [info] [Info  - 10:07:45 AM] (482) No source files found.
+2024-07-15 10:07:57.559 [info] [Info  - 10:07:57 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:07:57.559 [info] [Info  - 10:07:57 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:07:57.560 [info] [Info  - 10:07:57 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:07:57.560 [info] [Info  - 10:07:57 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:07:57.561 [info] [Info  - 10:07:57 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:07:57.562 [info] [Info  - 10:07:57 AM] (482) Auto-excluding **/.*
+2024-07-15 10:07:57.594 [info] [Info  - 10:07:57 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:07:57.654 [info] [Info  - 10:07:57 AM] (482) No source files found.
+2024-07-15 10:07:58.428 [info] [Info  - 10:07:58 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:07:58.428 [info] [Info  - 10:07:58 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:07:58.429 [info] [Info  - 10:07:58 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:07:58.429 [info] [Info  - 10:07:58 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:07:58.429 [info] [Info  - 10:07:58 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:07:58.429 [info] [Info  - 10:07:58 AM] (482) Auto-excluding **/.*
+2024-07-15 10:07:58.758 [info] [Info  - 10:07:58 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:07:58.766 [info] [Info  - 10:07:58 AM] (482) No source files found.
+2024-07-15 10:07:58.802 [info] [Info  - 10:07:58 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:07:58.802 [info] [Info  - 10:07:58 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:07:58.803 [info] [Info  - 10:07:58 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:07:58.803 [info] [Info  - 10:07:58 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:07:58.803 [info] [Info  - 10:07:58 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:07:58.803 [info] [Info  - 10:07:58 AM] (482) Auto-excluding **/.*
+2024-07-15 10:07:58.944 [info] [Info  - 10:07:58 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:07:58.944 [info] [Info  - 10:07:58 AM] (482) No source files found.
+2024-07-15 10:08:01.393 [info] [Info  - 10:08:01 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:08:01.393 [info] [Info  - 10:08:01 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:08:01.393 [info] [Info  - 10:08:01 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:08:01.393 [info] [Info  - 10:08:01 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:08:01.393 [info] [Info  - 10:08:01 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:08:01.394 [info] [Info  - 10:08:01 AM] (482) Auto-excluding **/.*
+2024-07-15 10:08:01.430 [info] [Info  - 10:08:01 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:08:01.515 [info] [Info  - 10:08:01 AM] (482) No source files found.
+2024-07-15 10:08:19.066 [info] [Info  - 10:08:19 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:08:19.067 [info] [Info  - 10:08:19 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:08:19.067 [info] [Info  - 10:08:19 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:08:19.067 [info] [Info  - 10:08:19 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:08:19.067 [info] [Info  - 10:08:19 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:08:19.067 [info] [Info  - 10:08:19 AM] (482) Auto-excluding **/.*
+2024-07-15 10:08:19.103 [info] [Info  - 10:08:19 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:08:19.162 [info] [Info  - 10:08:19 AM] (482) No source files found.
+2024-07-15 10:08:19.967 [info] [Info  - 10:08:19 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:08:19.967 [info] [Info  - 10:08:19 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:08:19.967 [info] [Info  - 10:08:19 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:08:19.967 [info] [Info  - 10:08:19 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:08:19.967 [info] [Info  - 10:08:19 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:08:19.967 [info] [Info  - 10:08:19 AM] (482) Auto-excluding **/.*
+2024-07-15 10:08:20.009 [info] [Info  - 10:08:20 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:08:20.105 [info] [Info  - 10:08:20 AM] (482) No source files found.
+2024-07-15 10:08:21.364 [info] [Info  - 10:08:21 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:08:21.365 [info] [Info  - 10:08:21 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:08:21.365 [info] [Info  - 10:08:21 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:08:21.370 [info] [Info  - 10:08:21 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:08:21.371 [info] [Info  - 10:08:21 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:08:21.371 [info] [Info  - 10:08:21 AM] (482) Auto-excluding **/.*
+2024-07-15 10:08:21.453 [info] [Info  - 10:08:21 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:08:21.548 [info] [Info  - 10:08:21 AM] (482) No source files found.
+2024-07-15 10:08:30.967 [info] [Info  - 10:08:30 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:08:30.967 [info] [Info  - 10:08:30 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:08:30.968 [info] [Info  - 10:08:30 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:08:30.968 [info] [Info  - 10:08:30 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:08:30.968 [info] [Info  - 10:08:30 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:08:30.968 [info] [Info  - 10:08:30 AM] (482) Auto-excluding **/.*
+2024-07-15 10:08:31.025 [info] [Info  - 10:08:31 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:08:31.087 [info] [Info  - 10:08:31 AM] (482) No source files found.
+2024-07-15 10:16:00.380 [info] [Info  - 10:16:00 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:16:00.381 [info] [Info  - 10:16:00 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:16:00.381 [info] [Info  - 10:16:00 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:16:00.382 [info] [Info  - 10:16:00 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:16:00.382 [info] [Info  - 10:16:00 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:16:00.383 [info] [Info  - 10:16:00 AM] (482) Auto-excluding **/.*
+2024-07-15 10:16:00.430 [info] [Info  - 10:16:00 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:16:00.559 [info] [Info  - 10:16:00 AM] (482) No source files found.
+2024-07-15 10:16:03.218 [info] [Info  - 10:16:03 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:16:03.219 [info] [Info  - 10:16:03 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:16:03.219 [info] [Info  - 10:16:03 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:16:03.219 [info] [Info  - 10:16:03 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:16:03.219 [info] [Info  - 10:16:03 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:16:03.219 [info] [Info  - 10:16:03 AM] (482) Auto-excluding **/.*
+2024-07-15 10:16:03.263 [info] [Info  - 10:16:03 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:16:03.325 [info] [Info  - 10:16:03 AM] (482) No source files found.
+2024-07-15 10:16:05.681 [info] [Info  - 10:16:05 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:16:05.681 [info] [Info  - 10:16:05 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:16:05.681 [info] [Info  - 10:16:05 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:16:05.682 [info] [Info  - 10:16:05 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:16:05.682 [info] [Info  - 10:16:05 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:16:05.682 [info] [Info  - 10:16:05 AM] (482) Auto-excluding **/.*
+2024-07-15 10:16:05.733 [info] [Info  - 10:16:05 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:16:05.823 [info] [Info  - 10:16:05 AM] (482) No source files found.
+2024-07-15 10:16:15.730 [info] [Info  - 10:16:15 AM] (482) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-15 10:16:15.731 [info] [Info  - 10:16:15 AM] (482) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-15 10:16:15.731 [info] [Info  - 10:16:15 AM] (482) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-15 10:16:15.731 [info] [Info  - 10:16:15 AM] (482) Auto-excluding **/node_modules
+2024-07-15 10:16:15.731 [info] [Info  - 10:16:15 AM] (482) Auto-excluding **/__pycache__
+2024-07-15 10:16:15.731 [info] [Info  - 10:16:15 AM] (482) Auto-excluding **/.*
+2024-07-15 10:16:15.810 [info] [Info  - 10:16:15 AM] (482) Assuming Python version 3.8.10.final.0
+2024-07-15 10:16:15.955 [info] [Info  - 10:16:15 AM] (482) No source files found.

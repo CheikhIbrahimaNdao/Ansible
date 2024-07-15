@@ -1,0 +1,26 @@
+2024-07-12 13:29:04.810 [info] 
+
+
+
+
+2024-07-12 13:29:04.826 [info] Extension host agent started.
+2024-07-12 13:29:04.951 [info] [127.0.0.1][ec0114d7][ManagementConnection] New connection established.
+2024-07-12 13:29:05.340 [info] Deleted uninstalled extension from disk ms-python.debugpy /home/ndao/.vscode-server/extensions/ms-python.debugpy-2024.6.0
+2024-07-12 13:29:05.343 [info] [127.0.0.1][847b2679][ManagementConnection] New connection established.
+2024-07-12 13:29:05.661 [info] [127.0.0.1][0c33bc53][ExtensionHostConnection] New connection established.
+2024-07-12 13:29:05.751 [info] [127.0.0.1][0c33bc53][ExtensionHostConnection] <245> Launched Extension Host Process.
+2024-07-12 13:29:06.245 [info] [127.0.0.1][99a6b435][ExtensionHostConnection] New connection established.
+2024-07-12 13:29:06.310 [info] [127.0.0.1][99a6b435][ExtensionHostConnection] <262> Launched Extension Host Process.
+2024-07-12 13:29:06.469 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ndao/.vscode-server/extensions/ms-python.debugpy-2024.6.0.38653920.vsctmp'
+    at S.create (/home/ndao/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/server/node/server.main.js:115:99069)
+    at I (/home/ndao/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/server/node/server.main.js:115:99183)
+    at d.hb (/home/ndao/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/server/node/server.main.js:120:35817)
+    at d.stat (/home/ndao/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/server/node/server.main.js:120:28165)
+    at async t.stat (/home/ndao/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/server/node/server.main.js:120:14152)
+    at async z.vb (/home/ndao/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/server/node/server.main.js:174:82007)
+2024-07-12 13:29:14.817 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/ndao/.vscode-server/data/logs/20240627T080448/exthost1/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /home/ndao)
+2024-07-12 13:29:14.819 [error] [File Watcher (universal)] inotify_add_watch on '/home/ndao/.vscode-server/data/logs/20240627T080448/exthost1/vscode.git' failed: No such file or directory
+2024-07-12 13:29:48.701 [info] [127.0.0.1][847b2679][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-12 13:29:48.892 [info] [127.0.0.1][0c33bc53][ExtensionHostConnection] <245> Extension Host Process exited with code: 0, signal: null.
+2024-07-12 13:30:37.320 [info] [127.0.0.1][ec0114d7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-12 13:30:37.525 [info] [127.0.0.1][99a6b435][ExtensionHostConnection] <262> Extension Host Process exited with code: 0, signal: null.

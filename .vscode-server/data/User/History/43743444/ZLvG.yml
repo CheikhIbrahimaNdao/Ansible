@@ -1,0 +1,50 @@
+- name: Check if database exists
+  shell: "mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ db_item.dba_name_db }}\";'"
+  register: db_check
+  ignore_errors: yes
+
+- name: Check if user already exists
+  shell: "mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e 'SELECT User FROM mysql.user WHERE User = \"{{ db_item.dba_user_db }}\";'"
+  register: user_check
+  ignore_errors: yes
+
+- name: Generate a random password
+  set_fact:
+    db_user_password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+  when: user_check.stdout == ""
+
+- name: Create a database if it doesn't exist
+  mysql_db:
+    name: "{{ db_item.dba_name_db }}"
+    state: present
+    login_password: "{{ gdb_password }}"
+    login_user: "{{ db_user }}"
+    login_host: "{{ db_ip }}"
+    login_port: "{{ db_port }}"
+  when: db_check.stdout == ""
+
+- name: Create a user if it doesn't exist
+  mysql_user:
+    name: "{{ db_item.dba_user_db }}"
+    host:  "{{ db_host }}"
+    password: "{{ db_user_password }}"
+    priv: "{{ db_item.dba_name_db }}.*:ALL"
+    state: present
+    update_password: on_create
+    login_password: "{{ gdb_password }}"
+    login_user: "{{ db_user }}"
+    login_host: "{{ db_ip }}"
+    login_port: "{{ db_port }}"
+  when: user_check.stdout == ""
+
+- name: Grant privileges to existing user
+  shell: |
+    mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e \
+    'GRANT USAGE ON {{ db_item.dba_name_db }}.* TO "{{ db_item.dba_user_db }}"@"{{ db_host }}"; \
+    GRANT ALL PRIVILEGES ON {{ db_item.dba_name_db }}.* TO "{{ db_item.dba_user_db }}"@"{{ db_host }}";'
+  when: user_check.stdout != "" 
+  ignore_errors: yes 
+
+- name: Accumulate result
+  set_fact:
+    db_results: "{{ db_results + [{'database': db_item.dba_name_db, 'user': db_item.dba_user_db, 'password': db_user_password, 'db_exists': db_check.stdout != '', 'user_exists': user_check.stdout != ''}] }}"

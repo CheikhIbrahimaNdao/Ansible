@@ -1,0 +1,45 @@
+---
+- name: Add all files and push to GitHub
+  hosts: localhost
+  vars:
+    repo_dir: "./"
+    commit_message: "Update repository"
+    github_repo_url: "http://git.tools.orange-sonatel.com/scm/ad/db_provisioning.git"
+    wdb_username: "stg_ndao75268"
+  tasks:
+    - name: Set Git user name
+      command: git config user.name "{{ wdb_username }}"
+      args:
+        chdir: "{{ repo_dir }}"
+
+    - name: Set Git user email
+      command: git config user.email "ibrahima.ndao.etu@esmt.sn"
+      args:
+        chdir: "{{ repo_dir }}"
+
+    - name: Add the files to the repository
+      command: git add .
+      args:
+        chdir: "{{ repo_dir }}"
+
+    - name: Commit the files
+      command: git commit -m "{{ commit_message }}"
+      args:
+        chdir: "{{ repo_dir }}"
+      register: git_commit
+      changed_when: "'nothing to commit' not in git_commit.stdout"
+
+    - name: Include encrypted credentials
+      include_vars: mysql_setup/vars/credentials.yaml
+      
+    - name: Push the commit to GitHub
+      expect:
+        command: git push --force  
+        responses:
+          'Username .*': "{{ wdb_username }}"
+          'Password .*': "{{ wdb_password }}"
+      args:
+        chdir: "{{ repo_dir }}"
+        timeout: 600 # Run the task for up to 600 seconds (10 minutes)
+      when: git_commit.changed
+      

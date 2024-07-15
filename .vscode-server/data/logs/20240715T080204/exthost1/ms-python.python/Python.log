@@ -1,0 +1,58 @@
+2024-07-15 08:02:13.018 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-07-15 08:02:13.018 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-07-15 08:02:13.018 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-07-15 08:02:13.018 [info] Experiment 'pythonTestAdapter' is active
+2024-07-15 08:02:13.018 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/ndao/DB_Provisionning/.pixi/envs'
+	at Object.readdirSync (node:fs:1517:26)
+	at /home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574598
+	at /home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574789
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574507)
+	at async d.ensureWatchersReady (/home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:536827)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/ndao/DB_Provisionning/.pixi/envs'
+}
+2024-07-15 08:02:13.018 [error] Dir "/home/ndao/DB_Provisionning/.pixi/envs" is not watchable (directory does not exist)
+2024-07-15 08:02:13.018 [info] Default formatter is set to null for workspace /home/ndao/DB_Provisionning
+2024-07-15 08:02:13.018 [info] Python interpreter path: /bin/python3
+2024-07-15 08:02:13.111 [info] > pyenv which python
+2024-07-15 08:02:13.111 [info] cwd: .
+2024-07-15 08:02:14.229 [info] > pixi --version
+2024-07-15 08:02:14.231 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-07-15 08:02:14.232 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-07-15 08:02:17.077 [info] Starting Pylance language server.
+2024-07-15 09:51:40.211 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 09:51:40.641 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 09:51:43.152 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 09:51:44.477 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:06:46.654 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:06:56.238 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:06:56.994 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:07:03.051 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:07:42.073 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:07:42.971 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:07:43.324 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:07:45.495 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:07:57.558 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:07:58.342 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:07:58.762 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:08:01.366 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:08:19.040 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:08:19.956 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:08:21.321 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:08:31.014 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:16:00.348 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:16:03.300 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:16:05.698 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-15 10:16:15.637 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json

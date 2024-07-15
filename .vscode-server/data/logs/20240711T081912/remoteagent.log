@@ -1,0 +1,22 @@
+2024-07-11 08:19:13.116 [info] 
+
+
+
+
+2024-07-11 08:19:13.192 [info] Extension host agent started.
+2024-07-11 08:19:13.546 [info] [127.0.0.1][2d7000ab][ManagementConnection] New connection established.
+2024-07-11 08:19:14.243 [info] [127.0.0.1][90fe1d56][ExtensionHostConnection] New connection established.
+2024-07-11 08:19:14.319 [info] [127.0.0.1][90fe1d56][ExtensionHostConnection] <151> Launched Extension Host Process.
+2024-07-11 08:19:21.850 [info] Getting Manifest... ms-python.debugpy
+2024-07-11 08:19:22.477 [info] Installing extension: ms-python.debugpy {"productVersion":{"version":"1.91.0","date":"2024-07-01T18:52:22.949Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ndao/.vscode-server/extensions/extensions.json","external":"file:///home/ndao/.vscode-server/extensions/extensions.json","path":"/home/ndao/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-07-11 08:19:23.732 [info] Getting Manifest... ms-python.python
+2024-07-11 08:19:37.081 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 8604ms.
+2024-07-11 08:19:39.176 [info] Extracted extension to file:///home/ndao/.vscode-server/extensions/ms-python.debugpy-2024.8.0-linux-x64: ms-python.debugpy
+2024-07-11 08:19:39.207 [info] Renamed to /home/ndao/.vscode-server/extensions/ms-python.debugpy-2024.8.0-linux-x64
+2024-07-11 08:19:39.271 [info] Marked extension as uninstalled ms-python.debugpy-2024.6.0
+2024-07-11 08:19:39.284 [info] Extension installed successfully: ms-python.debugpy file:///home/ndao/.vscode-server/extensions/extensions.json
+2024-07-11 12:32:29.817 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-11 14:06:56.934 [info] [127.0.0.1][2d7000ab][ManagementConnection] The client has reconnected.
+2024-07-11 14:06:57.031 [info] [127.0.0.1][90fe1d56][ExtensionHostConnection] The client has reconnected.
+2024-07-11 15:28:32.335 [info] [127.0.0.1][2d7000ab][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-11 15:28:32.550 [info] [127.0.0.1][90fe1d56][ExtensionHostConnection] <151> Extension Host Process exited with code: 0, signal: null.

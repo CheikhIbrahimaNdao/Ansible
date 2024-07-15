@@ -1,0 +1,28 @@
+2024-07-12 13:29:15.881 [info] Log level: Info
+2024-07-12 13:29:15.882 [info] Validating found git in: "git"
+2024-07-12 13:29:15.882 [info] Using git "2.25.1" from "git"
+2024-07-12 13:29:15.882 [info] > git rev-parse --show-toplevel [223ms]
+2024-07-12 13:29:15.882 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2024-07-12 13:29:15.882 [info] Open repository: /home/ndao/DB_Provisionning
+2024-07-12 13:29:15.882 [info] > git rev-parse --show-toplevel [82ms]
+2024-07-12 13:29:15.882 [info] > git config --get commit.template [91ms]
+2024-07-12 13:29:15.896 [info] > git rev-parse --show-toplevel [9ms]
+2024-07-12 13:29:16.127 [info] > git rev-parse --show-toplevel [160ms]
+2024-07-12 13:29:16.134 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [242ms]
+2024-07-12 13:29:17.232 [info] > git status -z -uall [888ms]
+2024-07-12 13:29:17.232 [info] > git check-ignore -v -z --stdin [71ms]
+2024-07-12 13:29:17.233 [info] > git show --textconv :mysql_setup/sql_backup.yml [16ms]
+2024-07-12 13:29:17.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [103ms]
+2024-07-12 13:29:17.491 [info] > git ls-files --stage -- /home/ndao/DB_Provisionning/mysql_setup/sql_backup.yml [270ms]
+2024-07-12 13:29:17.505 [info] > git cat-file -s d6b8d4add1bdf53614ab18ee6366bed4c6dbffb7 [9ms]
+2024-07-12 13:29:17.506 [info] > git config --local branch.dev.vscode-merge-base [15ms]
+2024-07-12 13:29:17.510 [info] > git config --get commit.template [54ms]
+2024-07-12 13:29:17.547 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [37ms]
+2024-07-12 13:29:17.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [154ms]
+2024-07-12 13:29:17.711 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [147ms]
+2024-07-12 13:29:17.988 [info] > git status -z -uall [6ms]
+2024-07-12 13:29:17.989 [info] > git rev-list --count --left-right refs/heads/dev...refs/remotes/origin/dev [273ms]
+2024-07-12 13:29:18.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [29ms]
+2024-07-12 13:29:18.048 [info] > git diff --name-status -z --diff-filter=ADMR 66e0e6740507b5adbb4a446c0853d8838bf940d3...refs/remotes/origin/dev [55ms]
+2024-07-12 13:29:18.055 [info] > git config --local branch.dev.vscode-merge-base [8ms]
+2024-07-12 13:29:18.063 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]

@@ -1,0 +1,22 @@
+2024-07-08 07:23:27.927 [info] Log level: Info
+2024-07-08 07:23:27.927 [info] Validating found git in: "git"
+2024-07-08 07:23:27.927 [info] Using git "2.25.1" from "git"
+2024-07-08 07:23:27.927 [info] > git rev-parse --show-toplevel [306ms]
+2024-07-08 07:23:27.927 [info] > git rev-parse --git-dir --git-common-dir [269ms]
+2024-07-08 07:23:27.927 [info] Open repository: /home/ndao/DB_Provisionning
+2024-07-08 07:23:28.196 [info] > git rev-parse --show-toplevel [253ms]
+2024-07-08 07:23:28.198 [info] > git config --get commit.template [263ms]
+2024-07-08 07:23:28.263 [info] > git rev-parse --show-toplevel [52ms]
+2024-07-08 07:23:28.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [724ms]
+2024-07-08 07:23:29.252 [info] > git rev-parse --show-toplevel [281ms]
+2024-07-08 07:23:29.316 [info] > git check-ignore -v -z --stdin [323ms]
+2024-07-08 07:23:29.318 [info] > git show --textconv :mysql_setup/sql_loop.yml [55ms]
+2024-07-08 07:23:29.321 [info] > git ls-files --stage -- /home/ndao/DB_Provisionning/mysql_setup/sql_loop.yml [53ms]
+2024-07-08 07:23:29.337 [info] > git cat-file -s 7cc1bc714487eef4dedd74450fab189079f23209 [11ms]
+2024-07-08 07:23:29.486 [info] > git status -z -uall [49ms]
+2024-07-08 07:23:29.526 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [31ms]
+2024-07-08 07:23:29.538 [info] > git config --get commit.template [13ms]
+2024-07-08 07:23:29.621 [info] > git rev-list --count --left-right refs/heads/dev...refs/remotes/origin/dev [89ms]
+2024-07-08 07:23:29.646 [info] > git diff --name-status -z --diff-filter=ADMR 66e0e6740507b5adbb4a446c0853d8838bf940d3...refs/remotes/origin/dev [19ms]
+2024-07-08 07:23:29.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [19ms]
+2024-07-08 07:23:29.793 [info] > git status -z -uall [90ms]

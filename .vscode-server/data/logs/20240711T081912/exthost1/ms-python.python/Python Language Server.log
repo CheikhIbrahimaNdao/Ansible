@@ -1,0 +1,14 @@
+2024-07-11 08:19:25.803 [info] (Client) Pylance async client (2024.7.1) started with python extension (2024.10.0)
+2024-07-11 08:19:26.941 [info] [Info  - 8:19:26 AM] (490) Pylance language server 2024.7.1 (pyright version 1.1.369, commit 1168be71) starting
+2024-07-11 08:19:26.942 [info] [Info  - 8:19:26 AM] (490) Server root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-11 08:19:26.989 [info] [Info  - 8:19:26 AM] (490) Starting service instance "DB_Provisionning"
+2024-07-11 08:19:27.080 [info] [Info  - 8:19:27 AM] (490) Setting pythonPath for service "DB_Provisionning": "/bin/python3"
+2024-07-11 08:19:27.080 [info] [Info  - 8:19:27 AM] (490) Setting environmentName for service "DB_Provisionning": "3.8.10 (global)"
+2024-07-11 08:19:27.081 [info] [Info  - 8:19:27 AM] (490) No include entries specified; assuming /home/ndao/DB_Provisionning
+2024-07-11 08:19:27.083 [info] [Info  - 8:19:27 AM] (490) Auto-excluding **/node_modules
+2024-07-11 08:19:27.084 [info] [Info  - 8:19:27 AM] (490) Auto-excluding **/__pycache__
+2024-07-11 08:19:27.085 [info] [Info  - 8:19:27 AM] (490) Auto-excluding **/.*
+2024-07-11 08:19:27.123 [info] [Info  - 8:19:27 AM] (490) Assuming Python version 3.8.10.final.0
+2024-07-11 08:19:27.283 [info] [Info  - 8:19:27 AM] (490) No source files found.
+2024-07-11 08:19:27.868 [info] [Info  - 8:19:27 AM] (490) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-11 08:19:27.872 [info] [Info  - 8:19:27 AM] (490) Background analysis(1) started

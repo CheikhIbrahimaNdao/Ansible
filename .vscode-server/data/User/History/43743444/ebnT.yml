@@ -1,0 +1,63 @@
+# Create databases and users
+
+- name: Check if database exists
+  shell: "mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ db_item.dba_name_db }}\";'"
+  register: db_check
+  ignore_errors: yes
+
+- name: Display message if database already exists
+  debug:
+    msg: "Database '{{ db_item.dba_name_db }}' already exists."
+  when: db_check.stdout != ""
+
+- name: Check if user already exists
+  shell: "mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e 'SELECT User FROM mysql.user WHERE User = \"{{ db_item.dba_username_db }}\";'"
+  register: user_check
+  ignore_errors: yes
+
+- name: Display message if user already exists
+  debug:
+    msg: "User '{{ db_item.dba_username_db }}' already exists."
+  when: user_check.stdout != ""
+
+- name: Create a database
+  mysql_db:
+    name: "{{ db_item.dba_name_db }}"
+    state: present
+    login_password: "{{ gdb_password }}"
+    login_user: "{{ db_user }}"
+    login_host: "{{ db_ip }}"
+    login_port: "{{ db_port }}"
+  when: db_check.stdout == ""
+
+- name: Generate a random password for the MySQL user
+  set_fact:
+    dba_username_db_password: "{{ lookup('community.general.random_string', length=(range(8, 17) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+  when: user_check.stdout == ""
+
+- name: Create a user for the database with auto-generated password
+  mysql_user:
+    name: "{{ db_item.dba_username_db }}"
+    host:  "{{ db_host }}"
+    password: "{{ dba_username_db_password }}"
+    priv: "{{ db_item.dba_name_db }}.*:ALL"
+    state: present
+    update_password: on_create
+    login_password: "{{ gdb_password }}"
+    login_user: "{{ db_user }}"
+    login_host: "{{ db_ip }}"
+    login_port: "{{ db_port }}"
+  when: user_check.stdout == ""
+
+- name: Grant privileges to MySQL user if user exists
+  shell: |
+    mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e \
+    'GRANT USAGE ON {{ db_item.dba_name_db }}.* TO "{{ db_item.dba_username_db }}"@"{{ db_host }}"; \
+    GRANT ALL PRIVILEGES ON {{ db_item.dba_name_db }}.* TO "{{ db_item.dba_username_db }}"@"{{ db_host }}";'
+  when: user_check.stdout != "" 
+  ignore_errors: yes 
+
+- name: Display username and password
+  debug:
+    msg: "User '{{ db_item.dba_username_db }}' created with password '{{ dba_username_db_password }}'."
+  when: user_check.stdout == ""
