@@ -1,0 +1,136 @@
+# Create databases and users
+
+- name: Vérifier si le nom suit la nomenclature MYS....DEV
+  assert:
+    that:
+      - "dba_name_db | regex_search('^MYS.*DEV$')"
+    fail_msg: "Le nom '{{ dba_name_db }}' ne suit pas la nomenclature 'MYS....DEV'"
+    success_msg: "Le nom '{{ dba_name_db }}' suit la nomenclature 'MYS....DEV'"
+
+- name: Check if database exists
+  shell: "mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e 'SELECT schema_name FROM information_schema.schemata WHERE schema_name = \"{{ dba_name_db }}\";'"
+  register: db_check
+  ignore_errors: yes
+
+- name: Display message if database already exists
+  debug:
+    msg: "Database '{{ dba_name_db }}' already exists."
+  when: db_check.stdout != ""
+
+- name: Check if user already exists
+  shell: "mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e 'SELECT User FROM mysql.user WHERE User = \"{{ dba_username_db }}\";'"
+  register: user_check
+  ignore_errors: yes
+
+- name: Display message if user already exists
+  debug:
+    msg: "User '{{ dba_username_db }}' already exists."
+  when: user_check.stdout != ""
+
+- name: Create a database
+  mysql_db:
+    name: "{{ dba_name_db }}"
+    state: present
+    login_password: "{{ gdb_password }}"
+    login_user: "{{ db_user }}"
+    login_host: "{{ db_ip }}"
+    login_port: "{{ db_port }}"
+  when: db_check.stdout == ""
+
+- name: Generate a random password for the MySQL user
+  set_fact:
+    dba_username_db_password: "{{ lookup('community.general.random_string', length=(range(8, 21) | random), min_lower=1, min_upper=1, min_numeric=1, special=false) }}"
+  when: user_check.stdout == ""
+
+- name: Create a user for the database with auto-generated password
+  mysql_user:
+    name: "{{ dba_username_db }}"
+    host:  "{{ db_host }}"
+    password: "{{ dba_username_db_password }}"
+    priv: "{{ dba_name_db }}.*:ALL"
+    state: present
+    update_password: on_create
+    login_password: "{{ gdb_password }}"
+    login_user: "{{ db_user }}"
+    login_host: "{{ db_ip }}"
+    login_port: "{{ db_port }}"
+  when: user_check.stdout == ""
+
+- name: Grant privileges to MySQL user if user exists
+  shell: |
+    mysql -u{{db_user}} -h{{ db_ip }} -P{{ db_port }} -p{{ gdb_password }} -e \
+    'GRANT USAGE ON {{ dba_name_db }}.* TO "{{ dba_username_db }}"@"{{ db_host }}"; \
+    GRANT ALL PRIVILEGES ON {{ dba_name_db }}.* TO "{{ dba_username_db }}"@"{{ db_host }}";'
+  when: user_check.stdout != "" 
+  ignore_errors: yes 
+
+- name: Display username and password
+  debug:
+    msg: "User '{{ dba_username_db }}' created with password '{{ dba_username_db_password }}'."
+  when: user_check.stdout == ""
+
+- name: Envoyer un email avec les détails de la base de données et de l'utilisateur créés
+  mail:
+    host: "webmail.orange-sonatel.com"
+    port: 25
+    to: "{{ demandeur }}"
+    cc:
+      - "CheikhIbrahima.NDAO@orange-sonatel.com"
+      #- "Admin_dba@orange-sonatel.com"
+    from: "{{ approbateur }}"
+    subject: "Détails de la base de données et de l'utilisateur MySQL créés"
+    body: |
+      Database created: {{ dba_name_db }}
+      user created: {{ dba_username_db }}
+      user password: {{ dba_username_db_password }}
+      IP address: {{ db_ip }}
+      Port: {{ db_port }}
+  when: db_check.stdout == "" and user_check.stdout == ""
+
+- name: Envoyer un email avec les détails de la base de données et de l'utilisateur créés
+  mail:
+    host: "webmail.orange-sonatel.com"
+    port: 25
+    to: "{{ demandeur }}"
+    cc:
+      - "CheikhIbrahima.NDAO@orange-sonatel.com"
+      #- "Admin_dba@orange-sonatel.com"
+    from: "{{ approbateur }}"
+    subject: "Détails de la base de données et de l'utilisateur MySQL créés"
+    body: |
+      L'utilisateur {{ dba_username_db }} a été créé et recevra les privilèges pour la base de données {{ dba_name_db }} déjà existante.
+      user password: {{ dba_username_db_password }}
+      IP address: {{ db_ip }}
+      Port: {{ db_port }}
+  when: db_check.stdout != "" and user_check.stdout == ""
+
+- name: Envoyer un email avec les détails de la base de données et de l'utilisateur créés
+  mail:
+    host: "webmail.orange-sonatel.com"
+    port: 25
+    to: "{{ demandeur }}"
+    cc:
+      - "CheikhIbrahima.NDAO@orange-sonatel.com"
+      #- "Admin_dba@orange-sonatel.com"
+    from: "{{ approbateur }}"
+    subject: "Détails de la base de données et de l'utilisateur MySQL créés"
+    body: |
+      L'utilisateur {{ dba_username_db }} existe déjà et recevra les privilèges pour la base de données {{ dba_name_db }} créée.
+      IP address: {{ db_ip }}
+      Port: {{ db_port }}
+  when: db_check.stdout == "" and user_check.stdout != ""
+
+- name: Envoyer un email avec les détails de la base de données et de l'utilisateur créés
+  mail:
+    host: "webmail.orange-sonatel.com"
+    port: 25
+    to: "{{ demandeur }}"
+    cc:
+      - "CheikhIbrahima.NDAO@orange-sonatel.com"
+      #- "Admin_dba@orange-sonatel.com"
+    from: "{{ approbateur }}"
+    subject: "Détails de la base de données et de l'utilisateur MySQL créés"
+    body: |
+      La base de données {{ dba_name_db }} et l'utilisateur MySQL {{ dba_username_db }} existent déjà.
+      Veuillez contacter le service DSI/A2I/DBA.
+  when: db_check.stdout != "" and user_check.stdout != ""

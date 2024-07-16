@@ -6,7 +6,7 @@
     # Définissez ici l'environnement, par exemple 'PROD', 'DEV', etc.
     env: 'DEV'
     # Définissez ici le nom à vérifier
-    name_to_check: 'MYS1234PRD'
+    name_to_check: 'MYS1234DEV'
     # Variable pour stocker le résultat de la vérification
     name_check_passed: false
 

@@ -1,0 +1,12 @@
+---
+- name: Vérifier la nomenclature d'un nom
+  hosts: localhost
+  vars:
+    name_to_check: "Exemple1"
+  tasks:
+    - name: Contrôle du nom
+      assert:
+        that:
+          - "name_to_check is match('^[A-Z][a-z0-9]{2,9}$')"
+        fail_msg: "Le nom '{{ name_to_check }}' ne respecte pas la nomenclature spécifique."
+        success_msg: "Le nom '{{ name_to_check }}' respecte la nomenclature spécifique."

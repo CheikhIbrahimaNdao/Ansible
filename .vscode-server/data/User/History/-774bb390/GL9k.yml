@@ -1,0 +1,13 @@
+---
+- name: Vérifier la nomenclature d'un nom
+  hosts: localhost
+  vars:
+    name_to_check: "Exemple1"
+    dba_env_db: 'DEV'
+  tasks:  
+  - name: Vérifier si le nom suit la nomenclature MYS....{{dba_env_db}}
+    assert:
+      that:
+        - "name_to_check | regex_search('^MYS.*{{ dba_env_db }}$')"
+      fail_msg: "Le nom '{{ name_to_check }}' ne suit pas la nomenclature 'MYS....{{ dba_env_db }}'"
+      success_msg: "Le nom '{{ name_to_check }}' suit la nomenclature 'MYS....{{ dba_env_db }}'"

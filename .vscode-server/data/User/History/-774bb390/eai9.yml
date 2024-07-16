@@ -25,13 +25,13 @@
         name_check_passed: true
       when: name_check_result.failed is not defined or name_check_result.failed == false
 
-    - name: Exécuter les tâches suivantes seulement si la vérification a réussi
-      block:
-        - name: Tâche 1
-          debug:
-            msg: "Exécution de la tâche 1"
+    
+      
+    - name: Tâche 1
+      debug:
+        msg: "Exécution de la tâche 1"
 
-        - name: Tâche 2
-          debug:
-            msg: "Exécution de la tâche 2"
-      when: name_check_passed
+    - name: Tâche 2
+      debug:
+        msg: "Exécution de la tâche 2"
+      

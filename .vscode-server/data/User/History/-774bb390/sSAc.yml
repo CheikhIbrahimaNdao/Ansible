@@ -1,0 +1,15 @@
+---
+- name: Vérifier la nomenclature d'un nom
+  hosts: localhost
+  vars:
+    name_to_check: "Exemple1"
+    DEV: " ^MYS.*DEV$ "
+    PRD: " ^MYS.*PRD$ "
+    REC: " ^MYS.*REC$ "
+  tasks:  
+  - name: Vérifier si le nom suit la nomenclature MYS....DEV
+    assert:
+      that:
+        - "name_to_check | regex_search('^MYS.*DEV$')"
+      fail_msg: "Le nom '{{ name_to_check }}' ne suit pas la nomenclature 'MYS....DEV'"
+      success_msg: "Le nom '{{ name_to_check }}' suit la nomenclature 'MYS....DEV'"

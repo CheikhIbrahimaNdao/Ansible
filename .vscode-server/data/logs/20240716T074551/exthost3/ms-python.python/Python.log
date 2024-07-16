@@ -1,0 +1,37 @@
+2024-07-16 14:06:29.681 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-07-16 14:06:29.681 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-07-16 14:06:29.681 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-07-16 14:06:29.681 [info] Experiment 'pythonTestAdapter' is active
+2024-07-16 14:06:29.681 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/ndao/.pixi/envs'
+	at Object.readdirSync (node:fs:1517:26)
+	at /home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574598
+	at /home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574789
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574507)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:536827)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/ndao/.pixi/envs'
+}
+2024-07-16 14:06:29.681 [error] Dir "/home/ndao/.pixi/envs" is not watchable (directory does not exist)
+2024-07-16 14:06:29.681 [info] Default formatter is set to null for workspace /home/ndao
+2024-07-16 14:06:29.681 [info] Python interpreter path: /bin/python3
+2024-07-16 14:06:32.264 [info] > pyenv which python
+2024-07-16 14:06:32.264 [info] cwd: .
+2024-07-16 14:06:32.764 [info] > pixi --version
+2024-07-16 14:06:32.765 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-07-16 14:06:32.765 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-07-16 14:06:34.158 [info] Starting Pylance language server.
+2024-07-16 14:14:58.104 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 14:15:00.942 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
