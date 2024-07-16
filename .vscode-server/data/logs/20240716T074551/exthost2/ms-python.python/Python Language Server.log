@@ -12,3 +12,19 @@
 2024-07-16 11:58:23.478 [info] [Info  - 11:58:23 AM] (26615) No source files found.
 2024-07-16 11:58:23.948 [info] [Info  - 11:58:23 AM] (26615) Background analysis(1) root directory: file:///home/ndao/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist
 2024-07-16 11:58:23.948 [info] [Info  - 11:58:23 AM] (26615) Background analysis(1) started
+2024-07-16 11:59:14.288 [info] [Info  - 11:59:14 AM] (26615) Setting pythonPath for service "ndao": "/bin/python3"
+2024-07-16 11:59:14.288 [info] [Info  - 11:59:14 AM] (26615) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-07-16 11:59:14.288 [info] [Info  - 11:59:14 AM] (26615) No include entries specified; assuming /home/ndao
+2024-07-16 11:59:14.288 [info] [Info  - 11:59:14 AM] (26615) Auto-excluding **/node_modules
+2024-07-16 11:59:14.290 [info] [Info  - 11:59:14 AM] (26615) Auto-excluding **/__pycache__
+2024-07-16 11:59:14.290 [info] [Info  - 11:59:14 AM] (26615) Auto-excluding **/.*
+2024-07-16 11:59:14.319 [info] [Info  - 11:59:14 AM] (26615) Assuming Python version 3.8.10.final.0
+2024-07-16 11:59:14.397 [info] [Info  - 11:59:14 AM] (26615) No source files found.
+2024-07-16 11:59:14.955 [info] [Info  - 11:59:14 AM] (26615) Setting pythonPath for service "ndao": "/bin/python3"
+2024-07-16 11:59:14.957 [info] [Info  - 11:59:14 AM] (26615) Setting environmentName for service "ndao": "3.8.10 (global)"
+2024-07-16 11:59:14.962 [info] [Info  - 11:59:14 AM] (26615) No include entries specified; assuming /home/ndao
+2024-07-16 11:59:14.965 [info] [Info  - 11:59:14 AM] (26615) Auto-excluding **/node_modules
+2024-07-16 11:59:14.966 [info] [Info  - 11:59:14 AM] (26615) Auto-excluding **/__pycache__
+2024-07-16 11:59:14.971 [info] [Info  - 11:59:14 AM] (26615) Auto-excluding **/.*
+2024-07-16 11:59:14.986 [info] [Info  - 11:59:14 AM] (26615) Assuming Python version 3.8.10.final.0
+2024-07-16 11:59:15.043 [info] [Info  - 11:59:15 AM] (26615) No source files found.

@@ -1,0 +1,25 @@
+- name: Choose the environment and perform tasks
+  hosts: all
+  vars:
+  environments:
+    vm:
+      host: 10.137.15.7
+      port: 3306
+    sp:
+      host: 10.137.15.137
+      port: 6446
+
+  tasks:
+    - name: Set the selected environment based on index
+      set_fact:
+        env_ip: "{{ IP_address[dba_env_db|int].db_ip }}"
+        env_port: "{{ Ports[dba_env_db|int].db_port }}"
+    
+    - name: Debug selected environment
+      debug:
+        msg: "Using environment with IP {{ env_ip }} and port {{ env_port }}"
+
+    # Exemple de tâche utilisant l'environnement choisi
+    - name: Example task - Ping the selected host
+      ping:
+      delegate_to: "{{ env_ip }}"
