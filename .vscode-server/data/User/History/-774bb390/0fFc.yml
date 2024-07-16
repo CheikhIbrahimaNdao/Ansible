@@ -1,0 +1,8 @@
+---
+- name: Exemple d'affichage des valeurs incrémentées
+  hosts: localhost
+  tasks:
+    - name: Afficher les valeurs incrémentées
+      debug:
+        msg: "db_name_db[{{ item }}]"
+      with_sequence: start=1 end=10

@@ -1,0 +1,29 @@
+---
+- name: Configure databases
+  hosts: localhost
+  vars:
+    databases:
+      - name: Cheikh
+        username: User1
+      - name: Ibrahima
+        username: User2
+      - name: Diop
+        username: User5
+      - name: Tidiane
+        username: User4
+  tasks:
+    - name: Set fact for databases
+      set_fact:
+        db_indexed: |
+          {{
+            dict(
+              ("dba_name_db" ~ item.key + 1, item.value.name) 
+              for item in databases|enumerate)
+              + 
+              dict(
+              ("dba_username_db" ~ item.key + 1, item.value.username) 
+              for item in databases|enumerate)
+          }}
+    - name: Display the indexed database variables
+      debug:
+        var: db_indexed

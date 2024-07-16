@@ -1,0 +1,20 @@
+- name: Assign database names to variables
+  hosts: localhost
+  vars:
+    dba_name_prefix: "dba_name_db"
+    db_prefix: "db"
+    db_name_db: "{{ db_name_db }}"
+  tasks:
+    - name: Set fact for dba_name and db variables
+      set_fact:
+        "{{ dba_name_prefix }}{{ item + 1 }}": "{{ db_names[item] }}"
+      loop: "{{ range(0, db_names | length) | list }}"
+      loop_control:
+        loop_var: item
+
+    - name: Debug dba_name and db variables
+      debug:
+        msg: "Variable {{ dba_name_prefix }}{{ item + 1 }}: {{ db_names[item] }}"
+      loop: "{{ range(0, db_names | length) | list }}"
+      loop_control:
+        loop_var: item

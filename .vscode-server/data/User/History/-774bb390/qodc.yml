@@ -1,0 +1,8 @@
+---
+- name: Afficher les noms des bases de données
+  hosts: localhost
+  tasks:
+    - name: Générer et afficher les noms des bases de données
+      debug:
+        msg: "{{ 'db_name_db[' ~ item ~ ']' }}"
+      loop: "{{ range(1, 11) }}"

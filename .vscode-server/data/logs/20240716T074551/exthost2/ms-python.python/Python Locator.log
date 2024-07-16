@@ -1,0 +1,22 @@
+2024-07-16 11:58:21.367 [info] Starting Python Locator /home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/python-env-tools/bin/pet server
+2024-07-16 11:58:21.367 [info] Started Refreshing Environments
+2024-07-16 11:58:21.533 [info] Discovered env: /bin/python3
+2024-07-16 11:58:21.567 [info] Discovered env: /usr/bin/python3
+2024-07-16 11:58:21.630 [info] Discovered env: /bin/python3.8
+2024-07-16 11:58:21.638 [info] Discovered env: /usr/bin/python3.8
+2024-07-16 11:58:21.641 [info] Locator Conda took 54.6885ms
+2024-07-16 11:58:21.985 [info] Locator Homebrew took 110.5µs
+2024-07-16 11:58:22.014 [info] Locator LinuxGlobalPython took 92.1578ms
+2024-07-16 11:58:22.056 [info] Locator PipEnv took 4.3µs
+2024-07-16 11:58:22.059 [info] Locator Poetry took 63.9225ms
+2024-07-16 11:58:22.069 [info] Locator PyEnv took 63.7046ms
+2024-07-16 11:58:22.072 [info] Locator Venv took 1.1µs
+2024-07-16 11:58:22.078 [info] Locator VirtualEnv took 1.1µs
+2024-07-16 11:58:22.080 [info] Locator VirtualEnvWrapper took 1.1µs
+2024-07-16 11:58:22.083 [info] Environments found using locators in 93.1502ms
+2024-07-16 11:58:22.097 [info] Environments in PATH found in 173.7286ms
+2024-07-16 11:58:22.160 [info] Environments in global virtual env paths found in 976.5µs
+2024-07-16 11:58:22.178 [info] Environments in custom search paths found in 1.4381ms
+2024-07-16 11:58:22.219 [info] Refresh completed in 173ms
+2024-07-16 11:58:22.433 [info] Resolved /bin/python3.8 in 63ms
+2024-07-16 11:58:22.444 [info] Resolved /usr/bin/python3.8 in 80ms

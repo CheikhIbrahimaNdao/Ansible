@@ -1,0 +1,96 @@
+---
+- hosts: all
+  become: yes
+  gather_facts: no
+  vars_files: vars/credentials.yaml
+  vars:
+    db_user: "stg_ndao75268"
+    IP_address:
+    - db_ip: "10.137.15.7"
+    - db_ip: "10.137.15.137"
+    Ports:
+    - db_port: "3306"
+    - db_port: "6446"
+    ansible_ssh_user: 'diop028863'
+    ansible_ssh_pass: "{{ ctd_password_tacacs }}"
+    ansible_become_password: "{{ ctd_password_tacacs }}"
+    # ansible_python_interpreter: /bin/python3
+  tasks:
+
+
+    - name: Add a host alias that we reach through a tunnel (Ansible 2.0 and newer)
+      add_host:
+        hostname: db_ip
+
+    - name: block
+      block:
+        - name: Execute sql_setup for dba_name_db1
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db1 }}"
+            dba_username_db: "{{ dba_username_db1 }}"
+          when: dba_name_db1 is defined and dba_username_db1 is defined
+          
+        - name: Execute sql_setup for dba_name_db2
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db2 }}"
+            dba_username_db: "{{ dba_username_db2 }}"
+          when: dba_name_db2 is defined and dba_username_db2 is defined
+          
+        - name: Execute sql_setup for dba_name_db3
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db3 }}"
+            dba_username_db: "{{ dba_username_db3 }}"
+          when: dba_name_db3 is defined and dba_username_db3 is defined
+          
+        - name: Execute sql_setup for dba_name_db4
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db4 }}"
+            dba_username_db: "{{ dba_username_db4 }}"
+          when: dba_name_db4 is defined and dba_username_db4 is defined
+          
+        - name: Execute sql_setup for dba_name_db5
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db5 }}"
+            dba_username_db: "{{ dba_username_db5 }}"
+          when: dba_name_db5 is defined and dba_username_db5 is defined
+          
+        - name: Execute sql_setup for dba_name_db6
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db6 }}"
+            dba_username_db: "{{ dba_username_db6 }}"
+          when: dba_name_db6 is defined and dba_username_db6 is defined
+          
+        - name: Execute sql_setup for dba_name_db7
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db7 }}"
+            dba_username_db: "{{ dba_username_db7 }}"
+          when: dba_name_db7 is defined and dba_username_db7 is defined
+          
+        - name: Execute sql_setup for dba_name_db8
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db8 }}"
+            dba_username_db: "{{ dba_username_db8 }}"
+          when: dba_name_db8 is defined and dba_username_db8 is defined
+          
+        - name: Execute sql_setup for dba_name_db9
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db9 }}"
+            dba_username_db: "{{ dba_username_db9 }}"
+          when: dba_name_db9 is defined and dba_username_db9 is defined
+          
+        - name: Execute sql_setup for dba_name_db10
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db10 }}"
+            dba_username_db: "{{ dba_username_db10 }}"
+          when: dba_name_db10 is defined and dba_username_db10 is defined
+      delegate_to: db_ip

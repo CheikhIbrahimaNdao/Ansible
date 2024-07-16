@@ -1,0 +1,10 @@
+2024-07-16 07:42:37.466 [info] 
+
+
+
+
+2024-07-16 07:42:37.488 [info] Extension host agent started.
+2024-07-16 07:42:37.684 [info] [127.0.0.1][be6cf136][ManagementConnection] New connection established.
+2024-07-16 07:42:38.208 [info] [127.0.0.1][e2b2bb53][ExtensionHostConnection] New connection established.
+2024-07-16 07:42:38.382 [info] [127.0.0.1][e2b2bb53][ExtensionHostConnection] <148> Launched Extension Host Process.
+2024-07-16 07:42:39.685 [info] [127.0.0.1][be6cf136][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

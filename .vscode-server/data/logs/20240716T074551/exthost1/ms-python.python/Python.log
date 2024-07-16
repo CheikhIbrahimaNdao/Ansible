@@ -1,0 +1,99 @@
+2024-07-16 07:45:58.435 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-07-16 07:45:58.435 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-07-16 07:45:58.435 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-07-16 07:45:58.435 [info] Experiment 'pythonTestAdapter' is active
+2024-07-16 07:45:58.435 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/ndao/DB_Provisionning/.pixi/envs'
+	at Object.readdirSync (node:fs:1517:26)
+	at /home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574598
+	at /home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574789
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574507)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/home/ndao/.vscode-server/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:536827)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/ndao/DB_Provisionning/.pixi/envs'
+}
+2024-07-16 07:45:58.435 [error] Dir "/home/ndao/DB_Provisionning/.pixi/envs" is not watchable (directory does not exist)
+2024-07-16 07:45:58.435 [info] Default formatter is set to null for workspace /home/ndao/DB_Provisionning
+2024-07-16 07:45:58.435 [info] Python interpreter path: /bin/python3
+2024-07-16 07:45:58.623 [info] > pyenv which python
+2024-07-16 07:45:58.624 [info] cwd: .
+2024-07-16 07:45:59.398 [info] > pixi --version
+2024-07-16 07:45:59.399 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-07-16 07:45:59.399 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-07-16 07:46:01.344 [info] Starting Pylance language server.
+2024-07-16 08:27:29.867 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 09:01:47.266 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:41:32.529 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:41:35.001 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:41:35.373 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:41:48.705 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:41:51.460 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:41:52.981 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:41:53.340 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:42:13.095 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:26.181 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:27.065 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:27.353 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:27.779 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:28.062 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:28.997 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:29.275 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:29.538 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:30.208 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:31.139 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:31.461 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:33.231 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:48.737 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:46:49.515 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:48:50.684 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:48:53.041 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:48:53.341 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:48:53.959 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:48:54.233 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:48:56.273 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:07.692 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:08.770 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:38.262 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:38.770 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:39.476 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:45.262 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:45.591 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:46.482 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:48.247 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:49.818 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:50.187 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:49:55.074 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:23.133 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:24.489 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:24.896 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:25.723 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:26.124 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:26.382 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:27.109 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:27.540 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:28.041 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:28.875 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:29.392 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:29.963 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:30.277 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:30.809 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:31.283 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:31.955 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:32.375 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:33.295 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:33.570 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:34.044 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:34.353 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json
+2024-07-16 11:50:34.834 [info] Discover tests for workspace name: undefined - uri: c:/Users/dalom/AppData/Roaming/Code/User/settings.json

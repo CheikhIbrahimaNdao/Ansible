@@ -883,3 +883,1250 @@ Error: Command failed: command -v ansible-lint
   stderr: ''
 }
 Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+[Error - 3:12:58 PM] An error occurred in 'onCompletion' handler: [TypeError] t.forEach is not a function
+TypeError: t.forEach is not a function
+    at t.getVarsCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:143092)
+    at t.doCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:136473)
+    at async /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:126610
+[Error - 3:13:02 PM] An error occurred in 'onCompletion' handler: [TypeError] t.forEach is not a function
+TypeError: t.forEach is not a function
+    at t.getVarsCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:143092)
+    at t.doCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:136473)
+    at async /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:126610
+[Error - 3:13:06 PM] An error occurred in 'onCompletion' handler: [TypeError] t.forEach is not a function
+TypeError: t.forEach is not a function
+    at t.getVarsCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:143092)
+    at t.doCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:136473)
+    at async /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:126610
+[Error - 3:13:08 PM] An error occurred in 'onCompletion' handler: [TypeError] t.forEach is not a function
+TypeError: t.forEach is not a function
+    at t.getVarsCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:143092)
+    at t.doCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:136473)
+    at async /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:126610
+[Error - 3:13:11 PM] An error occurred in 'onCompletion' handler: [TypeError] t.forEach is not a function
+TypeError: t.forEach is not a function
+    at t.getVarsCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:143092)
+    at t.doCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:136473)
+    at async /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:126610
+[Error - 3:13:14 PM] An error occurred in 'onCompletion' handler: [TypeError] t.forEach is not a function
+TypeError: t.forEach is not a function
+    at t.getVarsCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:143092)
+    at t.doCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:136473)
+    at async /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:126610
+[Error - 3:13:37 PM] An error occurred in 'onCompletion' handler: [TypeError] t.forEach is not a function
+TypeError: t.forEach is not a function
+    at t.getVarsCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:143092)
+    at t.doCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:136473)
+    at async /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:126610
+[Error - 3:13:41 PM] An error occurred in 'onCompletion' handler: [TypeError] t.forEach is not a function
+TypeError: t.forEach is not a function
+    at t.getVarsCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:143092)
+    at t.doCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:136473)
+    at async /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:126610
+[Error - 3:13:44 PM] An error occurred in 'onCompletion' handler: [TypeError] t.forEach is not a function
+TypeError: t.forEach is not a function
+    at t.getVarsCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:143092)
+    at t.doCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:136473)
+    at async /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:126610
+[Error - 3:13:47 PM] An error occurred in 'onCompletion' handler: [TypeError] t.forEach is not a function
+TypeError: t.forEach is not a function
+    at t.getVarsCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:143092)
+    at t.doCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:136473)
+    at async /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:126610
+[Error - 3:13:48 PM] An error occurred in 'onCompletion' handler: [TypeError] t.forEach is not a function
+TypeError: t.forEach is not a function
+    at t.getVarsCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:143092)
+    at t.doCompletion (/home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:136473)
+    at async /home/ndao/.vscode-server/extensions/redhat.ansible-24.8.1/out/server/src/server.js:2:126610
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: 1: ansible-lint: not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:518:28)
+    at Pipe.<anonymous> (node:net:337:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint: 
