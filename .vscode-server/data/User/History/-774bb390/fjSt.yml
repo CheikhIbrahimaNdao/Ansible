@@ -1,16 +1,14 @@
 ---
-- hosts: localhost
+- name: Choose the environment and perform tasks
+  hosts: all
   vars:
-    environments:
-      dev:
-        host: 10.137.21.115
-        port: 6446
-      prd:
-        host: 10.137.15.7
-        port: 3306
-      sp:
-        host: 10.137.15.137
-        port: 6446
+  environments:
+    vm:
+      host: 10.137.15.7
+      port: 3306
+    sp:
+      host: 10.137.15.137
+      port: 6446
   tasks:
     - name: Set the selected environment
       set_fact:

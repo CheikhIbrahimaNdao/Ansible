@@ -1,11 +1,8 @@
 ---
-- hosts: localhost
+- hosts: all
   vars:
     environments:
-      dev:
-        host: 10.137.21.115
-        port: 6446
-      prd:
+      vm:
         host: 10.137.15.7
         port: 3306
       sp:
