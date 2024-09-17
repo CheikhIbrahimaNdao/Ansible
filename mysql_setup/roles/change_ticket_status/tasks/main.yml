@@ -1,0 +1,58 @@
+---
+# tasks file for change_ticket_status
+- name: Get the transitions
+  uri:
+    url: "{{ jsm_url }}/rest/api/2/issue/{{ transition_ticket_id }}/transitions"
+    method: GET
+    user: "{{ jsm_username }}"
+    password: "{{ jsm_token }}"
+    body_format: json
+    headers:
+      accept: "application/json"
+      Content-Type: "application/json"
+    status_code: 200
+    force_basic_auth: yes
+    validate_certs: no
+    timeout: 600
+  register: details
+  #no_log: true
+  tags:
+    - transition
+  ## delegate_to: mesvapansibleprd2
+
+- name: Récupération de l'identifiant de l'état de la requete
+  set_fact:
+    idstate: "{{ details |json_query(state_query) }}"
+  vars:
+    state_query: "json.transitions[?name=='{{ ticket_status }}'].id"
+  tags:
+    - transition
+
+- name: Debug le status du ticket
+  debug:
+    var: idstate
+
+- name: "Change {{ transition_ticket_id }} ticket status"
+  uri:
+    url: "{{ jsm_url }}/rest/api/2/issue/{{ transition_ticket_id }}/transitions"
+    method: POST
+    user: "{{ jsm_username }}"
+    password: "{{ jsm_token }}"
+    body_format: json
+    body: 
+      update:
+        comment:
+          - add:
+              body: "{{ message }}"
+      transition:
+        id: "{{ idstate[0] }}"
+    headers:
+      accept: "application/json"
+      Content-Type: "application/json"
+    status_code: 204
+    force_basic_auth: yes
+    validate_certs: no
+    timeout: 120
+  register: resolution
+  ignore_errors: true
+  # delegate_to: mesvapansibleprd2

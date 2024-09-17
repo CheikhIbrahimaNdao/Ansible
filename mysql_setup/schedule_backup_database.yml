@@ -1,0 +1,23 @@
+- name: schedule backup database and later deletion
+  hosts: localhost
+  vars_files: 
+  - vars/credentials.yaml
+  - vars/mysql_vars.yml
+  tasks: 
+    - name: Appel du role schedule_backup_database
+      include_role:
+        name: schedule_backup_database
+
+    - name: Appel du role schedule_backup_deletion
+      include_role:
+        name: schedule_backup_deletion
+
+    - name: Appel du role change_ticket_status
+      include_role:
+        name: change_ticket_status
+      vars:
+        transition_ticket_id: '{{ ticket_id }}'
+        ticket_status: "Résoudre ce ticket"
+        message: "Ticket fermé"
+
+

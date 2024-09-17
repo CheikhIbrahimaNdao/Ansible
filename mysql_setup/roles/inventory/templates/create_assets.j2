@@ -1,0 +1,14 @@
+{
+  "dbName": "{{ dba_name_db }}",
+  "dbEngine": "{{ dba_type_db | upper }}",
+  "engineVersion": "",
+  "typeInstance": "SINGLE",
+  "typeLocation": "CLUSTER",
+  "vmId": null,
+  "clusterId": "{% if {{ dba_env_db }} == 'prd' %} 3 {%- else -%} 4 {%- endif %}",
+  "manager1Login": "diop028863",
+  "manager2Login": "ba028729",
+  "applicationId": {{ app_id }},
+  "supervised": false,
+  "saved": false
+}

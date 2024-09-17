@@ -1,0 +1,40 @@
+---
+- name: delete Databases
+  hosts: all
+  gather_facts: no
+  vars_files: 
+    - vars/mysql_vars.yml
+  vars:
+    backup_date: "{{ dba_backup_time | regex_replace('T.*', '') | regex_replace('-', '') }}"
+    full_backup_dir: /data/{{ dba_name_app }}/backup_{{ backup_date }}
+  tasks:
+    - name: Vérifier la connectivité SSH
+      ansible.builtin.ping:
+      delegate_to: 10.137.16.199
+
+    - name: block
+      block:
+      - name: Ensure backup directory exists
+        file:
+          path: "{{ full_backup_dir }}"
+          state: directory
+          mode: '0755'
+
+      - name: Remove the compressed SQL dump file
+        command: "rm -rf {{ full_backup_dir }}"
+        args:
+          removes: "{{ full_backup_dir }}"
+
+      - name: Envoyer un email avec les détails de la base de données et de l'utilisateur créés
+        mail:
+          host: "webmail.orange-sonatel.com"
+          port: 25
+          to: "{{ demandeur }}"
+          cc:
+            - "CheikhIbrahima.NDAO@orange-sonatel.com"
+            #- "Admin_dba@orange-sonatel.com"
+          from: "{{ approbateur }}"
+          subject: "Détails de la sauvegarde à supprimer"
+          body: |
+            La sauvegarde de la base de données a été supprimée avec succées.
+      delegate_to: '10.137.16.199'

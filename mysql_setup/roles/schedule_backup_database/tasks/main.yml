@@ -1,0 +1,29 @@
+- name: Schedule a template to run one time
+  awx.awx.schedule:
+    controller_host: "{{ awx_host }}"
+    controller_username: "{{ awx_username }}"
+    controller_password: "{{ awx_password }}"
+    name: "One Time Schedule Backup [{{ ticket_id }}]"
+    validate_certs: false
+    unified_job_template: "Database_backup" #// remplacer par le template pour la sauvegarde
+    rrule: "{{ query('awx.awx.schedule_rrule', 'none', timezone='UTC', start_date=dba_backup_time | regex_replace('T', ' ') | regex_replace('\\..*', '')) }}" #// remplacer start_date par la variable backup_time
+    extra_data:
+      dba_env_db: "{{ dba_env_db }}"
+      dba_name_app: "{{ dba_name_app }}"
+      dba_cluster_host: "{{ dba_cluster_host }}"
+      dba_backup_time: "{{ dba_backup_time }}"
+      dba_deletion_time: "{{ dba_deletion_time }}"
+      dba_name_db1: "{{ dba_name_db1 }}"
+      dba_name_db2: "{{ dba_name_db2 }}"
+      dba_name_db3: "{{ dba_name_db3 }}"
+      dba_name_db4: "{{ dba_name_db4 }}"
+      dba_name_db5: "{{ dba_name_db5 }}"
+      dba_name_db6: "{{ dba_name_db6 }}"
+      dba_name_db7: "{{ dba_name_db7 }}"
+      dba_name_db8: "{{ dba_name_db8 }}"
+      dba_name_db9: "{{ dba_name_db9 }}"
+      dba_name_db10: "{{ dba_name_db10 }}"
+      demandeur: "{{ demandeur }}"
+      approbateur: "{{ approbateur }}"
+      ticket_id: "{{ ticket_id }}"
+  register: result

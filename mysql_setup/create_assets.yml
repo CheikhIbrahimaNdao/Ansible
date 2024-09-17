@@ -1,0 +1,11 @@
+- name: create assets for dba
+  hosts: localhost
+  vars_files: vars/mysql_vars.yml
+  tasks:        
+    - name: Appel du playbook de création d'un asset
+      include_role: 
+        name: inventory
+    
+    - name: Check results
+      ansible.builtin.debug:
+        msg: "{{ create_asset }}"
