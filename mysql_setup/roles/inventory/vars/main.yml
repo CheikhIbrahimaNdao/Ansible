@@ -1,0 +1,5 @@
+---
+# vars file for add_vm_inventory
+inventory_username_api: "dba-admin"
+inventory_url_api: "https://asset-manager.orange-sonatel.com:8090"
+validate_certs: "no"

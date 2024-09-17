@@ -1,0 +1,17 @@
+- name: Schedule a template to run one time
+  awx.awx.schedule:
+    controller_host: "{{ awx_host }}"
+    controller_username: "{{ awx_username }}"
+    controller_password: "{{ awx_password }}"
+    name: "One Time Schedule Deletion [{{ ticket_id }}]"
+    validate_certs: false
+    unified_job_template: "Database_backup_deletion" #// remplacer par le template pour la sauvegarde
+    rrule: "{{ query('awx.awx.schedule_rrule', 'none', timezone='UTC', start_date=dba_deletion_time | regex_replace('T', ' ') | regex_replace('\\..*', '')) }}" #// remplacer start_date par la variable backup_time
+    extra_data:
+      dba_name_app: "{{ dba_name_app }}"
+      dba_backup_time: "{{ dba_backup_time }}"
+      dba_deletion_time: "{{ dba_deletion_time }}"
+      demandeur: "{{ demandeur }}"
+      approbateur: "{{ approbateur }}"
+      ticket_id: "{{ ticket_id }}"
+  register: result

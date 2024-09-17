@@ -2,16 +2,99 @@
 - hosts: localhost
   become: yes
   gather_facts: no
-  vars_files:
-    - /home/ndao/mysql_setup/vars/mysql_vars.yml
-  vars_prompt:
-    - name: mysql_root_password
-      prompt: "Enter MySQL root password"
-      private: yes
-      
+  vars_files: 
+    - vars/credentials.yaml
+    - vars/mysql_vars.yml
   tasks:
-    - name: Loop through databases and users
-      include_tasks: sql_setup.yml
-      loop: "{{ databases }}"
-      loop_control:
-        loop_var: db_item
+    - name: Set the selected environment
+      set_fact:
+        env: "{{ environments[dba_env_db] }}"
+
+    - name: Debug selected environment
+      debug:
+        msg: "Using environment {{ dba_env_db }} with host {{ env.db_ip }} and port {{ env.db_port }}"
+
+    - name: Add a host alias that we reach through a tunnel (Ansible 2.0 and newer)
+      add_host:
+        hostname: '{{ env.db_ip }}'
+
+    - name: block
+      block:
+        - name: Execute sql_setup for dba_name_db1
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db1 }}"
+            dba_username_db: "{{ dba_username_db1 }}"
+          when: dba_name_db1 is defined and dba_username_db1 is defined and dba_name_db1 != "" and dba_username_db1 != ""
+          
+        - name: Execute sql_setup for dba_name_db2
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db2 }}"
+            dba_username_db: "{{ dba_username_db2 }}"
+          when: dba_name_db2 is defined and dba_username_db2 is defined and dba_name_db2 != "" and dba_username_db2 != ""
+          
+        - name: Execute sql_setup for dba_name_db3
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db3 }}"
+            dba_username_db: "{{ dba_username_db3 }}"
+          when: dba_name_db3 is defined and dba_username_db3 is defined and dba_name_db3 != "" and dba_username_db3 != ""
+          
+        - name: Execute sql_setup for dba_name_db4
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db4 }}"
+            dba_username_db: "{{ dba_username_db4 }}"
+          when: dba_name_db4 is defined and dba_username_db4 is defined and dba_name_db4 != "" and dba_username_db4 != ""
+          
+        - name: Execute sql_setup for dba_name_db5
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db5 }}"
+            dba_username_db: "{{ dba_username_db5 }}"
+          when: dba_name_db5 is defined and dba_username_db5 is defined and dba_name_db5 != "" and dba_username_db5 != ""
+          
+        - name: Execute sql_setup for dba_name_db6
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db6 }}"
+            dba_username_db: "{{ dba_username_db6 }}"
+          when: dba_name_db6 is defined and dba_username_db6 is defined and dba_name_db6 != "" and dba_username_db6 != ""
+          
+        - name: Execute sql_setup for dba_name_db7
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db7 }}"
+            dba_username_db: "{{ dba_username_db7 }}"
+          when: dba_name_db7 is defined and dba_username_db7 is defined and dba_name_db7 != "" and dba_username_db7 != ""
+          
+        - name: Execute sql_setup for dba_name_db8
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db8 }}"
+            dba_username_db: "{{ dba_username_db8 }}"
+          when: dba_name_db8 is defined and dba_username_db8 is defined and dba_name_db8 != "" and dba_username_db8 != ""
+          
+        - name: Execute sql_setup for dba_name_db9
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db9 }}"
+            dba_username_db: "{{ dba_username_db9 }}"
+          when: dba_name_db9 is defined and dba_username_db9 is defined and dba_name_db9 != "" and dba_username_db9 != ""
+          
+        - name: Execute sql_setup for dba_name_db10
+          include_tasks: sql_setup.yml
+          vars:
+            dba_name_db: "{{ dba_name_db10 }}"
+            dba_username_db: "{{ dba_username_db10 }}"
+          when: dba_name_db10 is defined and dba_username_db10 is defined and dba_name_db10 != "" and dba_username_db10 != ""
+      delegate_to: '{{ env.db_ip }}'
+
+    - name: Appel du role change_ticket_status
+      include_role:
+        name: change_ticket_status
+      vars:
+        transition_ticket_id: '{{ ticket_id }}'
+        ticket_status: "Résoudre ce ticket"
+        message: "Ticket fermé"

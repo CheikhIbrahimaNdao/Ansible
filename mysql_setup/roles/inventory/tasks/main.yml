@@ -1,0 +1,101 @@
+---
+- block:
+  - name: Application ID
+    uri:
+      url: "{{ inventory_url_api }}/api/dba/applications?filter={{ dba_name_app }}"
+      method: GET
+      body_format: json
+      return_content: yes
+      headers:
+        Authorization: "Basic ZGJhLWFkbWluOmEyaURCQTIwMjNA"
+        accept: "*/*"
+        Content-Type: "application/json"
+      status_code:
+        - 200
+        - 400
+      force_basic_auth: yes
+      validate_certs: "{{ validate_certs }}"
+      timeout: 300
+    register: id_search
+
+  - name: Extraire l'ID de l'application à partir de la réponse JSON
+    set_fact:
+      app_id: "{{ id_search.json.content[0].id }}"
+    when: id_search.json.content | length != 0
+
+  - name: Afficher l'ID de l'application
+    debug:
+      msg: "L'ID de l'application est {{ app_id }}"
+    when: id_search.json.content | length != 0
+  delegate_to: localhost
+
+- block:
+  - name: Création d'une application
+    uri:
+      url: "{{ inventory_url_api }}/api/dba/applications"
+      method: POST
+      body: "{{ lookup('template','create_apps.j2', convert_data=False) }}"
+      body_format: json
+      return_content: yes
+      headers:
+        Authorization: "Basic ZGJhLWFkbWluOmEyaURCQTIwMjNA"
+        accept: "*/*"
+        Content-Type: "application/json"
+      status_code:
+        - 200
+        - 400
+      force_basic_auth: yes
+      validate_certs: "{{ validate_certs }}"
+      timeout: 300
+    register: create_app
+
+  - name: Extraire l'ID de l'application à partir de la réponse JSON
+    set_fact:
+      app_id: "{{ create_app.json.content[0].id }}"
+    when: id_search.json.content | length == 0
+
+  - name: Afficher l'ID de l'application
+    debug:
+      msg: "L'ID de l'application est {{ app_id }}"
+    when: id_search.json.content | length == 0
+  delegate_to: localhost
+  
+- block:
+  # 1. Vérification si la base de données existe déjà
+  - name: Vérifier si la base de données existe
+    uri:
+      url: "{{ inventory_url_api }}/api/dba/databases?dbName={{ dba_name_db }}"
+      method: GET
+      headers:
+        Authorization: "Basic ZGJhLWFkbWluOmEyaURCQTIwMjNA"
+        accept: "*/*"
+      status_code:
+        - 200
+        - 404
+      return_content: yes
+      validate_certs: "{{ validate_certs }}"
+    register: check_db
+    delegate_to: localhost
+
+  # 2. Création de l'asset si la base de données n'existe pas
+  - name: Création d'un asset
+    uri:
+      url: "{{ inventory_url_api }}/api/dba/databases"
+      method: POST
+      body: "{{ lookup('template','create_assets.j2', convert_data=False) }}"
+      body_format: json
+      return_content: yes
+      headers:
+        Authorization: "Basic ZGJhLWFkbWluOmEyaURCQTIwMjNA"
+        accept: "*/*"
+        Content-Type: "application/json"
+      status_code:
+        - 200
+        - 400
+      force_basic_auth: yes
+      validate_certs: "{{ validate_certs }}"
+      timeout: 300
+    when: check_db.status == 404
+    register: create_asset
+  delegate_to: localhost
+...

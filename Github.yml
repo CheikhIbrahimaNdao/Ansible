@@ -1,14 +1,18 @@
 ---
 - name: Add all files and push to GitHub
   hosts: localhost
+  vars_prompt:
+    name: commit_message
+    prompt: What changes are you committing?
+    private: false
+    default: "Update repository"
   vars:
     repo_dir: "./"
-    commit_message: "Update repository"
-    github_repo_url: "https://github.com/CheikhIbrahimaNdao/Ansible.git"
-    Git_username: "CheikhIbrahimaNdao"
+    github_repo_url: "http://git.tools.orange-sonatel.com/scm/ad/db_provisioning.git"
+    git_username: "stg_ndao75268"
   tasks:
     - name: Set Git user name
-      command: git config user.name "{{ Git_username }}"
+      command: git config user.name "{{ git_username }}"
       args:
         chdir: "{{ repo_dir }}"
 
@@ -36,8 +40,8 @@
       expect:
         command: git push --force  
         responses:
-          'Username .*': "{{ Git_username }}"
-          'Password .*': "{{ Git_password }}"
+          'Username .*': "{{ git_username }}"
+          'Password .*': "{{ git_password }}"
       args:
         chdir: "{{ repo_dir }}"
         timeout: 600 # Run the task for up to 600 seconds (10 minutes)
